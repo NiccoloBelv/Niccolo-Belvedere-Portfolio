@@ -35,7 +35,7 @@ export default function Home() {
 
         <section>
           <h2>My Photo</h2>
-          <img src="https://drive.google.com/drive/folders/1AFGSKnwOcE4MOfO9A8xAfjTRcY674ihc?hl=it" alt="Niccolò Belvedere" style={{ maxWidth: '100%' }} />
+          <img src="Picture.png" alt="Niccolò Belvedere" style={{ maxWidth: '100%' }} />
         </section>
 
         <section>
