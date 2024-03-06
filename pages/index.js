@@ -22,19 +22,22 @@ export default function Home() {
           </p>
         </section>
 
-        <main style={{ display: 'flex', justifyContent: 'space-between' }}>
-          <section style={{ flex: 1, marginRight: '20px' }}>
+        <div style={{ display: 'flex', flexDirection: 'column' }}>
+          <section>
             <h2>My Photo</h2>
             <img
               src="/Picture.png"
               alt="Niccolò Belvedere"
               style={{
                 maxWidth: '25%',
+                height: 'auto',
+                display: 'block',
+                margin: '0 auto',
               }}
             />
           </section>
 
-          <section style={{ flex: 1, marginRight: '20px' }}>
+          <section>
             <h2>Download my CV</h2>
             <p>
               <a href="/CV.pdf" download>
@@ -43,11 +46,11 @@ export default function Home() {
             </p>
           </section>
 
-          <section style={{ flex: 1 }}>
+          <section>
             <h2>Projects</h2>
             {/* Aggiungi qui i componenti del tuo progetto */}
           </section>
-        </main>
+        </div>
       </main>
 
       <Footer />
