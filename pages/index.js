@@ -19,8 +19,9 @@ export default function Home() {
         <section>
           <h2>About Me</h2>
           <p>
-            Insert your introductory description here. Talk about your background, skills, and what
-            you're passionate about.
+            As a passionate student with a proven track record in Business Development, I specialize in Tech Sales. 
+            My innovative solutions have driven measurable results in my previous experiences, demonstrating a deep understanding of customers and markets. 
+            Committed to continuous learning, I stay ahead in the dynamic tech landscape.
           </p>
         </section>
 
