@@ -30,9 +30,6 @@ export default function Home() {
               alt="Niccolò Belvedere"
               style={{
                 maxWidth: '25%',
-                height: 'auto',
-                display: 'block',
-                margin: '0 auto',
               }}
             />
           </section>
