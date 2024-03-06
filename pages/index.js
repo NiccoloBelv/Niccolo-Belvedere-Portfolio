@@ -12,7 +12,7 @@ export default function Home() {
 
        <main>
         <Header title="Hello, I am Niccolò Belvedere. Welcome to my personal portfolio!" />
-        <p className="description"
+        <p className="description">
         </p>
 
         <section>
