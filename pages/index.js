@@ -10,7 +10,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '20px' }}>
+      <main style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
         <section>
           <h2>About Me</h2>
           <p>
@@ -20,33 +20,35 @@ export default function Home() {
           </p>
         </section>
 
-        <section>
-          <h2>My Photo</h2>
-          <img
-            src="/Picture.png"
-            alt="Niccolò Belvedere"
-            style={{
-              maxWidth: '25%',
-              height: 'auto',
-              display: 'block',
-              margin: '0 auto',
-            }}
-          />
-        </section>
+        <div style={{ display: 'flex', justifyContent: 'space-between', marginTop: '20px' }}>
+          <section>
+            <h2>My Photo</h2>
+            <img
+              src="/Picture.png"
+              alt="Niccolò Belvedere"
+              style={{
+                maxWidth: '25%',
+                height: 'auto',
+                display: 'block',
+                margin: '0 auto',
+              }}
+            />
+          </section>
 
-        <section>
-          <h2>Download my CV</h2>
-          <p>
-            <a href="/CV.pdf" download>
-              Click here to download!
-            </a>
-          </p>
-        </section>
+          <section>
+            <h2>Download my CV</h2>
+            <p>
+              <a href="/CV.pdf" download>
+                Click here to download!
+              </a>
+            </p>
+          </section>
 
-        <section>
-          <h2>Projects</h2>
-          {/* Aggiungi qui i componenti del tuo progetto */}
-        </section>
+          <section>
+            <h2>Projects</h2>
+            {/* Aggiungi qui i componenti del tuo progetto */}
+          </section>
+        </div>
       </main>
 
       <Footer />
