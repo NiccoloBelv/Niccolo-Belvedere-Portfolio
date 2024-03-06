@@ -25,10 +25,10 @@ export default function Home() {
         </section>
 
         <section>
-          <h2>Download CV</h2>
+          <h2>Download my CV</h2>
           <p>
             <a href="/CV.pdf" download>
-              Download My CV
+              Click here to download!
             </a>
           </p>
         </section>
