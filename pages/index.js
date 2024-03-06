@@ -35,7 +35,7 @@ export default function Home() {
 
         <section>
           <h2>My Photo</h2>
-          <img src="Picture.png" alt="Niccolò Belvedere" style={{ maxWidth: '100%' }} />
+          <img src="Picture.png" alt="Niccolò Belvedere" style={{ maxWidth: '30%' }} />
         </section>
 
         <section>
