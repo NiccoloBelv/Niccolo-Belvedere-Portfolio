@@ -27,7 +27,7 @@ export default function Home() {
         <section>
           <h2>Download CV</h2>
           <p>
-            <a href="https://drive.google.com/drive/folders/1AFGSKnwOcE4MOfO9A8xAfjTRcY674ihc?hl=it" download>
+            <a href="/CV Niccolò Belvedere.pdf" download>
               Download My CV
             </a>
           </p>
