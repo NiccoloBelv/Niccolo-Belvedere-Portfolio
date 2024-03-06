@@ -29,7 +29,7 @@ export default function Home() {
               src="/Picture.png"
               alt="Niccolò Belvedere"
               style={{
-                maxWidth: '100%',
+                maxWidth: '25%',
                 height: 'auto',
                 display: 'block',
                 margin: '0 auto',
