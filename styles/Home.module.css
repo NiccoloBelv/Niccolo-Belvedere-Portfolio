@@ -39,6 +39,12 @@
     margin-bottom: 40px;
 }
 
+.cvDownloadLink {
+  color: #1a0dab; /* Cambia questo con il colore che preferisci */
+  font-style: italic;
+  text-decoration: underline;
+}
+
 /* Footer Styles */
 .footer {
     background-color: #343a40;
