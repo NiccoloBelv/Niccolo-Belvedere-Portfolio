@@ -1,18 +1,39 @@
 import Head from 'next/head';
-import Header from '@components/Header'; // Imported Header should have a different name if this component is also called Header
+import Header from '@components/Header';
 import Footer from '@components/Footer';
 import Image from 'next/image';
-import styles from '@styles/Home.module.css'; // Make sure the CSS module exists
+import styles from '@styles/Home.module.css'; // Assicurati di avere un file CSS corrispondente
 
-export default function HomePage() { // Renamed to HomePage to avoid conflict with imported Header
+export default function Home() {
   return (
     <div>
       <Head>
         <title>Niccolò Belvedere - Portfolio</title>
+        <meta name="description" content="Niccolò Belvedere - Personal Portfolio showcasing skills, projects and experiences in Business Development and Tech Sales." />
+        <meta name="keywords" content="Niccolò Belvedere, Portfolio, Business Development, Tech Sales, Projects" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      
-      <Header /> {/* Assuming Header is a separate component you created */}
+
+      <header className={styles.header}>
+        <div className={styles.profileContainer}>
+          <Image
+            src="/profile.jpg"
+            alt="Niccolò Belvedere"
+            width={150}
+            height={150}
+            className={styles.profileImage}
+          />
+          <h1>Ciao, sono Niccolò Belvedere. Benvenuto nel mio portfolio personale!</h1>
+        </div>
+        <nav className={styles.navbar}>
+          <ul>
+            <li><a href="#about">Chi Sono</a></li>
+            <li><a href="#projects">Progetti</a></li>
+            <li><a href="#cv">Curriculum</a></li>
+            <li><a href="#contact">Contatti</a></li>
+          </ul>
+        </nav>
+      </header>
 
       <main className={styles.main}>
         <section id="about" className={styles.aboutSection}>
@@ -24,7 +45,9 @@ export default function HomePage() { // Renamed to HomePage to avoid conflict wi
 
         <section id="projects" className={styles.projectSection}>
           <h2>Progetti</h2>
-          {/* Dettagli dei progetti. Puoi aggiungere le informazioni di ogni progetto qui. */}
+          <div className={styles.projectContainer}>
+            {/* Dettagli dei progetti. Puoi aggiungere le informazioni di ogni progetto qui. */}
+          </div>
         </section>
 
         <section id="cv" className={styles.cvSection}>
@@ -40,7 +63,9 @@ export default function HomePage() { // Renamed to HomePage to avoid conflict wi
         </section>
       </main>
 
-      <Footer /> {/* Assuming Footer is a separate component you created */}
+      <footer className={styles.footer}>
+        <p>&copy; {new Date().getFullYear()} Niccolò Belvedere. Tutti i diritti riservati.</p>
+      </footer>
     </div>
   );
 }
