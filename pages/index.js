@@ -1,31 +1,18 @@
 import Head from 'next/head';
-import Header from '@components/Header';
+import Header from '@components/Header'; // Imported Header should have a different name if this component is also called Header
 import Footer from '@components/Footer';
 import Image from 'next/image';
-import styles from '@styles/Home.module.css'; // Assicurati di avere un file CSS corrispondente
+import styles from '@styles/Home.module.css'; // Make sure the CSS module exists
 
-export default function Header() {
+export default function HomePage() { // Renamed to HomePage to avoid conflict with imported Header
   return (
-    <header className={styles.header}>
-      <div className={styles.profileContainer}>
-        <Image
-          src="/Picture.jpg" // Sostituisci con il percorso corretto della tua immagine
-          alt="Niccolò Belvedere"
-          width={150}
-          height={150}
-          className={styles.profileImage}
-        />
-          <h1>Ciao, sono Niccolò Belvedere. Benvenuto nel mio portfolio personale!</h1>
-        </div>
-        <nav className={styles.navbar}>
-          <ul>
-            <li><a href="#about">Chi Sono</a></li>
-            <li><a href="#projects">Progetti</a></li>
-            <li><a href="#cv">Curriculum</a></li>
-            <li><a href="#contact">Contatti</a></li>
-          </ul>
-        </nav>
-    </header>
+    <div>
+      <Head>
+        <title>Niccolò Belvedere - Portfolio</title>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
+      
+      <Header /> {/* Assuming Header is a separate component you created */}
 
       <main className={styles.main}>
         <section id="about" className={styles.aboutSection}>
@@ -37,9 +24,7 @@ export default function Header() {
 
         <section id="projects" className={styles.projectSection}>
           <h2>Progetti</h2>
-          <div className={styles.projectContainer}>
-            {/* Dettagli dei progetti. Puoi aggiungere le informazioni di ogni progetto qui. */}
-          </div>
+          {/* Dettagli dei progetti. Puoi aggiungere le informazioni di ogni progetto qui. */}
         </section>
 
         <section id="cv" className={styles.cvSection}>
@@ -55,9 +40,7 @@ export default function Header() {
         </section>
       </main>
 
-      <footer className={styles.footer}>
-        <p>&copy; {new Date().getFullYear()} Niccolò Belvedere. Tutti i diritti riservati.</p>
-      </footer>
+      <Footer /> {/* Assuming Footer is a separate component you created */}
     </div>
   );
 }
