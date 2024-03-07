@@ -3,7 +3,7 @@ import Head from 'next/head';
 import Header from '@components/Header';
 import Footer from '@components/Footer';
 import Image from 'next/image';
-import styles from '@styles/Home.module.css'; // Make sure to have this CSS file
+
 
 export default function Home() {
   return (
