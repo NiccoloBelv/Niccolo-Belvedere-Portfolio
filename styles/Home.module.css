@@ -1,0 +1,32 @@
+.container {
+  padding: 0 2rem;
+}
+
+.main {
+  min-height: 100vh;
+  padding: 4rem 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.section {
+  text-align: center;
+}
+
+.flexContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.centeredSection {
+  text-align: center;
+}
+
+.profileImage {
+  max-width: 25%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
