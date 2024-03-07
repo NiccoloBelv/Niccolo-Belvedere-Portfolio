@@ -18,7 +18,7 @@ export default function Home() {
       <header className={styles.header}>
         <div className={styles.profileContainer}>
           <Image
-            src="/profile.jpg"
+            src="/Picture.jpg"
             alt="Niccolò Belvedere"
             width={150}
             height={150}
