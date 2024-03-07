@@ -2,20 +2,32 @@
 import Head from 'next/head';
 import Header from '@components/Header';
 import Footer from '@components/Footer';
-import styles from '@styles/Home.module.css'; // Assuming you have a CSS module for styling
+import Image from 'next/image';
+import styles from '@styles/Home.module.css'; // Make sure to have this CSS file
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div>
       <Head>
         <title>Niccolò Belvedere - Portfolio</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Header title="Hello, I am Niccolò Belvedere. Welcome to my personal portfolio!" />
+      <header className={styles.header}>
+        <div className={styles.profileContainer}>
+          <Image
+            src="/profile.jpg" // Replace with your profile image path
+            alt="Niccolò Belvedere"
+            width={150} // Adjust size as needed
+            height={150} // Adjust size as needed
+            className={styles.profileImage}
+          />
+          <h1>Hello, I am Niccolò Belvedere. Welcome to my personal portfolio!</h1>
+        </div>
+      </header>
 
       <main className={styles.main}>
-        <section className={styles.section}>
+        <section className={styles.aboutSection}>
           <h2>About Me</h2>
           <p>
             As a passionate student with a proven track record in Business Development, I specialize in Tech Sales. 
@@ -24,33 +36,12 @@ export default function Home() {
           </p>
         </section>
 
-        <div className={styles.flexContainer}>
-          <section className={styles.centeredSection}>
-            <h2>My Photo</h2>
-            <img
-              src="/Picture.png"
-              alt="Niccolò Belvedere"
-              className={styles.profileImage}
-            />
-          </section>
-
-          <section className={styles.centeredSection}>
-            <h2>Download my CV</h2>
-            <p>
-              <a href="/CV.pdf" download>
-                Click here to download!
-              </a>
-            </p>
-          </section>
-
-          <section className={styles.centeredSection}>
-            <h2>Projects</h2>
-            {/* Add your project components here */}
-          </section>
-        </div>
+        {/* Add additional sections such as projects, CV, etc., here */}
       </main>
 
-      <Footer />
+      <footer className={styles.footer}>
+        {/* Footer content */}
+      </footer>
     </div>
   );
 }
