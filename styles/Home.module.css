@@ -13,7 +13,8 @@
 }
 
 .profileImage {
-    border-radius: 50%;
+  border-radius: 50%; /* Opzionale: rende l'immagine rotonda */
+  margin: 0 auto; /* Centra l'immagine orizzontalmente */
 }
 
 /* Navbar Styles */
