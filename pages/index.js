@@ -4,25 +4,17 @@ import Footer from '@components/Footer';
 import Image from 'next/image';
 import styles from '@styles/Home.module.css'; // Assicurati di avere un file CSS corrispondente
 
-export default function Home() {
+export default function Header() {
   return (
-    <div>
-      <Head>
-        <title>Niccolò Belvedere - Portfolio</title>
-        <meta name="description" content="Niccolò Belvedere - Personal Portfolio showcasing skills, projects and experiences in Business Development and Tech Sales." />
-        <meta name="keywords" content="Niccolò Belvedere, Portfolio, Business Development, Tech Sales, Projects" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
-      <header className={styles.header}>
-        <div className={styles.profileContainer}>
-          <Image
-            src="/profile.jpg"
-            alt="Niccolò Belvedere"
-            width={150}
-            height={150}
-            className={styles.profileImage}
-          />
+    <header className={styles.header}>
+      <div className={styles.profileContainer}>
+        <Image
+          src="/Picture.jpg" // Sostituisci con il percorso corretto della tua immagine
+          alt="Niccolò Belvedere"
+          width={150}
+          height={150}
+          className={styles.profileImage}
+        />
           <h1>Ciao, sono Niccolò Belvedere. Benvenuto nel mio portfolio personale!</h1>
         </div>
         <nav className={styles.navbar}>
