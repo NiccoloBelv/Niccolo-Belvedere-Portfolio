@@ -7,14 +7,6 @@ import styles from '@styles/Home.module.css'; // Assicurati di avere un file CSS
 export default function Home() {
   return (
     <div>
-      <Head>
-    
-        <title>Niccolò Belvedere - Portfolio</title>
-        <meta name="description" content="Niccolò Belvedere - Personal Portfolio showcasing skills, projects and experiences." />
-        <meta name="keywords" content="Niccolò Belvedere, Portfolio, Business Development, Tech Sales, Projects" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
       <header className={styles.header}>
         <div className={styles.profileContainer}>
           <Image
