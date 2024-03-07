@@ -10,7 +10,7 @@ export default function Home() {
       <Head>
     
         <title>Niccolò Belvedere - Portfolio</title>
-        <meta name="description" content="Niccolò Belvedere - Personal Portfolio showcasing skills, projects and experiences in Business Development and Tech Sales." />
+        <meta name="description" content="Niccolò Belvedere - Personal Portfolio showcasing skills, projects and experiences." />
         <meta name="keywords" content="Niccolò Belvedere, Portfolio, Business Development, Tech Sales, Projects" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
