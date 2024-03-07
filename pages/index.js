@@ -1,46 +1,70 @@
-// Importing necessary components and Head for meta tags
 import Head from 'next/head';
 import Header from '@components/Header';
 import Footer from '@components/Footer';
 import Image from 'next/image';
-
+import styles from '@styles/Home.module.css'; // Assicurati di avere un file CSS corrispondente
 
 export default function Home() {
   return (
     <div>
       <Head>
         <title>Niccolò Belvedere - Portfolio</title>
+        <meta name="description" content="Niccolò Belvedere - Personal Portfolio showcasing skills, projects and experiences in Business Development and Tech Sales." />
+        <meta name="keywords" content="Niccolò Belvedere, Portfolio, Business Development, Tech Sales, Projects" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <header className={styles.header}>
         <div className={styles.profileContainer}>
           <Image
-            src="/profile.jpg" // Replace with your profile image path
+            src="/profile.jpg"
             alt="Niccolò Belvedere"
-            width={150} // Adjust size as needed
-            height={150} // Adjust size as needed
+            width={150}
+            height={150}
             className={styles.profileImage}
           />
-          <h1>Hello, I am Niccolò Belvedere. Welcome to my personal portfolio!</h1>
+          <h1>Ciao, sono Niccolò Belvedere. Benvenuto nel mio portfolio personale!</h1>
         </div>
+        <nav className={styles.navbar}>
+          <ul>
+            <li><a href="#about">Chi Sono</a></li>
+            <li><a href="#projects">Progetti</a></li>
+            <li><a href="#cv">Curriculum</a></li>
+            <li><a href="#contact">Contatti</a></li>
+          </ul>
+        </nav>
       </header>
 
       <main className={styles.main}>
-        <section className={styles.aboutSection}>
-          <h2>About Me</h2>
+        <section id="about" className={styles.aboutSection}>
+          <h2>Chi Sono</h2>
           <p>
-            As a passionate student with a proven track record in Business Development, I specialize in Tech Sales. 
-            My innovative solutions have driven measurable results in my previous experiences, demonstrating a deep understanding of customers and markets. 
-            Committed to continuous learning, I stay ahead in the dynamic tech landscape.
+            Come studente appassionato con un comprovato track record in Business Development, mi specializzo in Tech Sales...
           </p>
         </section>
 
-        {/* Add additional sections such as projects, CV, etc., here */}
+        <section id="projects" className={styles.projectSection}>
+          <h2>Progetti</h2>
+          <div className={styles.projectContainer}>
+            {/* Dettagli dei progetti. Puoi aggiungere le informazioni di ogni progetto qui. */}
+          </div>
+        </section>
+
+        <section id="cv" className={styles.cvSection}>
+          <h2>Curriculum Vitae</h2>
+          <a href="/path/to/your/cv.pdf" target="_blank">Scarica il Mio CV</a>
+          {/* Aggiungi qui un link o una visualizzazione del tuo CV */}
+        </section>
+
+        <section id="contact" className={styles.contactSection}>
+          <h2>Contatti</h2>
+          <p>Email: tuo@email.com</p>
+          {/* Aggiungi qui ulteriori informazioni di contatto se necessario */}
+        </section>
       </main>
 
       <footer className={styles.footer}>
-        {/* Footer content */}
+        <p>&copy; {new Date().getFullYear()} Niccolò Belvedere. Tutti i diritti riservati.</p>
       </footer>
     </div>
   );
