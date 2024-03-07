@@ -2,7 +2,7 @@ import Head from 'next/head';
 import Header from '@components/Header';
 import Footer from '@components/Footer';
 import Image from 'next/image';
-import styles from '@styles/Home.module.css'; // Assicurati di avere un file CSS corrispondente
+import styles from '@styles/Home.module.css';
 
 export default function Home() {
   return (
@@ -16,7 +16,7 @@ export default function Home() {
             height={150}
             className={styles.profileImage}
           />
-          <h1>Hello, I am Niccolò Belvedere. Welcome to my personal portfolio</h1>
+          <h1>Hello, I am Niccolò Belvedere. Welcome to my personal portfolio.</h1>
         </div>
         <nav className={styles.navbar}>
           <ul>
@@ -45,7 +45,7 @@ export default function Home() {
 
         <section id="cv" className={styles.cvSection}>
           <h2>Curriculum Vitae</h2>
-          <a href="CV.pdf" target="_blank">-->Download my CV</a>
+          <a href="CV.pdf" target="_blank">Download my CV</a>
           {/* Aggiungi qui un link o una visualizzazione del tuo CV */}
         </section>
 
