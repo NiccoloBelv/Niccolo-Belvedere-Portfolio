@@ -1,32 +1,77 @@
+/* Overall container of the page */
 .container {
   padding: 0 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
+/* Main content area */
 .main {
   min-height: 100vh;
-  padding: 4rem 0;
+  display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
+/* Individual section styling */
 .section {
-  text-align: center;
+  margin-bottom: 3rem;
 }
 
+/* Flex container for horizontal section layout */
 .flexContainer {
   display: flex;
-  justify-content: space-between;
-  margin-top: 20px;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
 }
 
+/* Centered content in sections */
 .centeredSection {
+  max-width: 300px;
   text-align: center;
 }
 
+/* Profile image styling */
 .profileImage {
-  max-width: 25%;
+  width: 100%;
   height: auto;
-  display: block;
-  margin: 0 auto;
+  border-radius: 50%;
+}
+
+/* Style for headings */
+h2 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+/* Paragraph styling */
+p {
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #666;
+}
+
+/* Style for links */
+a {
+  color: #0070f3;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Additional media query for responsiveness */
+@media (max-width: 768px) {
+  .flexContainer {
+    flex-direction: column;
+  }
+
+  .centeredSection {
+    width: 100%;
+  }
 }
