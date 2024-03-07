@@ -25,7 +25,7 @@ export default function Header() {
             <li><a href="#contact">Contatti</a></li>
           </ul>
         </nav>
-      </header>
+    </header>
 
       <main className={styles.main}>
         <section id="about" className={styles.aboutSection}>
