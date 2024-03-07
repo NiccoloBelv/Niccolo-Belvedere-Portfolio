@@ -20,6 +20,7 @@
 /* Navbar Styles */
 .navbar ul {
     list-style-type: none;
+    background-color: #134cad;
     padding: 0;
     display: flex;
     justify-content: center;
