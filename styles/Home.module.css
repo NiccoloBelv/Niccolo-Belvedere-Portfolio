@@ -1,56 +1,68 @@
+/* Stili Generali */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #333;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Header Styles */
 .header {
-  background: #f0ebe8;
-  padding: 2rem 0;
-  text-align: center;
+    background-color: #f8f9fa;
+    padding: 20px;
+    text-align: center;
 }
 
 .profileContainer {
-  display: inline-block;
-  position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .profileImage {
-  border-radius: 50%;
-  overflow: hidden;
+    border-radius: 50%;
 }
 
-h1 {
-  margin-top: 1rem;
-  font-size: 1.5rem;
-  color: #333;
+/* Navbar Styles */
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
 }
 
+.navbar li {
+    display: inline;
+}
+
+/* Main Section Styles */
 .main {
-  padding: 2rem;
+    padding: 20px;
 }
 
-.aboutSection {
-  background: #fff;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
-  padding: 2rem;
-  margin-top: -2rem; /* Overlap the about section on the header */
-  z-index: 1;
-  position: relative;
-  border-radius: 4px;
+.aboutSection, .projectSection, .cvSection, .contactSection {
+    margin-bottom: 40px;
 }
 
-h2 {
-  font-size: 2rem;
-  color: #333;
-  margin-bottom: 0.5rem;
-}
-
-p {
-  font-size: 1rem;
-  line-height: 1.6;
-  color: #666;
-}
-
-/* Add additional styles for other elements as needed */
-
-/* Responsiveness */
-@media (max-width: 768px) {
-  .aboutSection {
-    margin-top: 1rem;
-  }
+/* Footer Styles */
+.footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
 }
