@@ -8,6 +8,7 @@ export default function Home() {
   return (
     <div>
       <Head>
+    
         <title>Niccolò Belvedere - Portfolio</title>
         <meta name="description" content="Niccolò Belvedere - Personal Portfolio showcasing skills, projects and experiences in Business Development and Tech Sales." />
         <meta name="keywords" content="Niccolò Belvedere, Portfolio, Business Development, Tech Sales, Projects" />
@@ -23,28 +24,28 @@ export default function Home() {
             height={150}
             className={styles.profileImage}
           />
-          <h1>Ciao, sono Niccolò Belvedere. Benvenuto nel mio portfolio personale!</h1>
+          <h1>Hello, I am Niccolò Belvedere. Welcome to my personal portfolio</h1>
         </div>
         <nav className={styles.navbar}>
           <ul>
-            <li><a href="#about">Chi Sono</a></li>
-            <li><a href="#projects">Progetti</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#projects">Projects</a></li>
             <li><a href="#cv">Curriculum</a></li>
-            <li><a href="#contact">Contatti</a></li>
+            <li><a href="#contact">Contacts</a></li>
           </ul>
         </nav>
       </header>
 
       <main className={styles.main}>
         <section id="about" className={styles.aboutSection}>
-          <h2>Chi Sono</h2>
+          <h2>About Me</h2>
           <p>
             Come studente appassionato con un comprovato track record in Business Development, mi specializzo in Tech Sales...
           </p>
         </section>
 
         <section id="projects" className={styles.projectSection}>
-          <h2>Progetti</h2>
+          <h2>Projects</h2>
           <div className={styles.projectContainer}>
             {/* Dettagli dei progetti. Puoi aggiungere le informazioni di ogni progetto qui. */}
           </div>
@@ -52,13 +53,15 @@ export default function Home() {
 
         <section id="cv" className={styles.cvSection}>
           <h2>Curriculum Vitae</h2>
-          <a href="/path/to/your/cv.pdf" target="_blank">Scarica il Mio CV</a>
+          <a href="CV.pdf" target="_blank">Download my CV</a>
           {/* Aggiungi qui un link o una visualizzazione del tuo CV */}
         </section>
 
         <section id="contact" className={styles.contactSection}>
-          <h2>Contatti</h2>
-          <p>Email: tuo@email.com</p>
+          <h2>Contacts</h2>
+          <p>Personal email: niccolobelvedere01@gmail.com</p>
+          <p>Institutional email: niccolo.belvedere@studbocconi.it</p>
+          <p>Mobile: (+39) 3347227607</p>
           {/* Aggiungi qui ulteriori informazioni di contatto se necessario */}
         </section>
       </main>
