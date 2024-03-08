@@ -95,7 +95,7 @@ export default function Home() {
       </main>
 
       <footer className={styles.footer}>
-        <p>&copy; {new Date().getFullYear()} Niccolò Belvedere. Tutti i diritti riservati.</p>
+        <p>&copy; {new Date().getFullYear()} Niccolò Belvedere. All rights reserved.</p>
       </footer>
     </div>
   );
