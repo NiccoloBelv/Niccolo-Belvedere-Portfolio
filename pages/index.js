@@ -59,7 +59,7 @@ export default function Home() {
           <h2>Projects</h2>
           <div className={styles.projectContainer}>
             <p>
-              Master's thesis (Work in Progress): How financials and macroeconomics factors affect the volatility of personnel in Big Techs companies <br />
+              Master's thesis (Work in Progress): How financials and macroeconomics factors affect the volatility of personnel in Big Tech companies <br />
               Bachelor's thesis (2022): "The key role of People in Public Administration: How Civil Service Models affect the quality of a nation" <br />
               <br />
               Big Data for Business Decisions 2023: "Monetary Words, Market Echoes" & Presentation (co-authored) <br />
