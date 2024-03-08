@@ -41,7 +41,7 @@ export default function Home() {
             Subsequently, in 2022 I started my Master of Science in Management, which led me to an internship at Amazon Business from June 2023 to December 2023 in the area of Business Development and Account Management.<br /> 
             <br />
             From early on I developed a passion for tech and innovation: during my third year of high school science (2017) I took part in a school work experience on how to develop a startup from 0, 
-            creating a prototype and a business model. In 2022, a colleague and I won a "Call4Ideas," going to present our idea about a platform to improve the supply chain of NGOs before a panel of judges at the SDA School of Management. 
+            creating a prototype and a business model. In 2022, a colleague and I won a "Call4Ideas", going to present our idea about a platform to improve the supply chain of NGOs before a panel of judges at the SDA School of Management. 
             Afterwards, I am taking courses and doing self-taught practices to learn coding with various languages. <br />
             I strongly believe that this new technological era will change the course of our lives, and I want to be part of this change.
           </p>
