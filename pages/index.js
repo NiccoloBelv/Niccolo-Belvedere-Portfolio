@@ -38,10 +38,11 @@ export default function Home() {
             In 2019, after years living in my home country, Maratea, I moved to Milan to pursue my studies in Business Administration and Management at Bocconi University. 
             In the following years I took part in several projects, which can be consulted in the Projects area of this portfolio, 
             until I spent an exchange semester in Ottawa (Canada) during my third year of Bachelor, at the Telfer School of Management. 
-            Subsequently, in 2022 I started my Master of Science in Management, which led me to an internship at Amazon Business from June 2023 to December 2023 in the area of Business Development and Account Management.</p> 
+            Subsequently, in 2022 I started my Master of Science in Management, which led me to an internship at Amazon Business from June 2023 to December 2023 in the area of Business Development and Account Management.<br> 
+            <br>
             From early on I developed a passion for tech and innovation: during my third year of high school science (2017) I took part in a school work experience on how to develop a startup from 0, 
             creating a prototype and a business model. In 2022, a colleague and I won a "Call4Ideas," going to present our idea about a platform to improve the supply chain of NGOs before a panel of judges at the SDA School of Management. 
-            Afterwards, I am taking courses and doing self-taught practices to learn coding with various languages. </p>
+            Afterwards, I am taking courses and doing self-taught practices to learn coding with various languages. <br>
             I strongly believe that this new technological era will change the course of our lives, and I want to be part of this change.
           </p>
         </section>
@@ -49,7 +50,7 @@ export default function Home() {
             
         <section id="cv" className={styles.cvSection}>
           <h2>Curriculum Vitae</h2>
-          <a href="CV.pdf" target="_blank" className={styles.cvDownloadLink}>Download my CV</a>
+          <a href="CV.pdf" target="_blank" className={styles.cvDownloadLink}>Download my CV<a>: click here to download my CV.</a>
           {/* Aggiungi qui un link o una visualizzazione del tuo CV */}
         </section>
 
