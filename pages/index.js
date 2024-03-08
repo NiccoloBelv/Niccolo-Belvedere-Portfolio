@@ -21,8 +21,8 @@ export default function Home() {
         <nav className={styles.navbar}>
           <ul>
             <li><a href="#about">About Me</a></li>
-            <li><a href="#projects">Projects</a></li>
             <li><a href="#cv">Curriculum</a></li>
+            <li><a href="#projects">Projects</a></li>
             <li><a href="#contact">Contacts</a></li>
           </ul>
         </nav>
@@ -35,7 +35,13 @@ export default function Home() {
             Come studente appassionato con un comprovato track record in Business Development, mi specializzo in Tech Sales...
           </p>
         </section>
-
+            
+        <section id="cv" className={styles.cvSection}>
+          <h2>Curriculum Vitae</h2>
+          <a href="CV.pdf" target="_blank" className={styles.cvDownloadLink}>Download my CV</a>
+          {/* Aggiungi qui un link o una visualizzazione del tuo CV */}
+        </section>
+          
         <section id="projects" className={styles.projectSection}>
           <h2>Projects</h2>
           <div className={styles.projectContainer}>
@@ -43,11 +49,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section id="cv" className={styles.cvSection}>
-          <h2>Curriculum Vitae</h2>
-          <a href="CV.pdf" target="_blank" className={styles.cvDownloadLink}>Download my CV</a>
-          {/* Aggiungi qui un link o una visualizzazione del tuo CV */}
-        </section>
+      
 
         <section id="contact" className={styles.contactSection}>
           <h2>Contacts</h2>
