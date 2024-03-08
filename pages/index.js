@@ -83,16 +83,16 @@ export default function Home() {
           <h2>Certificates</h2>
           <div className={styles.certificatesContainer}>
             <p>
-              Boston Consulting Group – Strategy Consulting Virtual Experience Program on Forage (February 2023)<br />
-              Conducted market research, brainstorming session and adopting solutions with creative methods. <br />
+              <strong><a href="path/to/BCG-Strategy-Consulting-Certificate.pdf" download>Boston Consulting Group – Strategy Consulting Virtual Experience Program on Forage</a> (February 2023)</strong><br />
+              <em>Conducted market research, brainstorming session and adopting solutions with creative methods. </em><br />
               <br />
-              Competitive Intelligence Certificate on Voice of the Business (April 2022) <br />
-              Research Gathering Methods, CXM, building of KPIs, competitor analysis.<br />
+              <strong><a href="path/to/BCG-Strategy-Consulting-Certificate.pdf" download>Competitive Intelligence Certificate on Voice of the Business</a> (April 2022)</strong><br />
+              <em>Research Gathering Methods, CXM, building of KPIs, competitor analysis.</em><br />
               <br />
-              Bitcoin and Blockchain Fundamentals (March 2021) <br />
+              <strong><a href="path/to/BCG-Strategy-Consulting-Certificate.pdf" download>Bitcoin and Blockchain Fundamentals</a> (March 2021)</strong> <br />
               <br />
-              ECDL & ICDL Full Standard (Use of Excel, PowerPoint, Word and Data Privacy) (June 2020)<br />
-              The certification consists of 7 topics that are divided into the following modules: Computer Essentials, Online Essentials, Word Processing, Spreadsheets, IT-Security & Cyber Security, Presentation, Online Collaboration.
+              <strong><a href="path/to/BCG-Strategy-Consulting-Certificate.pdf" download>ECDL & ICDL Full Standard (Use of Excel, PowerPoint, Word and Data Privacy)</a> (June 2020)</strong><br />
+              <em>The certification consists of 7 topics that are divided into the following modules: Computer Essentials, Online Essentials, Word Processing, Spreadsheets, IT-Security & Cyber Security, Presentation, Online Collaboration.</em>
             </p>
           </div>
         </section>
