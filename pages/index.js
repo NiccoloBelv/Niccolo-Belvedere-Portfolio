@@ -50,7 +50,7 @@ export default function Home() {
             
         <section id="cv" className={styles.cvSection}>
           <h2>Curriculum Vitae & Documents</h2>
-          <a href="CV.pdf" target="_blank" className={styles.cvDownloadLink}>My Resume</a>: click here to download my CV. <br />
+          <a href="CV.pdf" target="_blank" className={styles.cvDownloadLink}>My Resume</a>: click here to download my CV. <br /><br />
           <a href="Bachelor's Transcript.pdf" target="_blank" className={styles.cvDownloadLink}>My Bachelor's academic transcript</a>: click here to download my Bachelor's transcript. <br />
           <a href="Master's Transcript.pdf" target="_blank" className={styles.cvDownloadLink}>My Master's academic transcript</a>: click here to download my Master's transcript.
         </section>
