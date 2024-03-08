@@ -12,8 +12,8 @@ export default function Home() {
           <Image
             src="/Picture.png"
             alt="Niccolò Belvedere"
-            width={150}
-            height={150}
+            width={180}
+            height={180}
             className={styles.profileImage}
           />
           <h1>Hello, I am Niccolò Belvedere. Welcome to my personal portfolio.</h1>
