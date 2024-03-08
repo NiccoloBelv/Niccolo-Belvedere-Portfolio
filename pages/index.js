@@ -85,10 +85,12 @@ export default function Home() {
           
         <section id="contact" className={styles.contactSection}>
           <h2>Contacts</h2>
-          <p>Personal email: niccolobelvedere01@gmail.com</p>
-          <p>Institutional email: niccolo.belvedere@studbocconi.it</p>
-          <p>Mobile: (+39) 3347227607</p>
-          {/* Aggiungi qui ulteriori informazioni di contatto se necessario */}
+          <p>
+              My LinkedIn profile: <a href="https://www.linkedin.com/in/niccolo-belvedere/" target="_blank" rel="noopener noreferrer">https://www.linkedin.com/in/niccolo-belvedere/</a><br />
+              Personal email: niccolobelvedere01@gmail.com<br />
+              Institutional email: niccolo.belvedere@studbocconi.it<br />
+              Mobile: (+39) 3347227607
+          </p>
         </section>
       </main>
 
