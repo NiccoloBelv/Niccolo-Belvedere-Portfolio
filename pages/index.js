@@ -20,12 +20,12 @@ export default function Home() {
         </div>
         <nav className={styles.navbar}>
           <ul>
-            <li><a href="#about">About Me</a></li>
-            <li><a href="#cv">Curriculum</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#certificates">Certificates</a></li>
-            <li><a href="#languagesandskills">Languages and Skills</a></li>
-            <li><a href="#contact">Contacts</a></li>
+            <li><a href="#about"><strong>About Me</strong></a></li>
+            <li><a href="#cv"><strong>Curriculum & Documents</strong></a></li>
+            <li><a href="#projects"><strong>Projects</strong></a></li>
+            <li><a href="#certificates"><strong>Certificates</strong></a></li>
+            <li><a href="#languagesandskills"><strong>Languages and Skills</strong></a></li>
+            <li><a href="#contact"><strong>Contacts</strong></a></li>
           </ul>
         </nav>
       </header>
