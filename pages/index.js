@@ -73,7 +73,11 @@ export default function Home() {
         <section id="languagesandskills" className={styles.languagesandskillsSection}>
           <h2>Languages and Skills</h2>
           <div className={styles.languagesandskillsContainer}>
-            {/* Dettagli delle Lingue e Skills varie */}
+          <p>
+            <strong>Languages:</strong> Italian (Native), English (Full proficient), French (B1 Business).
+            <strong>IT Skills:</strong> Excellent knowledge of Windows and Microsoft office; working with Macro & VBA Code on Excel; 
+            excellent in Salesforce; Intermediate coding skills on R, Natural Languange Processing, JavaScript and C#.
+          </p>
           </div>
         </section>
       
