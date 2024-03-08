@@ -24,6 +24,7 @@ export default function Home() {
             <li><a href="#cv">Curriculum</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#certificates">Certificates</a></li>
+            <li><a href="#languages&skills">Languages & Skills</a></li>
             <li><a href="#contact">Contacts</a></li>
           </ul>
         </nav>
@@ -59,6 +60,15 @@ export default function Home() {
             {/* Dettagli delle Certificazioni. */}
           </div>
         </section>
+
+          
+        <section id="languages&skills" className={styles.languages&skillsSection}>
+          <h2>Certificates</h2>
+          <div className={styles.languages&skillsContainer}>
+            {/* Dettagli delle Lingue e Skills varie */}
+          </div>
+        </section>
+          
           
         <section id="contact" className={styles.contactSection}>
           <h2>Contacts</h2>
