@@ -90,7 +90,8 @@ export default function Home() {
               <br />
               Bitcoin and Blockchain Fundamentals (March 2021) <br />
               <br />
-              ECDL Full Standard (Use of Excel, PowerPoint, Word and Data Privacy) (June 2020)<br />
+              ECDL & ICDL Full Standard (Use of Excel, PowerPoint, Word and Data Privacy) (June 2020)<br />
+              The certification consists of 7 topics that are divided into the following modules: Computer Essentials, Online Essentials, Word Processing, Spreadsheets, IT-Security & Cyber Security, Presentation, Online Collaboration.
             </p>
           </div>
         </section>
