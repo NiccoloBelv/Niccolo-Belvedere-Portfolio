@@ -86,9 +86,9 @@ export default function Home() {
               Conducted market research, brainstorming session and adopting solutions with creative methods. <br />
               <br />
               Competitive Intelligence Certificate on Voice of the Business (April 2022) <br />
-              Research Gathering Methods, CXM, building of KPIs, competitor analysis.
+              Research Gathering Methods, CXM, building of KPIs, competitor analysis.<br />
               <br />
-              Fundamentals of Bitcoin and Blockchain (March 2021) <br />
+              Bitcoin and Blockchain Fundamentals (March 2021) <br />
               <br />
               ECDL Full Standard (Use of Excel, PowerPoint, Word and Data Privacy) (June 2020)<br />
             </p>
