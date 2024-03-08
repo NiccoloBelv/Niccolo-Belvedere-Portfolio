@@ -50,7 +50,7 @@ export default function Home() {
             
         <section id="cv" className={styles.cvSection}>
           <h2>Curriculum Vitae</h2>
-          <a href="CV.pdf" target="_blank" className={styles.cvDownloadLink}>Download my CV<a>: click here to download my CV.</a>
+          <a href="CV.pdf" target="_blank" className={styles.cvDownloadLink}>My Resume</a>: click here to download my CV.
           {/* Aggiungi qui un link o una visualizzazione del tuo CV */}
         </section>
 
