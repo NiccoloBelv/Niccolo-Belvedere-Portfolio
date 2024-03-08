@@ -20,8 +20,8 @@
 /* Navbar Styles */
 .navbar ul {
     list-style-type: none;
-    background-color: #134cad;
-    padding: 0;
+    background-color: #6d97de;
+    padding: 5px 0;
     display: flex;
     justify-content: center;
     gap: 20px;
