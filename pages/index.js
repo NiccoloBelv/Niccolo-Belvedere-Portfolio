@@ -28,6 +28,7 @@ export default function Home() {
         </nav>
       </header>
 
+            
       <main className={styles.main}>
         <section id="about" className={styles.aboutSection}>
           <h2>About Me</h2>
@@ -35,12 +36,14 @@ export default function Home() {
             Come studente appassionato con un comprovato track record in Business Development, mi specializzo in Tech Sales...
           </p>
         </section>
+
             
         <section id="cv" className={styles.cvSection}>
           <h2>Curriculum Vitae</h2>
           <a href="CV.pdf" target="_blank" className={styles.cvDownloadLink}>Download my CV</a>
           {/* Aggiungi qui un link o una visualizzazione del tuo CV */}
         </section>
+
           
         <section id="projects" className={styles.projectSection}>
           <h2>Projects</h2>
@@ -49,8 +52,7 @@ export default function Home() {
           </div>
         </section>
 
-      
-
+          
         <section id="contact" className={styles.contactSection}>
           <h2>Contacts</h2>
           <p>Personal email: niccolobelvedere01@gmail.com</p>
