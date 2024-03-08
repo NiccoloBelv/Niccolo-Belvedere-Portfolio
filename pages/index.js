@@ -69,13 +69,14 @@ export default function Home() {
           </div>
         </section>
 
-          
+
         <section id="languagesandskills" className={styles.languagesandskillsSection}>
-          <h2>Certificates</h2>
+          <h2>Languages and Skills</h2>
           <div className={styles.languagesandskillsContainer}>
             {/* Dettagli delle Lingue e Skills varie */}
           </div>
         </section>
+      
           
           
         <section id="contact" className={styles.contactSection}>
