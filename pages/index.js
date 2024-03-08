@@ -62,6 +62,7 @@ export default function Home() {
           </div>
         </section>
 
+          
         <section id="certificates" className={styles.certificatesSection}>
           <h2>Certificates</h2>
           <div className={styles.certificatesContainer}>
@@ -74,7 +75,7 @@ export default function Home() {
           <h2>Languages and Skills</h2>
           <div className={styles.languagesandskillsContainer}>
           <p>
-            <strong>Languages:</strong> Italian (Native), English (Full proficient), French (B1 Business).
+            <strong>Languages:</strong> Italian (Native), English (Full proficient), French (B1 Business). <br />
             <strong>IT Skills:</strong> Excellent knowledge of Windows and Microsoft office; working with Macro & VBA Code on Excel; 
             excellent in Salesforce; Intermediate coding skills on R, Natural Languange Processing, JavaScript and C#.
           </p>
@@ -82,11 +83,10 @@ export default function Home() {
         </section>
       
           
-          
         <section id="contact" className={styles.contactSection}>
           <h2>Contacts</h2>
           <p>
-              My LinkedIn profile: <a href="https://www.linkedin.com/in/niccolo-belvedere/" target="_blank" rel="noopener noreferrer">https://www.linkedin.com/in/niccolo-belvedere/</a><br />
+              My LinkedIn profile: <a href="https://www.linkedin.com/in/niccolo-belvedere/" target="_blank" rel="noopener noreferrer">Visit my LinkedIn</a><br />
               Personal email: niccolobelvedere01@gmail.com<br />
               Institutional email: niccolo.belvedere@studbocconi.it<br />
               Mobile: (+39) 3347227607
