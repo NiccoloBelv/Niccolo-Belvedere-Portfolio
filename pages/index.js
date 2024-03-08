@@ -59,18 +59,19 @@ export default function Home() {
           <h2>Projects</h2>
           <div className={styles.projectContainer}>
             <p>
-            Master's thesis (Work in Progress): How financials and macroeconomics factors affect the volatility of personnel in Big Techs companies <br />
-            Bachelor's thesis (2022): The key role of People in Public Administration: How Civil Service Models affect the quality of a nation <br />
-            Big Data for Business Decisions 2023: Monetary Words, Market Echoes & Presentation <br />
-            Asset Management (2023): ESG Multi-Asset Fund E2 – EUR analysis (co-authored) <br />
-            Financial Management & Corporate Banking (2023): Financial Analysis of IVECO Group (co-authored) <br />
-            Business Law (Advanced) (2023): Should Cash-Out mergers be available? (co-authored) <br />
-            Performance Measurement & Corporate Strategy (2023): How to innovate Microsoft's Corporate Strategy (co-authored) <br /> 
-            Decathlon In-Company Training (2022): Decathlon ad impatto zero (co-authored) <br />
-            Call 4 Ideas "Supporting Innovation at Pane Quotidiano" (2022): Re-thinking Operations & Presentation (co-authored) <br />
-            Competitive Intelligence (2022): Impact of Volkswagen's Trinity Project on Tesla (co-authored) <br />
-            Public Administration Management (2021): The allocation of PNRR funds for the National Health Service (co-authored) <br />
-            Business Administration (2019): Telecom Italia S.p.A. analysis (co-authored) 
+              Master's thesis (Work in Progress): How financials and macroeconomics factors affect the volatility of personnel in Big Techs companies <br />
+              Bachelor's thesis (2022): The key role of People in Public Administration: How Civil Service Models affect the quality of a nation <br />
+              Big Data for Business Decisions 2023: Monetary Words, Market Echoes & Presentation <br />
+              Asset Management (2023): ESG Multi-Asset Fund E2 – EUR analysis (co-authored) <br />
+              Financial Management & Corporate Banking (2023): Financial Analysis of IVECO Group (co-authored) <br />
+              Business Law (Advanced) (2023): Should Cash-Out mergers be available? (co-authored) <br />
+              Performance Measurement & Corporate Strategy (2023): How to innovate Microsoft's Corporate Strategy (co-authored) <br /> 
+              Decathlon In-Company Training (2022): Decathlon ad impatto zero (co-authored) <br />
+              Call 4 Ideas "Supporting Innovation at Pane Quotidiano" (2022): Re-thinking Operations & Presentation (co-authored) <br />
+              Competitive Intelligence (2022): Impact of Volkswagen's Trinity Project on Tesla (co-authored) <br />
+              Public Administration Management (2021): The allocation of PNRR funds for the National Health Service (co-authored) <br />
+              Business Administration (2019): Telecom Italia S.p.A. analysis (co-authored) 
+            </p>
           </div>
         </section>
 
