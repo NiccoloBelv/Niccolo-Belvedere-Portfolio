@@ -24,7 +24,7 @@ export default function Home() {
             <li><a href="#cv">Curriculum</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href="#certificates">Certificates</a></li>
-            <li><a href="#languageskills">Languages & Skills</a></li>
+            <li><a href="#languageskills">Languages and Skills</a></li>
             <li><a href="#contact">Contacts</a></li>
           </ul>
         </nav>
