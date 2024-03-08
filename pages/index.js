@@ -81,7 +81,17 @@ export default function Home() {
         <section id="certificates" className={styles.certificatesSection}>
           <h2>Certificates</h2>
           <div className={styles.certificatesContainer}>
-            {/* Dettagli delle Certificazioni. */}
+            <p>
+              Boston Consulting Group – Strategy Consulting Virtual Experience Program on Forage (February 2023)<br />
+              Conducted market research, brainstorming session and adopting solutions with creative methods. <br />
+              <br />
+              Competitive Intelligence Certificate on Voice of the Business (April 2022) <br />
+              Research Gathering Methods, CXM, building of KPIs, competitor analysis.
+              <br />
+              Fundamentals of Bitcoin and Blockchain (March 2021) <br />
+              <br />
+              ECDL Full Standard (Use of Excel, PowerPoint, Word and Data Privacy) (June 2020)<br />
+            </p>
           </div>
         </section>
 
