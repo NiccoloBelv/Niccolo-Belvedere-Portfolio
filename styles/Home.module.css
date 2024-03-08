@@ -1,7 +1,7 @@
 /* Header Styles */
 .header {
     background-color: #f8f9fa;
-    padding: 20px;
+    padding: 16px;
     text-align: center;
 }
 
@@ -21,7 +21,7 @@
 .navbar ul {
     list-style-type: none;
     background-color: #6d97de;
-    padding: 5px 0;
+    padding: 8px 0;
     display: flex;
     justify-content: center;
     gap: 20px;
