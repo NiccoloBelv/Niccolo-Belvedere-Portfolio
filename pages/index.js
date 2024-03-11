@@ -65,25 +65,25 @@ export default function Home() {
               Master's thesis (Work in Progress): How financials and macroeconomics factors affect the volatility of personnel in Big Tech companies <br />
               Bachelor's thesis (2022): "The key role of People in Public Administration: How Civil Service Models affect the quality of a nation" <br />
               <br />
-              <strong><a href="Big Data Report.pdf" target="_blank" download>Big Data for Business Decisions (2023): "Monetary Words, Market Echoes"</a> & <a href="Big Data presentation.pdf" target="_blank" download>Presentation (co-authored)</a></strong><br />
+              <strong><a href="Big Data Report.pdf" target="_blank" rel="noopener noreferrer">Big Data for Business Decisions (2023): "Monetary Words, Market Echoes"</a> & <a href="Big Data presentation.pdf" target="_blank" rel="noopener noreferrer">Presentation (co-authored)</a></strong><br />
               <br />
-              <strong><a href="Corporate Strategy Report.pdf" target="_blank" download>Performance Measurement & Corporate Strategy (2023): How to innovate Microsoft's Corporate Strategy (co-authored)</a></strong><br /> 
+              <strong><a href="Corporate Strategy Report.pdf" target="_blank" rel="noopener noreferrer">Performance Measurement & Corporate Strategy (2023): How to innovate Microsoft's Corporate Strategy (co-authored)</a></strong><br /> 
               <br />
-              <strong><a href="Asset Management Report.pdf" target="_blank" download>Asset Management (2023): ESG Multi-Asset Fund E2 – EUR analysis (co-authored)</a></strong><br />
+              <strong><a href="Asset Management Report.pdf" target="_blank" rel="noopener noreferrer">Asset Management (2023): ESG Multi-Asset Fund E2 – EUR analysis (co-authored)</a></strong><br />
               <br />
-              <strong><a href="Financial Analysis of IVECO Group.pdf" target="_blank" download>Financial Management & Corporate Banking (2023): Financial Analysis of IVECO Group (co-authored)</a></strong><br />
+              <strong><a href="Financial Analysis of IVECO Group.pdf" target="_blank" rel="noopener noreferrer">Financial Management & Corporate Banking (2023): Financial Analysis of IVECO Group (co-authored)</a></strong><br />
               <br />
-              <strong><a href="Should Cash-Out mergers be available.pptx" target="_blank" download>Business Law (Advanced) (2023): "Should Cash-Out mergers be available?" (co-authored)</a></strong><br />
+              <strong><a href="Should Cash-Out mergers be available.pptx" target="_blank" rel="noopener noreferrer">Business Law (Advanced) (2023): "Should Cash-Out mergers be available?" (co-authored)</a></strong><br />
               <br />
-              <strong><a href="Toyota Analysis.pdf" target="_blank" download>Performance Measurement (2022): Toyota Analysis (co-authored)</a></strong><br />
+              <strong><a href="Toyota Analysis.pdf" target="_blank" rel="noopener noreferrer">Performance Measurement (2022): Toyota Analysis (co-authored)</a></strong><br />
               <br />
-              <strong><a href="Decathlon In-Company Training.pdf" target="_blank" download>Decathlon In-Company Training (2022): "Decathlon ad impatto zero" (co-authored)</a></strong><br />
+              <strong><a href="Decathlon In-Company Training.pdf" target="_blank" rel="noopener noreferrer">Decathlon In-Company Training (2022): "Decathlon ad impatto zero" (co-authored)</a></strong><br />
               <br />
-              <strong><a href="Pane Quotidiano Report.pdf" target="_blank" download>Call 4 Ideas "Supporting Innovation at Pane Quotidiano" (2022): "Re-thinking Operations"</a> & <a href="PQ - Presentation.pdf" target="_blank" download>Presentation (co-authored)</a></strong><br />
+              <strong><a href="Pane Quotidiano Report.pdf" target="_blank" rel="noopener noreferrer">Call 4 Ideas "Supporting Innovation at Pane Quotidiano" (2022): "Re-thinking Operations"</a> & <a href="PQ - Presentation.pdf" target="_blank" rel="noopener noreferrer">Presentation (co-authored)</a></strong><br />
               <br />
-              <strong><a href="Competitive Intelligence Report.pdf" target="_blank" download>Competitive Intelligence (2022): "Impact of Volkswagen's Trinity Project on Tesla" (co-authored)</a></strong><br />
+              <strong><a href="Competitive Intelligence Report.pdf" target="_blank" rel="noopener noreferrer">Competitive Intelligence (2022): "Impact of Volkswagen's Trinity Project on Tesla" (co-authored)</a></strong><br />
               <br />
-              <strong><a href="The allocation of PNRR funds for the National Health Service.pdf" target="_blank" download>Public Administration Management (2021): The allocation of PNRR funds for the National Health Service (co-authored)</a></strong><br />
+              <strong><a href="The allocation of PNRR funds for the National Health Service.pdf" target="_blank" rel="noopener noreferrer">Public Administration Management (2021): The allocation of PNRR funds for the National Health Service (co-authored)</a></strong><br />
               <br />
               <strong><a href="Telecom Italia S.p.A. analysis.pdf" target="_blank" rel="noopener noreferrer">Business Administration (2019): Telecom Italia S.p.A. analysis (co-authored)</a></strong><br /> 
             </p>
