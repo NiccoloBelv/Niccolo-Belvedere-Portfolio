@@ -45,6 +45,15 @@
     margin-bottom: 40px;
 }
 
+
+hr {
+    height: 2px; /* Imposta lo spessore della linea */
+    background-color: #333; /* Imposta il colore della linea */
+    border: none; /* Rimuove qualsiasi bordo predefinito */
+    margin: 20px 0; /* Aggiunge spazio sopra e sotto la linea */
+}
+
+
 .cvDownloadLink {
   color: #1a0dab; /* Cambia questo con il colore che preferisci */
   font-style: italic;
