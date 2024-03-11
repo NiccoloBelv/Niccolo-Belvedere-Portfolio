@@ -36,9 +36,13 @@
     padding: 20px;
 }
 
-.aboutSection, .projectSection, .cvSection, .contactSection, .certificatesSection, .languagesandskillsSection {
+.aboutSection, .projectSection, .cvSection, .certificatesSection, .languagesandskillsSection {
     margin-bottom: 40px;
     background-color: #f8f9fa
+}
+
+.contactSection {
+    margin-bottom: 40px;
 }
 
 .cvDownloadLink {
