@@ -46,7 +46,7 @@
 }
 
 
-hr {
+.hr {
     height: 2px; /* Imposta lo spessore della linea */
     background: linear-gradient(to right, #003366, #00ccff); /* Gradiente da blu scuro (#003366) ad azzurro (#00ccff) */
     border: none; /* Rimuove qualsiasi bordo predefinito */
