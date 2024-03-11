@@ -71,7 +71,7 @@ export default function Home() {
               <br />
               <strong><a href="Financial Analysis of IVECO Group.pdf" target="_blank" download>Financial Management & Corporate Banking (2023): Financial Analysis of IVECO Group (co-authored)</a></strong><br />
               <br />
-              <strong><a href="Should Cash-Out mergers be available?.pptx" target="_blank" download>Business Law (Advanced) (2023): "Should Cash-Out mergers be available?" (co-authored)</a></strong><br />
+              <strong><a href="Should Cash-Out mergers be available.pptx" target="_blank" download>Business Law (Advanced) (2023): "Should Cash-Out mergers be available?" (co-authored)</a></strong><br />
               <br />
               <strong><a href="Toyota Analysis.pdf" target="_blank" download>Performance Measurement (2022): Toyota Analysis (co-authored)</a></strong><br />
               <br />
