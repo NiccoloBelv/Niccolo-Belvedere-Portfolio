@@ -1,6 +1,6 @@
 /* Header Styles */
 .header {
-    background-color: #f8f9fa;
+    background-color: #9693f5;
     padding: 16px;
     text-align: center;
 }
@@ -38,6 +38,7 @@
 
 .aboutSection, .projectSection, .cvSection, .contactSection, .certificatesSection, .languagesandskillsSection {
     margin-bottom: 40px;
+    background-color: #f8f9fa
 }
 
 .cvDownloadLink {
