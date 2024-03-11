@@ -47,7 +47,7 @@ export default function Home() {
           </p>
         </section>
 
-        <!-- Linea separatrice -->
+        
         <hr />
             
         <section id="cv" className={styles.cvSection}>
