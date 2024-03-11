@@ -83,7 +83,7 @@ export default function Home() {
               <br />
               <strong><a href="The allocation of PNRR funds for the National Health Service.pdf" target="_blank" download>Public Administration Management (2021): The allocation of PNRR funds for the National Health Service (co-authored)</a></strong><br />
               <br />
-              <strong><a href="Telecom Italia S.p.A. analysis.pdf" target="_blank" download>Business Administration (2019): Telecom Italia S.p.A. analysis (co-authored)</a></strong><br /> 
+              <strong><a href="Telecom Italia S.p.A. analysis.pdf" target="_blank" rel="noopener noreferrer">Business Administration (2019): Telecom Italia S.p.A. analysis (co-authored)</a></strong><br /> 
             </p>
           </div>
         </section>
