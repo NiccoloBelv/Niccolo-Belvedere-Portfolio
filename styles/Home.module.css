@@ -51,7 +51,7 @@
     display: block;
     border-bottom: 3px solid #134cad;
     border-top: 3px solid transparent;
-    height: 1px;
+    height: 5px;
     background: linear-gradient(45deg, #134cad 25%, transparent 25%, transparent 50%, #134cad 50%, #134cad 75%, transparent 75%);
     background-size: 10px 10px;
 }
