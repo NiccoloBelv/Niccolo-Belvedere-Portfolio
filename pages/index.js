@@ -67,7 +67,7 @@ export default function Home() {
               <br />
               <strong><a href="Big Data Report.pdf" target="_blank" rel="noopener noreferrer">Big Data for Business Decisions (2023): "Monetary Words, Market Echoes"</a> & <a href="Big Data presentation.pdf" target="_blank" rel="noopener noreferrer">Presentation (co-authored)</a></strong><br />
               <br />
-              <strong><a href="Corporate Strategy Report.pdf" target="_blank" rel="noopener noreferrer">Performance Measurement & Corporate Strategy (2023): How to innovate Microsoft's Corporate Strategy (co-authored)</a></strong><br /> 
+              <strong><a href="Corporate Strategy Report.pdf" class="download-link" target="_blank" rel="noopener noreferrer">Performance Measurement & Corporate Strategy (2023): How to innovate Microsoft's Corporate Strategy <span class="download-icon">⬇️</span> (co-authored)</a></strong><br /> 
               <br />
               <strong><a href="Asset Management Report.pdf" target="_blank" rel="noopener noreferrer">Asset Management (2023): ESG Multi-Asset Fund E2 – EUR analysis (co-authored)</a></strong><br />
               <br />
