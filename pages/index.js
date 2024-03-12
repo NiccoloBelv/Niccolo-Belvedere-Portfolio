@@ -99,6 +99,10 @@ export default function Home() {
               <br /><br />
               
               <strong><a href="Should Cash-Out mergers be available.pptx" target="_blank" rel="noopener noreferrer">Business Law (Advanced) (2023): "Should Cash-Out mergers be available?" (co-authored)</a></strong><br />
+              The presentation discusses the concept, pros and cons, and regulatory aspects of cash-out mergers.<br />
+              The presentation delves into agency costs arising from the conflicting interests of controlling and minority shareholders and directors versus minority shareholders. It highlights how cash-out mergers can create advantages but also risks of injustices for minority shareholders.<br />
+              Moreover, it compares long-form and short-form mergers in the U.S., with an analysis of the regulatory landscape in Europe. It discusses the various legal frameworks and protections in place to balance the interests of controlling and minority shareholders. Then, it lists points in favor of cash-out mergers and points against these mergers.<br />
+              In conclusion, the presentation suggests that cash-out mergers can be beneficial if regulated properly, with sufficient protection for minority shareholders. It recommends following the U.S. model, particularly Delaware's jurisprudence, as an example of providing flexibility and protection in cash-out mergers.
               <br /><br />
               
               <strong><a href="Toyota Analysis.pdf" target="_blank" rel="noopener noreferrer">Performance Measurement (2022): Toyota Analysis (co-authored)</a></strong><br />
@@ -108,6 +112,11 @@ export default function Home() {
               <br /><br />
               
               <strong><a href="Pane Quotidiano Report.pdf" target="_blank" rel="noopener noreferrer">Call 4 Ideas "Supporting Innovation at Pane Quotidiano" (2022): "Re-thinking Operations"</a> & <a href="PQ - Presentation.pdf" target="_blank" rel="noopener noreferrer">Presentation (co-authored)</a></strong><br />
+              The "Pane Quotidiano Report" presents a strategic approach to enhancing the efficiency and effectiveness of Pane Quotidiano's (PQ) operations, particularly its supply chain, from relationships with suppliers to the management and organization of packages for distribution. The report emphasizes the use of innovative solutions in the supply chain as a means to increase the effectiveness of PQ's actions and reduce costs.<br />
+              To achieve these objectives, the report proposes the implementation of a new communication platform for donors and suppliers, integrated with a database to provide real-time information on products in the warehouse. This platform aims to streamline the donation process, making it easier for suppliers and casual donors to meet PQ's demands. Additionally, the report suggests utilizing the "Microsoft Cloud for Non-Profit" to improve various areas of the organization, including logistics and donor management.
+              Furthermore, a partnership with E-Mobility is recommended to address the need for vehicles in collecting and delivering goods more efficiently. This collaboration could provide PQ with access to vehicles at no cost, optimizing costs and freeing up resources for other tasks.
+              <br />Another significant proposal is the "New Mobility Project," which aims to reach people in need in different areas of the city. This project would involve setting up a mobile unit in a strategic location to distribute pre-packaged goods. The report highlights the importance of careful planning in choosing the location and format of this distribution to maximize impact and efficiency.<br />
+              In conclusion, the report posits that by adopting these innovative logistics and partnership strategies, PQ can reduce costs and reinvest the savings in improving the quality of its operations and extending its services.
               <br /><br />
               
               <strong><a href="Competitive Intelligence Report.pdf" target="_blank" rel="noopener noreferrer">Competitive Intelligence (2022): "Impact of Volkswagen's Trinity Project on Tesla" (co-authored)</a></strong><br />
