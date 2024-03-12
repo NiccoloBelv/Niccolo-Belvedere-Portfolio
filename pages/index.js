@@ -63,32 +63,53 @@ export default function Home() {
             <p>
               <strong>Master's thesis (Work in Progress): How financials and macroeconomics factors affect the volatility of personnel in Big Tech companies</strong><br />
               <br />
+              
               <strong>Bachelor's thesis (2022): "The key role of People in Public Administration: How Civil Service Models affect the quality of a nation"</strong><br />
-              The thesis outlines the significance of interactions between public and private sectors in shaping a nation's economic condition, emphasizing that the essence of a nation's economy is not merely the sum of these sectors, but the result of their continual interplay. Central to this dynamic is human capital. The public sector's regulatory role, financing, and infrastructure development are highlighted as influential factors on private sector activities. The paper focuses on the criticality of placing competent individuals within public organizations since their caliber directly impacts national performance across both sectors.
-              The discourse pivots to a comparative analysis of two civil service systems: career-based and position-based. It includes an examination of how human resource (HR) management tools adapt to each system and a detailed exploration of HR practices in Italy and France (career-based) and Canada and England (position-based). An interview with Dr. Trombetti Lilia from the Canadian Radio-television and Telecommunication Commission provides insights into the practical applications of Canada's position-based system.
+              The thesis outlines the significance of interactions between public and private sectors in shaping a nation's economic condition, emphasizing that the essence of a nation's economy is not merely the sum of these sectors, but the result of their continual interplay. <br />Central to this dynamic is human capital. The public sector's regulatory role, financing, and infrastructure development are highlighted as influential factors on private sector activities. The paper focuses on the criticality of placing competent individuals within public organizations since their caliber directly impacts national performance across both sectors.
+              The discourse pivots to a comparative analysis of two civil service systems: career-based and position-based. It includes an examination of how human resource (HR) management tools adapt to each system and a detailed exploration of HR practices in Italy and France (career-based) and Canada and England (position-based). <br />An interview with Dr. Trombetti Lilia from the Canadian Radio-television and Telecommunication Commission provides insights into the practical applications of Canada's position-based system.
               The discussion advances to various topics, such as the superior civil service system, evaluation methods for these systems, recruitment strategies for top talent in public institutions, and applicable lessons for Italy. The analysis concludes by revealing how the choice between the two models can underpin a nation's development under specific circumstances, and it reinforces the notion that human resources are pivotal to societal progress.
-              <br />
+              <br /><br />
+              
               <strong><a href="Big Data Report.pdf" target="_blank" rel="noopener noreferrer">Big Data for Business Decisions (2023): "Monetary Words, Market Echoes"</a> & <a href="Big Data presentation.pdf" target="_blank" rel="noopener noreferrer">Presentation (co-authored)</a></strong><br />
-              <br />
+              The "Big Data Report" examines the European Central Bank's (ECB) communication strategies and their impact on financial markets. Focusing on the ECB presidencies of Mario Draghi and Christine Lagarde, the report analyzes speeches and monetary policy statements from November 2011 to June 2023.<br />It employs Latent Dirichlet Allocation (LDA) for topic modeling and linear regression models to investigate the relationship between ECB communication and various financial measures such as the IOS rate, EUR/USD exchange rate, and Italian and German government bond yields.<br />
+              The study observes significant differences in the communication styles and focus areas of Draghi and Lagarde. Draghi's tenure is characterized by concise, direct communication, primarily addressing macroeconomic themes during the European financial crisis. In contrast, Lagarde's period is marked by longer, more detailed discussions, with a broader focus due to events like the COVID-19 pandemic and geopolitical instabilities. 
+              The report identifies themes like "Asset Convergence," "Financial Conditions," "Structural Stability," and "Inflation Expectations" as significantly influencing financial metrics. The study concludes with a discussion of limitations and areas for future research, emphasizing the need for continuous examination of central bank communications and their financial implications.
+              <br /><br />
+              
               <strong><a href="Corporate Strategy Report.pdf" class="download-link" target="_blank" rel="noopener noreferrer">Performance Measurement & Corporate Strategy (2023): How to innovate Microsoft's Corporate Strategy <span class="download-icon">⬇️</span> (co-authored)</a></strong><br /> 
-              <br />
+              <br /><br />
+              
               <strong><a href="Asset Management Report.pdf" target="_blank" rel="noopener noreferrer">Asset Management (2023): ESG Multi-Asset Fund E2 – EUR analysis (co-authored)</a></strong><br />
-              <br />
+              The "Asset Management Report" focuses on the Blackrock ESG Multi Asset Fund, a multi-asset class fund with €5.428.14 million in net assets as of October 31, 2023. The fund's investment strategy includes a blend of global equities, fixed income, alternative instruments, and liquidity, prioritizing investments that adhere to environmental, social, and governance (ESG) principles.<br />
+              The report is divided into two main parts: Style Analysis and Risk Measurement. In the Style Analysis section, the report examines the fund's investments in different geographical regions and sectors, employing Sharpe style analysis. It aims to determine the fund's position in terms of risk and return by comparing its cumulative returns with specific benchmarks and the efficient frontier.<br />
+              In the Risk Measurement section, the report describes the absolute and relative risk measures for the fund, focusing on the Value at Risk (VaR) and Relative Value at Risk (ReVaR) indicators over a two-year period.<br />
+              Overall, the report provides a detailed evaluation of the Blackrock ESG Multi Asset Fund, offering insights into its investment strategy, performance in varying market scenarios, and commitment to ESG principles. It also assesses the fund's risk-return characteristics and examines how it adapts and performs against benchmarks and market trends.
+              <br /><br />
+              
               <strong><a href="Financial Analysis of IVECO Group.pdf" target="_blank" rel="noopener noreferrer">Financial Management & Corporate Banking (2023): Financial Analysis of IVECO Group (co-authored)</a></strong><br />
-              <br />
+              <br /><br />
+              
               <strong><a href="Should Cash-Out mergers be available.pptx" target="_blank" rel="noopener noreferrer">Business Law (Advanced) (2023): "Should Cash-Out mergers be available?" (co-authored)</a></strong><br />
-              <br />
+              <br /><br />
+              
               <strong><a href="Toyota Analysis.pdf" target="_blank" rel="noopener noreferrer">Performance Measurement (2022): Toyota Analysis (co-authored)</a></strong><br />
-              <br />
+              <br /><br />
+              
               <strong><a href="Decathlon In-Company Training.pdf" target="_blank" rel="noopener noreferrer">Decathlon In-Company Training (2022): "Decathlon ad impatto zero" (co-authored)</a></strong><br />
-              <br />
+              <br /><br />
+              
               <strong><a href="Pane Quotidiano Report.pdf" target="_blank" rel="noopener noreferrer">Call 4 Ideas "Supporting Innovation at Pane Quotidiano" (2022): "Re-thinking Operations"</a> & <a href="PQ - Presentation.pdf" target="_blank" rel="noopener noreferrer">Presentation (co-authored)</a></strong><br />
-              <br />
+              <br /><br />
+              
               <strong><a href="Competitive Intelligence Report.pdf" target="_blank" rel="noopener noreferrer">Competitive Intelligence (2022): "Impact of Volkswagen's Trinity Project on Tesla" (co-authored)</a></strong><br />
-              <br />
+              <br /><br />
+              
               <strong><a href="The allocation of PNRR funds for the National Health Service.pdf" target="_blank" rel="noopener noreferrer">Public Administration Management (2021): The allocation of PNRR funds for the National Health Service (co-authored)</a></strong><br />
-              <br />
+              <br /><br />
+              
               <strong><a href="Telecom Italia S.p.A. analysis.pdf" target="_blank" rel="noopener noreferrer">Business Administration (2019): Telecom Italia S.p.A. analysis (co-authored)</a></strong><br /> 
+              The project on Telecom Italia S.p.A. aims to provide an in-depth analysis of the company, encompassing a thorough evaluation of its history, economic combinations, and strategic positioning in the telecommunications sector. It delves into Telecom Italia's approach to gaining a competitive edge, focusing on differentiation and growth strategies like diversification and business expansion. 
+              The study also assesses the company's commitment to innovation and development, particularly in areas like 5G technology and digital transformation. Additionally, it explores Telecom Italia's relationships with stakeholders and its corporate social responsibility initiatives, including its approach to human rights, environmental sustainability, and community engagement. This comprehensive analysis aims to offer a detailed understanding of Telecom Italia's business operations, strategies, and its role in the broader economic and technological landscape.
             </p>
           </div>
         </section>
