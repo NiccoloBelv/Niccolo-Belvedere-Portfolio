@@ -47,8 +47,7 @@ export default function Home() {
           </p>
         </section>
 
-        
-        <hr />
+        <div class="hr-zigzag"></div>
             
         <section id="cv" className={styles.cvSection}>
           <h2>Curriculum Vitae & Documents</h2>
