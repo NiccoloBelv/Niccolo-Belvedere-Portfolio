@@ -54,14 +54,6 @@
 }
 
 
-
-.cvDownloadLink {
-  color: #1a0dab; /* Cambia questo con il colore che preferisci */
-  font-style: italic;
-  text-decoration: underline;
-}
-
-
 .download-link {
     color: #0000EE; /* Un classico colore di link */
     text-decoration: none; /* Nessuna sottolineatura di default */
@@ -72,6 +64,13 @@
     text-decoration: underline; /* Sottolineatura al passaggio del mouse */
     color: #551A8B; /* Cambia colore al passaggio del mouse */
 }
+
+.cvDownloadLink {
+  color: #1a0dab; /* Cambia questo con il colore che preferisci */
+  font-style: italic;
+  text-decoration: underline;
+}
+
 
 .download-icon {
     padding-left: 5px; /* Spazio tra il testo e l'icona */
