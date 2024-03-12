@@ -46,13 +46,16 @@
 }
 
 
-.hr {
-    height: 2px; /* Imposta lo spessore della linea */
-    background: linear-gradient(to right, #003366, #00ccff); /* Gradiente da blu scuro (#003366) ad azzurro (#00ccff) */
-    border: none; /* Rimuove qualsiasi bordo predefinito */
-    margin: 20px 0; /* Aggiunge spazio sopra e sotto la linea */
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5); /* Ombreggiatura sotto la linea */
+.hr-zigzag::after {
+    content: '';
+    display: block;
+    border-bottom: 3px solid #134cad;
+    border-top: 3px solid transparent;
+    height: 1px;
+    background: linear-gradient(45deg, #134cad 25%, transparent 25%, transparent 50%, #134cad 50%, #134cad 75%, transparent 75%);
+    background-size: 10px 10px;
 }
+
 
 
 .cvDownloadLink {
