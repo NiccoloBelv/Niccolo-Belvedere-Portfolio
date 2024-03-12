@@ -48,7 +48,7 @@
 
 .hr-zigzag {
     border: none;
-    height: 5px; /* Aumenta l'altezza per una visibilità migliore */
+    height: 15px; /* Aumenta l'altezza per una visibilità migliore */
     background: linear-gradient(45deg, #134cad 25%, transparent 25%, transparent 50%, #134cad 50%, #134cad 75%, transparent 75%);
     background-size: 20px 20px; /* Aumenta la dimensione dello sfondo per un effetto chiaro */
 }
