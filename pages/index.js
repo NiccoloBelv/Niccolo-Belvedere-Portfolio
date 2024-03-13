@@ -104,7 +104,7 @@ export default function Home() {
                 The discussion advances to various topics, such as the superior civil service system, evaluation methods for these systems, recruitment strategies for top talent in public institutions, and applicable lessons for Italy. The analysis concludes by revealing how the choice between the two models can underpin a nation's development under specific circumstances, and it reinforces the notion that human resources are pivotal to societal progress.
                 <br /><br />
                 <a href="Bachelor Degree Thesis.pdf" class={styles.downloadlink} target="_blank" rel="noopener noreferrer">Download here the pdf.</a>
-                <br /><br /></p>
+                <br /></p>
               )}
             </div>
             
@@ -120,8 +120,8 @@ export default function Home() {
                 The study observes significant differences in the communication styles and focus areas of Draghi and Lagarde. Draghi's tenure is characterized by concise, direct communication, primarily addressing macroeconomic themes during the European financial crisis. In contrast, Lagarde's period is marked by longer, more detailed discussions, with a broader focus due to events like the COVID-19 pandemic and geopolitical instabilities. 
                 The report identifies themes like "Asset Convergence," "Financial Conditions," "Structural Stability," and "Inflation Expectations" as significantly influencing financial metrics. The study concludes with a discussion of limitations and areas for future research, emphasizing the need for continuous examination of central bank communications and their financial implications.
                 <br /><br />
-                <a href="Big Data Report.pdf" class={styles.download-link}  target="_blank" rel="noopener noreferrer">Download here the report.</a> and <a href="Big Data presentation.pdf" class={styles.download-link}  target="_blank" rel="noopener noreferrer">here the presentation.</a><br />
-                <br /></p>
+                <a href="Big Data Report.pdf" class={styles.downloadlink}  target="_blank" rel="noopener noreferrer">Download here the report.</a> and <a href="Big Data presentation.pdf" class={styles.downloadlink}  target="_blank" rel="noopener noreferrer">here the presentation.</a><br />
+                </p>
               )}
             </div>
             
@@ -141,8 +141,8 @@ export default function Home() {
                 The report also paid close attention to Microsoft’s commitments to social and environmental sustainability, underscoring its CSR initiatives and strategies.<br /> 
                 Finally, the report wrapped up with a series of strategic recommendations. These recommendations were based on the comprehensive analyses conducted throughout the report, suggesting future directions and adjustments Microsoft could consider for continued growth and market leadership.
                 <br /><br />
-                <a href="Corporate Strategy Report.pdf" class={styles.download-link} target="_blank" rel="noopener noreferrer">Download here the pdf.</a><br /> 
-                <br /></p>
+                <a href="Corporate Strategy Report.pdf" class={styles.downloadlink} target="_blank" rel="noopener noreferrer">Download here the pdf.</a><br /> 
+                </p>
               )}
             </div>
             
@@ -159,8 +159,8 @@ export default function Home() {
                 In the Risk Measurement section, the report describes the absolute and relative risk measures for the fund, focusing on the Value at Risk (VaR) and Relative Value at Risk (ReVaR) indicators over a two-year period.<br />
                 Overall, the report provides a detailed evaluation of the Blackrock ESG Multi Asset Fund, offering insights into its investment strategy, performance in varying market scenarios, and commitment to ESG principles. It also assesses the fund's risk-return characteristics and examines how it adapts and performs against benchmarks and market trends.
                 <br /><br />
-                <a href="Asset Management Report.pdf" class={styles.download-link} target="_blank" rel="noopener noreferrer">Download here the pdf.</a><br />
-                <br /></p>
+                <a href="Asset Management Report.pdf" class={styles.downloadlink} target="_blank" rel="noopener noreferrer">Download here the pdf.</a><br />
+                </p>
               )}
             </div>
             
@@ -175,8 +175,8 @@ export default function Home() {
                 The "Financial Analysis of IVECO Group" report focuses on the financial aspects of the IVECO Group. It covers detailed cash flow analysis, capital structure, cost of debt capital, and cost of equity capital. The report analyzes the company's financial performance over three years, noting how factors like capital expenditures, working capital management, and net free operating cash flows have influenced financial outcomes.<br />
                 It also includes a thorough risk measurement analysis, examining the company's debt-to-equity ratio, interest coverage, and financial expenses. It delves into the beta calculation for IVECO Group, considering the company's market capitalization, net financial position, and comparable companies in the sector. Furthermore, the report assesses the Weighted Average Cost of Capital (WACC) and Enterprise Value (EV) of IVECO Group, providing a comprehensive view of the company's financial health and valuation.
                 <br /><br />
-                <a href="Financial Analysis of IVECO Group.pdf" class={styles.download-link} target="_blank" rel="noopener noreferrer">Download here the pdf.</a><br />
-                <br /></p>
+                <a href="Financial Analysis of IVECO Group.pdf" class={styles.downloadlink} target="_blank" rel="noopener noreferrer">Download here the pdf.</a><br />
+                </p>
               )}
             </div>
 
@@ -193,8 +193,8 @@ export default function Home() {
                 Moreover, it compares long-form and short-form mergers in the U.S., with an analysis of the regulatory landscape in Europe. It discusses the various legal frameworks and protections in place to balance the interests of controlling and minority shareholders. Then, it lists points in favor of cash-out mergers and points against these mergers.<br />
                 In conclusion, the presentation suggests that cash-out mergers can be beneficial if regulated properly, with sufficient protection for minority shareholders. It recommends following the U.S. model, particularly Delaware's jurisprudence, as an example of providing flexibility and protection in cash-out mergers.
                 <br /><br />
-                <a href="Should Cash-Out mergers be available.pptx" class={styles.download-link} target="_blank" rel="noopener noreferrer">Download here the presentation.</a><br />
-                <br /></p>
+                <a href="Should Cash-Out mergers be available.pptx" class={styles.downloadlink} target="_blank" rel="noopener noreferrer">Download here the presentation.</a><br />
+                </p>
               )}
             </div>
             
@@ -211,8 +211,8 @@ export default function Home() {
                 A significant portion of the analysis is dedicated to Toyota's innovation strategies, particularly its investments in sustainable mobility, autonomous driving technology, and advanced materials. The report underscores Toyota's commitment to innovation and its efforts to stay at the forefront of automotive technology developments.<br />
                 In conclusion, the report outlines Toyota's future prospects and potential challenges. It suggests that Toyota's continued focus on innovation, combined with its efficient production system and strong global presence, positions the company well for future success despite the rapidly evolving automotive industry.
                 <br /><br />
-                <a href="Toyota Analysis.pdf" target="_blank" class={styles.download-link} rel="noopener noreferrer">Download here the pdf.</a><br />
-                <br /></p>
+                <a href="Toyota Analysis.pdf" target="_blank" class={styles.downloadlink} rel="noopener noreferrer">Download here the pdf.</a><br />
+                </p>
               )}
             </div>
             
@@ -230,8 +230,8 @@ export default function Home() {
                 The reconditioned products will be available for purchase or rental, expanding the reach of Decathlon's Rent division. This initiative not only aligns with the increasing consumer trend towards sustainable and second-hand products, particularly among Millennials and Gen Z, but also positions Decathlon as a leader in sustainable retail practices.<br /> 
                 The overall strategy encompasses app development, content creation for repair and upcycling, hiring and training new staff for repair and in-store operations, and establishing the necessary infrastructure for the repair hubs and in-store rental and sales stations. Through this integrated approach, Decathlon aims to enhance its sustainability profile while increasing its market share in the refurbished product segment.
                 <br /><br />
-                <a href="Decathlon In-Company Training.pdf" class={styles.download-link} target="_blank" rel="noopener noreferrer">Download here the pdf.</a><br />
-                <br /></p>
+                <a href="Decathlon In-Company Training.pdf" class={styles.downloadlink} target="_blank" rel="noopener noreferrer">Download here the pdf.</a><br />
+                </p>
               )}
             </div>
             
@@ -249,8 +249,8 @@ export default function Home() {
                 <br />Another significant proposal is the "New Mobility Project," which aims to reach people in need in different areas of the city. This project would involve setting up a mobile unit in a strategic location to distribute pre-packaged goods. The report highlights the importance of careful planning in choosing the location and format of this distribution to maximize impact and efficiency.<br />
                 In conclusion, the report posits that by adopting these innovative logistics and partnership strategies, PQ can reduce costs and reinvest the savings in improving the quality of its operations and extending its services.
                 <br /><br />
-                <a href="Pane Quotidiano Report.pdf" class={styles.download-link} target="_blank" rel="noopener noreferrer">Download here the report</a> and <a href="PQ - Presentation.pdf" class={styles.download-link} target="_blank" rel="noopener noreferrer">here the presentation</a><br />
-                <br /></p>
+                <a href="Pane Quotidiano Report.pdf" class={styles.downloadlink} target="_blank" rel="noopener noreferrer">Download here the report</a> and <a href="PQ - Presentation.pdf" class={styles.downloadlink} target="_blank" rel="noopener noreferrer">here the presentation</a><br />
+                </p>
               )}
             </div>
             
@@ -266,8 +266,8 @@ export default function Home() {
                 The report delves into various components and characteristics that Volkswagen plans to enhance, such as advanced battery technology and autonomous driving features, aiming to understand where Tesla could improve to maintain its market leadership.<br />
                 The report also includes an analysis of the partnership between Volkswagen and QuantumScape, a supplier of a new type of electric battery that offers significant improvements in capacity and charging times. It covers the steps Tesla might take to remain competitive, including strengthening partnerships, increasing research and development, and analyzing market structure changes. Additionally, the report provides insights into customer perceptions of Tesla and Volkswagen, especially in the context of the Trinity Project's launch.
                 <br /><br />
-                <a href="Competitive Intelligence Report.pdf" class={styles.download-link} target="_blank" rel="noopener noreferrer">Download here the report.</a><br />
-                <br /></p>
+                <a href="Competitive Intelligence Report.pdf" class={styles.downloadlink} target="_blank" rel="noopener noreferrer">Download here the report.</a><br />
+                </p>
               )}
             </div>
             
@@ -284,8 +284,8 @@ export default function Home() {
                 The PNRR funds are allocated to four strategic axes: Territorial Assistance, Digital Health, Hospital Network, and Technologies. Each axis addresses specific healthcare needs, with Territorial Assistance focusing on community healthcare structures, Digital Health aiming to improve digital infrastructure and capabilities, Hospital Network targeting the improvement and expansion of hospital facilities, and Technologies focusing on updating medical equipment and technology.<br />
                 The report outlines a comprehensive plan for utilizing these funds, with a focus on reducing regional disparities and improving healthcare efficiency and quality.
                 <br /><br />
-                <a href="The allocation of PNRR funds for the National Health Service.pdf" class={styles.download-link} target="_blank" rel="noopener noreferrer">Download here the pdf.</a><br />
-                <br /></p>
+                <a href="The allocation of PNRR funds for the National Health Service.pdf" class={styles.downloadlink} target="_blank" rel="noopener noreferrer">Download here the pdf.</a><br />
+                </p>
               )}
             </div>
             
@@ -299,7 +299,7 @@ export default function Home() {
                 <p>
                 The project on Telecom Italia S.p.A. aims to provide an in-depth analysis of the company, encompassing a thorough evaluation of its history, economic combinations, and strategic positioning in the telecommunications sector. It delves into Telecom Italia's approach to gaining a competitive edge, focusing on differentiation and growth strategies like diversification and business expansion. 
                 The study also assesses the company's commitment to innovation and development, particularly in areas like 5G technology and digital transformation. Additionally, it explores Telecom Italia's relationships with stakeholders and its corporate social responsibility initiatives, including its approach to human rights, environmental sustainability, and community engagement. This comprehensive analysis aims to offer a detailed understanding of Telecom Italia's business operations, strategies, and its role in the broader economic and technological landscape.
-                <a href="Telecom Italia S.p.A. analysis.pdf" target="_blank" class={styles.download-link} rel="noopener noreferrer">Download here the pdf.</a><br /> 
+                <a href="Telecom Italia S.p.A. analysis.pdf" target="_blank" class={styles.downloadlink} rel="noopener noreferrer">Download here the pdf.</a><br /> 
                 </p>            
               )}
             </div>
