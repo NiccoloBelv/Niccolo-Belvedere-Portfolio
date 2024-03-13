@@ -3,8 +3,24 @@ import Header from '@components/Header';
 import Footer from '@components/Footer';
 import Image from 'next/image';
 import styles from '@styles/Home.module.css';
+import { useState } from 'react';
 
 export default function Home() {
+  
+  const [visibleSections, setVisibleSections] = useState({
+    projects: false,
+    certificates: false,
+    languagesAndSkills: false,
+    contact: false,
+  });
+
+  const handleSectionToggle = (section) => {
+    setVisibleSections(prevState => ({
+        ...prevState,
+        [section]: !prevState[section]
+    }));
+  };
+  
   return (
     <div>
       <header className={styles.header}>
@@ -57,7 +73,7 @@ export default function Home() {
         </section>
 
           
-        <section id="projects" className={styles.projectSection}>
+        <section id="projects" className={`${styles.projectSection} ${visibleSections.projects ? 'visible-section' : 'hidden-section'}`}>
           <h2>Projects</h2>
           <div className={styles.projectContainer}>
             <p>
@@ -149,7 +165,7 @@ export default function Home() {
         </section>
 
           
-        <section id="certificates" className={styles.certificatesSection}>
+        <section id="certificates" className={`${styles.certificatesSection} ${visibleSections.certificates ? 'visible-section' : 'hidden-section'}`}>
           <h2>Certificates</h2>
           <div className={styles.certificatesContainer}>
             <p>
@@ -170,7 +186,7 @@ export default function Home() {
         </section>
 
 
-        <section id="languagesandskills" className={styles.languagesandskillsSection}>
+        <section id="languagesandskills" className={`${styles.languagesandskillsSection} ${visibleSections.languagesAndSkills ? 'visible-section' : 'hidden-section'}`}>
           <h2>Languages and Skills</h2>
           <div className={styles.languagesandskillsContainer}>
           <p>
@@ -182,7 +198,7 @@ export default function Home() {
         </section>
       
           
-        <section id="contact" className={styles.contactSection}>
+        <section id="contact" className={`${styles.contactSection} ${visibleSections.contact ? 'visible-section' : 'hidden-section'}`}>
           <h2>Contacts</h2>
           <p>
               My LinkedIn profile: <a href="https://www.linkedin.com/in/niccolo-belvedere/" target="_blank" rel="noopener noreferrer">Visit my LinkedIn</a><br />
