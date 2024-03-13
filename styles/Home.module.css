@@ -45,6 +45,11 @@
     background-color: #f0f0f0
 }
 
+.projectTitle:hover {
+    text-decoration: underline;
+    color: var(--secondary-color); /* Assicurati che questa variabile CSS sia definita */
+}
+
 .aboutSection, .projectSection, .cvSection, .certificatesSection, .languagesandskillsSection {
     margin-bottom: 40px;
 }
@@ -67,11 +72,6 @@
     background-size: 20px 20px;
 }
 
-
-.projectTitle:hover {
-    text-decoration: underline;
-    color: var(--secondary-color); /* Assicurati che questa variabile CSS sia definita */
-}
 
 /* Download Link Styles */
 
