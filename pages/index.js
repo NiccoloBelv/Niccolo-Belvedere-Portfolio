@@ -25,12 +25,6 @@ export default function Home() {
     }));
   };
   
-  const handleSectionToggle = (section) => {
-    setVisibleSections(prevState => ({
-        ...prevState,
-        [section]: !prevState[section]
-    }));
-  };
   
   return (
     <div>
