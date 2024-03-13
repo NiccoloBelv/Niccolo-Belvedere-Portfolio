@@ -83,12 +83,12 @@
 
 /* Download Link Styles */
 
-.download-link {
+.downloadlink {
     text-decoration: none; /* Nessuna sottolineatura di default */
     font-style: normal; /* Se il resto del testo non è in corsivo */
 }
 
-.download-link:hover {
+.downloadlink:hover {
     text-decoration: underline; /* Sottolineatura al passaggio del mouse */
     color: #2b82d9; /* Cambia colore al passaggio del mouse */
 }
