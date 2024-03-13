@@ -1,6 +1,6 @@
 /* Header Styles */
 .header {
-    background-color: #7a799c;
+    background-color: #ccdef4;
     padding: 14px;
     text-align: center;
     margin: 0; /* Rimuove margini esterni */
@@ -22,7 +22,7 @@
 /* Navbar Styles */
 .navbar ul {
     list-style-type: none;
-    background-color: #6d97de;
+    background-color: #1d4e89;
     padding: 8px 0;
     display: flex;
     justify-content: center;
@@ -47,20 +47,6 @@
 
 .aboutSection, .projectSection, .cvSection, .certificatesSection, .languagesandskillsSection {
     margin-bottom: 40px;
-}
-
-.projectContainer {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 20px;
-}
-
-.projectItem {
-    /* Stili per ciascun riquadro (cubo) */
-    border: 1px solid #ddd;
-    padding: 15px;
-    background-color: #f8f9fa;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
 
