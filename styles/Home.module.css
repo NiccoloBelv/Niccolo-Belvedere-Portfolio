@@ -67,6 +67,17 @@
   background-color: #0056b3;
 }
 
+.buttonContainer {
+    display: flex;           /* Attiva Flexbox */
+    justify-content: center; /* Centra i bottoni orizzontalmente */
+    align-items: center;     /* Centra i bottoni verticalmente (opzionale) */
+    flex-wrap: nowrap;       /* Impedisce ai bottoni di andare a capo */
+}
+
+.buttonContainer a {
+    margin: 0 10px; /* Aggiunge spazio intorno ai bottoni */
+}
+
 .projectTitle {
     cursor: pointer; /* Opzionale: cambia il cursore a mano per indicare che è cliccabile */
 }
