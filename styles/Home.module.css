@@ -45,7 +45,7 @@
     
 /* Main Section Styles */
 .main {
-    padding: 20px;
+    padding: 15px;
     background-color: #f0f0f0
 }
 
@@ -93,7 +93,7 @@
 
 .hrzigzag {
     border: none;
-    height: 8px;
+    height: 10px;
     background: linear-gradient(45deg, #134cad 25%, transparent 25%, transparent 50%, #134cad 50%, #134cad 75%, transparent 75%);
     background-size: 20px 20px;
 }
