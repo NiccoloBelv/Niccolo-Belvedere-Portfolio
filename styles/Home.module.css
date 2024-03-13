@@ -46,7 +46,7 @@
 /* Main Section Styles */
 .main {
     padding: 15px;
-    background-color: #f0f0f0
+    background-color: #f0f0f0;
 }
 
 .downloadbutton {
@@ -112,6 +112,7 @@
 
 .twoColumnLayout {
     display: flex;           /* Attiva Flexbox */
+    background-color: #8cb8ed;
     justify-content: space-between; /* Distanzia le sezioni */
     align-items: flex-start; /* Allinea le sezioni dall'alto */
     flex-wrap: wrap;         /* Permette alle sezioni di passare alla riga successiva su schermi più piccoli */
