@@ -42,7 +42,6 @@ export default function Home() {
         <nav className={styles.navbar}>
           <ul>
             <li><a href="#about"><strong>About Me</strong></a></li>
-            <li><a href="#cv"><strong>Curriculum & Documents</strong></a></li>
             <li><a href="#projects"><strong>Projects</strong></a></li>
             <li><a href="#certificates"><strong>Certificates</strong></a></li>
             <li><a href="#languagesandskills"><strong>Languages and Skills</strong></a></li>
@@ -76,14 +75,6 @@ export default function Home() {
 
         <hr class={styles.hrzigzag} />
             
-        <section id="cv" className={styles.cvSection}>
-          <h2>Curriculum Vitae & Documents</h2>
-          <a href="CV.pdf" target="_blank" className={styles.cvDownloadLink} rel="noopener noreferrer">My Resume</a>: click here to download my CV. <br /><br />
-          <a href="Bachelor's Transcript.pdf" target="_blank" className={styles.cvDownloadLink} rel="noopener noreferrer">My Bachelor's academic transcript</a>: click here to download my Bachelor's transcript. <br />
-          <a href="Master's Transcript.pdf" target="_blank" className={styles.cvDownloadLink} rel="noopener noreferrer">My Master's academic transcript</a>: click here to download my Master's transcript.
-        </section>
-
-          
         <section id="projects" className={`${styles.projectSection} ${visibleSections.projects ? 'visible-section' : 'hidden-section'}`}>
           <h2>Projects</h2>
           <div className={styles.projectContainer}>
