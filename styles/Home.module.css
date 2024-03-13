@@ -114,16 +114,16 @@
     display: flex;           /* Attiva Flexbox */
     justify-content: space-between; /* Distanzia le sezioni */
     align-items: flex-start; /* Allinea le sezioni dall'alto */
-    margin: 20px 0;
+    margin: 10px 0;
     flex-wrap: wrap;         /* Permette alle sezioni di passare alla riga successiva su schermi più piccoli */
 }
 
 .certificatesSection, .languagesandskillsSection {
-    flex-basis: 45%; /* Imposta la larghezza iniziale di ogni sezione */
+    flex-basis: 48%; /* Imposta la larghezza iniziale di ogni sezione */
     background-color: #b1cef0; /* O il colore di sfondo desiderato */
     padding: 20px;
-    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Aggiunge l'ombra */
-    margin: 10px; /* Aggiunge spazio attorno alle sezioni */
+    box-shadow: 0 0 15 rgba(0,0,0,0.6); /* Aggiunge l'ombra */
+    margin: 5px; /* Aggiunge spazio attorno alle sezioni */
     box-sizing: border-box;
 }
 
