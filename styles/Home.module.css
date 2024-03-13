@@ -78,6 +78,25 @@
     margin: 0 10px; /* Aggiunge spazio intorno ai bottoni */
 }
 
+
+.projectButton {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  background-color: #1d4e89;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.projectButton:hover {
+  background-color: #0056b3;
+}
+
 .projectTitle {
     cursor: pointer; /* Opzionale: cambia il cursore a mano per indicare che è cliccabile */
 }
