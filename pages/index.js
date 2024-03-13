@@ -64,7 +64,9 @@ export default function Home() {
             From early on I developed a passion for tech and innovation: during my third year of high school science (2017) I took part in a school work experience on how to develop a startup from 0, 
             creating a prototype and a business model. In 2022, a colleague and I won a "Call4Ideas", drafting an idea about a platform to improve the supply chain of NGOs and presenting the project in front of a jury at the SDA School of Management. 
             Afterwards, I am taking courses and doing self-taught practices to learn coding with various languages. <br />
-            I strongly believe that this new technological era will change the course of our lives, and I want to be part of this change.
+            I strongly believe that this new technological era will change the course of our lives, and I want to be part of this change.<br />
+            <br />
+            <a href="CV.pdf" download class={styles.downloadbutton}">Download Curriculum Vitae</a>
           </p>
         </section>
 
@@ -120,7 +122,7 @@ export default function Home() {
                 The study observes significant differences in the communication styles and focus areas of Draghi and Lagarde. Draghi's tenure is characterized by concise, direct communication, primarily addressing macroeconomic themes during the European financial crisis. In contrast, Lagarde's period is marked by longer, more detailed discussions, with a broader focus due to events like the COVID-19 pandemic and geopolitical instabilities. 
                 The report identifies themes like "Asset Convergence," "Financial Conditions," "Structural Stability," and "Inflation Expectations" as significantly influencing financial metrics. The study concludes with a discussion of limitations and areas for future research, emphasizing the need for continuous examination of central bank communications and their financial implications.
                 <br /><br />
-                <a href="Big Data Report.pdf" class={styles.downloadlink}  target="_blank" rel="noopener noreferrer">Download here the report.</a> and <a href="Big Data presentation.pdf" class={styles.downloadlink}  target="_blank" rel="noopener noreferrer">here the presentation.</a><br />
+                <a href="Big Data Report.pdf" class={styles.downloadlink}  target="_blank" rel="noopener noreferrer">Download here the report</a> and <a href="Big Data presentation.pdf" class={styles.downloadlink}  target="_blank" rel="noopener noreferrer">here the presentation.</a><br />
                 </p>
               )}
             </div>
