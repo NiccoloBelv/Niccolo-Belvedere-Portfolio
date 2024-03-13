@@ -87,7 +87,7 @@
     color: var(--secondary-color); /* Assicurati che questa variabile CSS sia definita */
 }
 
-.aboutSection, .projectSection, .cvSection, .certificatesSection, .languagesandskillsSection {
+.aboutSection, .projectSection, .certificatesSection, .languagesandskillsSection {
     margin-bottom: 40px;
 }
 
