@@ -93,7 +93,7 @@
 
 .hrzigzag {
     border: none;
-    height: 15px;
+    height: 8px;
     background: linear-gradient(45deg, #134cad 25%, transparent 25%, transparent 50%, #134cad 50%, #134cad 75%, transparent 75%);
     background-size: 20px 20px;
 }
