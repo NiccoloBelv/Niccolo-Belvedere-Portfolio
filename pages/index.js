@@ -88,7 +88,7 @@ export default function Home() {
           <div className={styles.projectContainer}>
             
             <div className={styles.projectItem}>
-              <strong onClick={() => toggleDescriptionVisibility('project1')} className="projectTitle">
+              <strong onClick={() => toggleDescriptionVisibility('project1')} className={styles.projectTitle}>
                 Master's thesis (Work in Progress): How financials and macroeconomics factors affect the volatility of personnel in Big Tech companies <span class="download-icon">⬇️</span>
               </strong>
               {visibleDescriptions['project1'] && (
