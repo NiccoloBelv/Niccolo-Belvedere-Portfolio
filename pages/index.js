@@ -66,7 +66,7 @@ export default function Home() {
             Afterwards, I am taking courses and doing self-taught practices to learn coding with various languages. <br />
             I strongly believe that this new technological era will change the course of our lives, and I want to be part of this change.<br />
             <br />
-            <a href="CV.pdf" download class={styles.downloadbutton}">Download Curriculum Vitae</a>
+            <a href="CV.pdf" target="_blank" rel="noopener noreferrer" className={styles.downloadbutton}>Download Curriculum Vitae</a>
           </p>
         </section>
 
@@ -74,9 +74,9 @@ export default function Home() {
             
         <section id="cv" className={styles.cvSection}>
           <h2>Curriculum Vitae & Documents</h2>
-          <a href="CV.pdf" target="_blank" className={styles.cvDownloadLink}>My Resume</a>: click here to download my CV. <br /><br />
-          <a href="Bachelor's Transcript.pdf" target="_blank" className={styles.cvDownloadLink}>My Bachelor's academic transcript</a>: click here to download my Bachelor's transcript. <br />
-          <a href="Master's Transcript.pdf" target="_blank" className={styles.cvDownloadLink}>My Master's academic transcript</a>: click here to download my Master's transcript.
+          <a href="CV.pdf" target="_blank" className={styles.cvDownloadLink} rel="noopener noreferrer">My Resume</a>: click here to download my CV. <br /><br />
+          <a href="Bachelor's Transcript.pdf" target="_blank" className={styles.cvDownloadLink} rel="noopener noreferrer">My Bachelor's academic transcript</a>: click here to download my Bachelor's transcript. <br />
+          <a href="Master's Transcript.pdf" target="_blank" className={styles.cvDownloadLink} rel="noopener noreferrer">My Master's academic transcript</a>: click here to download my Master's transcript.
         </section>
 
           
