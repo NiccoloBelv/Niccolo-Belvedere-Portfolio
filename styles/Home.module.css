@@ -1,3 +1,8 @@
+:root {
+    --primary-color: #4CAF50; /* Colore primario */
+    --secondary-color: #FFC107; /* Colore secondario */
+}
+
 /* Header Styles */
 .header {
     background-color: #7a799c;
@@ -31,6 +36,10 @@
     display: inline;
 }
 
+.navbar a:hover {
+    text-decoration: underline;
+    color: var(--secondary-color);
+
 /* Main Section Styles */
 .main {
     padding: 20px;
@@ -48,11 +57,12 @@
 
 .hr-zigzag {
     border: none;
-    height: 15px; /* Aumenta l'altezza per una visibilità migliore */
+    height: 15px;
     background: linear-gradient(45deg, #134cad 25%, transparent 25%, transparent 50%, #134cad 50%, #134cad 75%, transparent 75%);
-    background-size: 20px 20px; /* Aumenta la dimensione dello sfondo per un effetto chiaro */
+    background-size: 20px 20px;
 }
 
+/* Download Link Styles */
 
 .download-link {
     color: #0000EE; /* Un classico colore di link */
@@ -65,15 +75,29 @@
     color: #551A8B; /* Cambia colore al passaggio del mouse */
 }
 
-.cvDownloadLink {
-  color: #1a0dab; /* Cambia questo con il colore che preferisci */
-  font-style: italic;
-  text-decoration: underline;
+.cvDownloadLink {  
+    color: #1a0dab; /* Cambia questo con il colore che preferisci */
+    font-style: italic;
+    text-decoration: underline;
 }
 
 
 .download-icon {
     padding-left: 5px; /* Spazio tra il testo e l'icona */
+}
+
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .navbar ul {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .profileImage {
+        width: 120px;
+        height: 120px;
+    }
 }
 
 
