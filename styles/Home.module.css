@@ -49,6 +49,24 @@
     background-color: #f0f0f0
 }
 
+.downloadbutton {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.downloadbutton:hover {
+  background-color: #0056b3;
+}
+
 .projectTitle {
     cursor: pointer; /* Opzionale: cambia il cursore a mano per indicare che è cliccabile */
 }
