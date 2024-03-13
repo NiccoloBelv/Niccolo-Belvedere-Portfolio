@@ -23,15 +23,19 @@
 .navbar ul {
     list-style-type: none;
     background-color: #1d4e89;
-    padding: 13px 0;
+    padding: 15px 0;
     display: flex;
     justify-content: center;
-    gap: 40px;
+    gap: 60px;
     margin: 0;
 }
 
 .navbar li {
     display: inline;
+}
+
+.navbar a {
+    color: #f7f7f7; /* Inserisci qui il colore che vuoi per il testo */
 }
 
 .navbar a:hover {
@@ -80,14 +84,13 @@
 /* Download Link Styles */
 
 .download-link {
-    color: #0000EE; /* Un classico colore di link */
     text-decoration: none; /* Nessuna sottolineatura di default */
     font-style: normal; /* Se il resto del testo non è in corsivo */
 }
 
 .download-link:hover {
     text-decoration: underline; /* Sottolineatura al passaggio del mouse */
-    color: #551A8B; /* Cambia colore al passaggio del mouse */
+    color: #2b82d9; /* Cambia colore al passaggio del mouse */
 }
 
 .cvDownloadLink {  
