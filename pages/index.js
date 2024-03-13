@@ -70,7 +70,7 @@ export default function Home() {
           </p>
         </section>
 
-        <hr class={styles.hr-zigzag} />
+        <hr class={styles.hrzigzag} />
             
         <section id="cv" className={styles.cvSection}>
           <h2>Curriculum Vitae & Documents</h2>
