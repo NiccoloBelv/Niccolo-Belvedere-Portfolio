@@ -102,7 +102,7 @@ export default function Home() {
               <strong onClick={() => toggleDescriptionVisibility('project2')}>
                 Master's thesis (Work in Progress): How financials and macroeconomics factors affect the volatility of personnel in Big Tech companies
               </strong>
-              {visibleDescriptions['project1'] && (  
+              {visibleDescriptions['project2'] && (  
                 <p><strong><a href="Bachelor's Degree Thesis.pdf" class="download-link" target="_blank" rel="noopener noreferrer">Bachelor's thesis (2022): "The key role of People in Public Administration: How Civil Service Models affect the quality of a nation" <span class="download-icon">⬇️</span></a></strong><br />
                 The thesis outlines the significance of interactions between public and private sectors in shaping a nation's economic condition, emphasizing that the essence of a nation's economy is not merely the sum of these sectors, but the result of their continual interplay. <br />Central to this dynamic is human capital. The public sector's regulatory role, financing, and infrastructure development are highlighted as influential factors on private sector activities. The paper focuses on the criticality of placing competent individuals within public organizations since their caliber directly impacts national performance across both sectors.
                 The discourse pivots to a comparative analysis of two civil service systems: career-based and position-based. It includes an examination of how human resource (HR) management tools adapt to each system and a detailed exploration of HR practices in Italy and France (career-based) and Canada and England (position-based). <br />An interview with Dr. Trombetti Lilia from the Canadian Radio-television and Telecommunication Commission provides insights into the practical applications of Canada's position-based system.
@@ -115,7 +115,7 @@ export default function Home() {
               <strong onClick={() => toggleDescriptionVisibility('project3')}>
                 Master's thesis (Work in Progress): How financials and macroeconomics factors affect the volatility of personnel in Big Tech companies
               </strong>
-              {visibleDescriptions['project1'] && (
+              {visibleDescriptions['project3'] && (
                 <p><strong><a href="Big Data Report.pdf" class="download-link" target="_blank" rel="noopener noreferrer">Big Data for Business Decisions (2023): "Monetary Words, Market Echoes" <span class="download-icon">⬇️</span></a> & <a href="Big Data presentation.pdf" class="download-link" target="_blank" rel="noopener noreferrer">Presentation <span class="download-icon">⬇️</span> (co-authored)</a></strong><br />
                 The "Big Data Report" examines the European Central Bank's (ECB) communication strategies and their impact on financial markets. Focusing on the ECB presidencies of Mario Draghi and Christine Lagarde, the report analyzes speeches and monetary policy statements from November 2011 to June 2023.<br />It employs Latent Dirichlet Allocation (LDA) for topic modeling and linear regression models to investigate the relationship between ECB communication and various financial measures such as the IOS rate, EUR/USD exchange rate, and Italian and German government bond yields.<br />
                 The study observes significant differences in the communication styles and focus areas of Draghi and Lagarde. Draghi's tenure is characterized by concise, direct communication, primarily addressing macroeconomic themes during the European financial crisis. In contrast, Lagarde's period is marked by longer, more detailed discussions, with a broader focus due to events like the COVID-19 pandemic and geopolitical instabilities. 
@@ -128,7 +128,7 @@ export default function Home() {
               <strong onClick={() => toggleDescriptionVisibility('project4')}>
                 Master's thesis (Work in Progress): How financials and macroeconomics factors affect the volatility of personnel in Big Tech companies
               </strong>
-              {visibleDescriptions['project1'] && (
+              {visibleDescriptions['project4'] && (
                 <p><strong><a href="Corporate Strategy Report.pdf" class="download-link" target="_blank" rel="noopener noreferrer">Performance Measurement & Corporate Strategy (2023): How to innovate Microsoft's Corporate Strategy <span class="download-icon">⬇️</span> (co-authored)</a></strong><br /> 
                 In the "Corporate Strategy Report" for Microsoft Inc., a multifaceted analytical approach was employed to comprehensively evaluate the company’s operations and strategic direction. Initially, the report outlined Microsoft’s corporate strategy, emphasizing its synergic approach that integrates resources and operations across different segments like technology, marketing, and sales. This holistic view painted a picture of Microsoft's portfolio strategy.<br /> 
                 The business analysis segment delved into Microsoft's various operational sectors, including software, cloud computing, gaming, and hardware. Each of these sectors was thoroughly examined to assess current performance, market position, and growth potential. The software segment, for example, was broken down into its constituent services and products, while cloud computing was highlighted, particularly Azure, for its profitability and growth trajectory.<br /> 
@@ -145,7 +145,7 @@ export default function Home() {
               <strong onClick={() => toggleDescriptionVisibility('project5')}>
                 Master's thesis (Work in Progress): How financials and macroeconomics factors affect the volatility of personnel in Big Tech companies
               </strong>
-              {visibleDescriptions['project1'] && (
+              {visibleDescriptions['project5'] && (
                 <p><strong><a href="Asset Management Report.pdf" class="download-link" target="_blank" rel="noopener noreferrer">Asset Management (2023): ESG Multi-Asset Fund E2 – EUR analysis <span class="download-icon">⬇️</span> (co-authored)</a></strong><br />
                 The "Asset Management Report" focuses on the Blackrock ESG Multi Asset Fund, a multi-asset class fund with €5.428.14 million in net assets as of October 31, 2023. The fund's investment strategy includes a blend of global equities, fixed income, alternative instruments, and liquidity, prioritizing investments that adhere to environmental, social, and governance (ESG) principles.<br />
                 The report is divided into two main parts: Style Analysis and Risk Measurement. In the Style Analysis section, the report examines the fund's investments in different geographical regions and sectors, employing Sharpe style analysis. It aims to determine the fund's position in terms of risk and return by comparing its cumulative returns with specific benchmarks and the efficient frontier.<br />
@@ -159,7 +159,7 @@ export default function Home() {
               <strong onClick={() => toggleDescriptionVisibility('project6')}>
                 Master's thesis (Work in Progress): How financials and macroeconomics factors affect the volatility of personnel in Big Tech companies
               </strong>
-              {visibleDescriptions['project1'] && (
+              {visibleDescriptions['project6'] && (
                 <p><strong><a href="Financial Analysis of IVECO Group.pdf" class="download-link" target="_blank" rel="noopener noreferrer">Financial Management & Corporate Banking (2023): Financial Analysis of IVECO Group <span class="download-icon">⬇️</span> (co-authored)</a></strong><br />
                 The "Financial Analysis of IVECO Group" report focuses on the financial aspects of the IVECO Group. It covers detailed cash flow analysis, capital structure, cost of debt capital, and cost of equity capital. The report analyzes the company's financial performance over three years, noting how factors like capital expenditures, working capital management, and net free operating cash flows have influenced financial outcomes.<br />
                 It also includes a thorough risk measurement analysis, examining the company's debt-to-equity ratio, interest coverage, and financial expenses. It delves into the beta calculation for IVECO Group, considering the company's market capitalization, net financial position, and comparable companies in the sector. Furthermore, the report assesses the Weighted Average Cost of Capital (WACC) and Enterprise Value (EV) of IVECO Group, providing a comprehensive view of the company's financial health and valuation.
@@ -171,7 +171,7 @@ export default function Home() {
               <strong onClick={() => toggleDescriptionVisibility('project7')}>
                 Master's thesis (Work in Progress): How financials and macroeconomics factors affect the volatility of personnel in Big Tech companies
               </strong>
-              {visibleDescriptions['project1'] && (
+              {visibleDescriptions['project7'] && (
                 <p><strong><a href="Should Cash-Out mergers be available.pptx" class="download-link" target="_blank" rel="noopener noreferrer">Business Law (Advanced) (2023): "Should Cash-Out mergers be available?" <span class="download-icon">⬇️</span> (co-authored)</a></strong><br />
                 The presentation discusses the concept, pros and cons, and regulatory aspects of cash-out mergers.<br />
                 The presentation delves into agency costs arising from the conflicting interests of controlling and minority shareholders and directors versus minority shareholders. It highlights how cash-out mergers can create advantages but also risks of injustices for minority shareholders.<br />
@@ -185,7 +185,7 @@ export default function Home() {
               <strong onClick={() => toggleDescriptionVisibility('project8')}>
                 Master's thesis (Work in Progress): How financials and macroeconomics factors affect the volatility of personnel in Big Tech companies
               </strong>
-              {visibleDescriptions['project1'] && (
+              {visibleDescriptions['project8'] && (
                 <p><strong><a href="Toyota Analysis.pdf" target="_blank" class="download-link" rel="noopener noreferrer">Performance Measurement (2022): Toyota Analysis <span class="download-icon">⬇️</span> (co-authored)</a></strong><br />
                 The "Toyota Analysis" report provides an extensive examination of Toyota's business strategies, global market presence, and future outlook. It starts analyzing the company's diverse product portfolio and the Toyota Production System (TPS). Then the report examines Toyota's global supply chain and manufacturing strategies, emphasizing how these contribute to the company's competitive advantage in the automotive industry.<br />
                 Furthermore, it explores Toyota's market strategies and presence in key regions, including North America, Europe, and Asia. It evaluates the company's financial performance, discussing revenue, profitability, and market share trends over recent years.<br />
@@ -199,7 +199,7 @@ export default function Home() {
               <strong onClick={() => toggleDescriptionVisibility('project9')}>
                 Master's thesis (Work in Progress): How financials and macroeconomics factors affect the volatility of personnel in Big Tech companies
               </strong>
-              {visibleDescriptions['project1'] && (
+              {visibleDescriptions['project9'] && (
                 <p><strong><a href="Decathlon In-Company Training.pdf" class="download-link" target="_blank" rel="noopener noreferrer">Decathlon In-Company Training (2022): "Decathlon ad impatto zero" <span class="download-icon">⬇️</span> (co-authored)</a></strong><br />
                 This project presents a detailed strategy for implementing sustainability and circular economy practices within Decathlon and aims to integrate a "Zero Waste" feature into Decathlon. This initiative is designed to guide customers on responsibly managing their used Decathlon products and encompasses a holistic approach to product lifecycle management.<br />
                 The strategy incorporates a creative upcycling and repairing section in the app, where customers are encouraged to refurbish or repurpose their products using detailed tutorials available through links to Decathlon's YouTube channel. For products beyond repair, the app provides guidance on locating nearby waste collection centers to ensure responsible disposal. Additionally, customers have the option to return used products to Decathlon stores.<br />
@@ -214,7 +214,7 @@ export default function Home() {
               <strong onClick={() => toggleDescriptionVisibility('project10')}>
                 Master's thesis (Work in Progress): How financials and macroeconomics factors affect the volatility of personnel in Big Tech companies
               </strong>
-              {visibleDescriptions['project1'] && (
+              {visibleDescriptions['project10'] && (
                 <p><strong><a href="Pane Quotidiano Report.pdf" class="download-link" target="_blank" rel="noopener noreferrer">Call 4 Ideas "Supporting Innovation at Pane Quotidiano" (2022): "Re-thinking Operations" <span class="download-icon">⬇️</span></a> & <a href="PQ - Presentation.pdf" class="download-link" target="_blank" rel="noopener noreferrer">Presentation <span class="download-icon">⬇️</span> (co-authored)</a></strong><br />
                 The "Pane Quotidiano Report" presents a strategic approach to enhancing the efficiency and effectiveness of Pane Quotidiano's (PQ) operations, particularly its supply chain, from relationships with suppliers to the management and organization of packages for distribution. The report emphasizes the use of innovative solutions in the supply chain as a means to increase the effectiveness of PQ's actions and reduce costs.<br />
                 To achieve these objectives, the report proposes the implementation of a new communication platform for donors and suppliers, integrated with a database to provide real-time information on products in the warehouse. This platform aims to streamline the donation process, making it easier for suppliers and casual donors to meet PQ's demands. Additionally, the report suggests utilizing the "Microsoft Cloud for Non-Profit" to improve various areas of the organization, including logistics and donor management.
@@ -229,7 +229,7 @@ export default function Home() {
               <strong onClick={() => toggleDescriptionVisibility('project11')}>
                 Master's thesis (Work in Progress): How financials and macroeconomics factors affect the volatility of personnel in Big Tech companies
               </strong>
-              {visibleDescriptions['project1'] && (
+              {visibleDescriptions['project11'] && (
                 <p><strong><a href="Competitive Intelligence Report.pdf" class="download-link" target="_blank" rel="noopener noreferrer">Competitive Intelligence (2022): "Impact of Volkswagen's Trinity Project on Tesla" <span class="download-icon">⬇️</span> (co-authored)</a></strong><br />
                 The report details the potential impact of Volkswagen's Trinity Project on Tesla. It outlines Tesla's intelligence plan, focusing on Volkswagen's strategy for launching a new electric car model under the Trinity Project and discusses how this Project, one of Volkswagen's largest investments, could pose a significant challenge to Tesla in the electric car market.<br />
                 The report delves into various components and characteristics that Volkswagen plans to enhance, such as advanced battery technology and autonomous driving features, aiming to understand where Tesla could improve to maintain its market leadership.<br />
@@ -242,7 +242,7 @@ export default function Home() {
               <strong onClick={() => toggleDescriptionVisibility('project12')}>
                 Master's thesis (Work in Progress): How financials and macroeconomics factors affect the volatility of personnel in Big Tech companies
               </strong>
-              {visibleDescriptions['project1'] && (
+              {visibleDescriptions['project12'] && (
                 <p><strong><a href="The allocation of PNRR funds for the National Health Service.pdf" class="download-link" target="_blank" rel="noopener noreferrer">Public Administration Management (2021): The allocation of PNRR funds for the National Health Service <span class="download-icon">⬇️</span> (co-authored)</a></strong><br />
                 This report focuses on the distribution of funds from Italy's National Recovery and Resilience Plan (PNRR) to the National Health Service (SSN). It provides a detailed analysis of the current state of healthcare in different regions of Italy, evaluating performance across various metrics like the number of primary healthcare houses, general practitioners per capita, hospitalization rates for chronic diseases, elderly care, long-term care bed availability, and digital health infrastructure.<br />
                 It highlights disparities in healthcare services between northern and southern regions, noting the need for improved primary care and better management of chronic conditions to reduce hospitalization rates. The report also emphasizes the digital divide in healthcare, suggesting a significant investment in telemedicine, digital competencies, and cybersecurity.<br />
@@ -256,7 +256,7 @@ export default function Home() {
               <strong onClick={() => toggleDescriptionVisibility('project13')}>
                 Master's thesis (Work in Progress): How financials and macroeconomics factors affect the volatility of personnel in Big Tech companies
               </strong>
-              {visibleDescriptions['project1'] && (
+              {visibleDescriptions['project13'] && (
                 <p><strong><a href="Telecom Italia S.p.A. analysis.pdf" target="_blank" class="download-link" rel="noopener noreferrer">Business Administration (2019): Telecom Italia S.p.A. analysis <span class="download-icon">⬇️</span> (co-authored)</a></strong><br /> 
                 The project on Telecom Italia S.p.A. aims to provide an in-depth analysis of the company, encompassing a thorough evaluation of its history, economic combinations, and strategic positioning in the telecommunications sector. It delves into Telecom Italia's approach to gaining a competitive edge, focusing on differentiation and growth strategies like diversification and business expansion. 
                 The study also assesses the company's commitment to innovation and development, particularly in areas like 5G technology and digital transformation. Additionally, it explores Telecom Italia's relationships with stakeholders and its corporate social responsibility initiatives, including its approach to human rights, environmental sustainability, and community engagement. This comprehensive analysis aims to offer a detailed understanding of Telecom Italia's business operations, strategies, and its role in the broader economic and technological landscape.
