@@ -54,6 +54,11 @@
     margin-bottom: 40px;
 }
 
+.projectDescription {
+    /* Stili per le descrizioni dei progetti */
+    transition: all 0.3s ease-in-out; /* Transizione fluida */
+}
+
 
 .hr-zigzag {
     border: none;
