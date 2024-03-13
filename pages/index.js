@@ -99,7 +99,7 @@ export default function Home() {
             <br />
             
             <div className={styles.projectItem}>
-              <strong onClick={() => toggleDescriptionVisibility('project2')} className="projectTitle">
+              <strong onClick={() => toggleDescriptionVisibility('project2')} className={styles.projectTitle}>
                 Bachelor's thesis (2022): "The key role of People in Public Administration: How Civil Service Models affect the quality of a nation" <span class="download-icon">⬇️</span>
               </strong>
               {visibleDescriptions['project2'] && (  
@@ -114,7 +114,7 @@ export default function Home() {
             <br />
               
             <div className={styles.projectItem}>
-              <strong onClick={() => toggleDescriptionVisibility('project3')} className="projectTitle">
+              <strong onClick={() => toggleDescriptionVisibility('project3')} className={styles.projectTitle}>
                 Big Data for Business Decisions (2023): "Monetary Words, Market Echoes" - (co-authored) <span class="download-icon">⬇️</span>
               </strong>
               {visibleDescriptions['project3'] && (
@@ -129,7 +129,7 @@ export default function Home() {
             <br />
               
             <div className={styles.projectItem}>
-              <strong onClick={() => toggleDescriptionVisibility('project4')} className="projectTitle">
+              <strong onClick={() => toggleDescriptionVisibility('project4')} className={styles.projectTitle}>
                 Performance Measurement & Corporate Strategy (2023): How to innovate Microsoft's Corporate Strategy - (co-authored) <span class="download-icon">⬇️</span>
               </strong>
               {visibleDescriptions['project4'] && (
@@ -148,7 +148,7 @@ export default function Home() {
             <br />
               
             <div className={styles.projectItem}>
-              <strong onClick={() => toggleDescriptionVisibility('project5')} className="projectTitle">
+              <strong onClick={() => toggleDescriptionVisibility('project5')} className={styles.projectTitle}>
                 Asset Management (2023): ESG Multi-Asset Fund E2 – EUR analysis - (co-authored) <span class="download-icon">⬇️</span>
               </strong>
               {visibleDescriptions['project5'] && (
@@ -164,7 +164,7 @@ export default function Home() {
             <br />
               
             <div className={styles.projectItem}>
-              <strong onClick={() => toggleDescriptionVisibility('project6')} className="projectTitle">
+              <strong onClick={() => toggleDescriptionVisibility('project6')} className={styles.projectTitle}>
                 Financial Management & Corporate Banking (2023): Financial Analysis of IVECO Group - (co-authored) <span class="download-icon">⬇️</span>
               </strong>
               {visibleDescriptions['project6'] && (
@@ -178,7 +178,7 @@ export default function Home() {
             <br />
 
             <div className={styles.projectItem}>
-              <strong onClick={() => toggleDescriptionVisibility('project7')} className="projectTitle">
+              <strong onClick={() => toggleDescriptionVisibility('project7')} className={styles.projectTitle}>
                 Business Law (Advanced) (2023): "Should Cash-Out mergers be available?" - (co-authored) <span class="download-icon">⬇️</span>
               </strong>
               {visibleDescriptions['project7'] && (
@@ -194,7 +194,7 @@ export default function Home() {
             <br />
 
             <div className={styles.projectItem}>
-              <strong onClick={() => toggleDescriptionVisibility('project8')} className="projectTitle">
+              <strong onClick={() => toggleDescriptionVisibility('project8')} className={styles.projectTitle}>
                 Performance Measurement (2022): Toyota Analysis - (co-authored) <span class="download-icon">⬇️</span>
               </strong>
               {visibleDescriptions['project8'] && (
@@ -210,7 +210,7 @@ export default function Home() {
             <br />
             
             <div className={styles.projectItem}>
-              <strong onClick={() => toggleDescriptionVisibility('project9')} className="projectTitle">
+              <strong onClick={() => toggleDescriptionVisibility('project9')} className={styles.projectTitle}>
                 Decathlon In-Company Training (2022): "Decathlon ad impatto zero" - (co-authored) <span class="download-icon">⬇️</span>
               </strong>
               {visibleDescriptions['project9'] && (
@@ -227,7 +227,7 @@ export default function Home() {
             <br />
               
             <div className={styles.projectItem}>
-              <strong onClick={() => toggleDescriptionVisibility('project10')} className="projectTitle">
+              <strong onClick={() => toggleDescriptionVisibility('project10')} className={styles.projectTitle}>
                 Call 4 Ideas "Supporting Innovation at Pane Quotidiano" (2022): "Re-thinking Operations" - (co-authored) <span class="download-icon">⬇️</span>
               </strong>
               {visibleDescriptions['project10'] && (
@@ -244,7 +244,7 @@ export default function Home() {
             <br />
               
             <div className={styles.projectItem}>
-              <strong onClick={() => toggleDescriptionVisibility('project11')} className="projectTitle">
+              <strong onClick={() => toggleDescriptionVisibility('project11')} className={styles.projectTitle}>
                 Competitive Intelligence (2022): "Impact of Volkswagen's Trinity Project on Tesla" - (co-authored) <span class="download-icon">⬇️</span>
               </strong>
               {visibleDescriptions['project11'] && (
@@ -259,7 +259,7 @@ export default function Home() {
             <br />
               
             <div className={styles.projectItem}>
-              <strong onClick={() => toggleDescriptionVisibility('project12')} className="projectTitle">
+              <strong onClick={() => toggleDescriptionVisibility('project12')} className={styles.projectTitle}>
                 Public Administration Management (2021): The allocation of PNRR funds for the National Health Service - (co-authored) <span class="download-icon">⬇️</span>
               </strong>
               {visibleDescriptions['project12'] && (
@@ -275,7 +275,7 @@ export default function Home() {
             <br />
               
             <div className={styles.projectItem}>
-              <strong onClick={() => toggleDescriptionVisibility('project13')} className="projectTitle">
+              <strong onClick={() => toggleDescriptionVisibility('project13')} className={styles.projectTitle}>
                 Business Administration (2019): Telecom Italia S.p.A. analysis - (co-authored) <span class="download-icon">⬇️</span>
               </strong>
               {visibleDescriptions['project13'] && (
