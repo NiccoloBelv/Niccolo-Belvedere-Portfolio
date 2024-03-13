@@ -248,7 +248,7 @@ export default function Home() {
                 It highlights disparities in healthcare services between northern and southern regions, noting the need for improved primary care and better management of chronic conditions to reduce hospitalization rates. The report also emphasizes the digital divide in healthcare, suggesting a significant investment in telemedicine, digital competencies, and cybersecurity.<br />
                 The PNRR funds are allocated to four strategic axes: Territorial Assistance, Digital Health, Hospital Network, and Technologies. Each axis addresses specific healthcare needs, with Territorial Assistance focusing on community healthcare structures, Digital Health aiming to improve digital infrastructure and capabilities, Hospital Network targeting the improvement and expansion of hospital facilities, and Technologies focusing on updating medical equipment and technology.<br />
                 The report outlines a comprehensive plan for utilizing these funds, with a focus on reducing regional disparities and improving healthcare efficiency and quality.
-                <br /><br />
+                <br /><br /></p>
               )}
             </div>
             
@@ -260,7 +260,8 @@ export default function Home() {
                 <p><strong><a href="Telecom Italia S.p.A. analysis.pdf" target="_blank" class="download-link" rel="noopener noreferrer">Business Administration (2019): Telecom Italia S.p.A. analysis <span class="download-icon">⬇️</span> (co-authored)</a></strong><br /> 
                 The project on Telecom Italia S.p.A. aims to provide an in-depth analysis of the company, encompassing a thorough evaluation of its history, economic combinations, and strategic positioning in the telecommunications sector. It delves into Telecom Italia's approach to gaining a competitive edge, focusing on differentiation and growth strategies like diversification and business expansion. 
                 The study also assesses the company's commitment to innovation and development, particularly in areas like 5G technology and digital transformation. Additionally, it explores Telecom Italia's relationships with stakeholders and its corporate social responsibility initiatives, including its approach to human rights, environmental sustainability, and community engagement. This comprehensive analysis aims to offer a detailed understanding of Telecom Italia's business operations, strategies, and its role in the broader economic and technological landscape.
-            )}
+                </p>            
+              )}
             </div>
               
           </div>
