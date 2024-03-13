@@ -1,8 +1,3 @@
-:root {
-    --primary-color: #4CAF50; /* Colore primario */
-    --secondary-color: #FFC107; /* Colore secondario */
-}
-
 /* Header Styles */
 .header {
     background-color: #7a799c;
