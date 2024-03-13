@@ -8,3 +8,7 @@ body {
 }
 
 /* Qui puoi aggiungere altri stili globali */
+:root {
+    --primary-color: #4CAF50;
+    --secondary-color: #FFC107;
+}
