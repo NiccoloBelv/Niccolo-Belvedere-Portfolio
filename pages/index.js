@@ -66,7 +66,11 @@ export default function Home() {
             Afterwards, I am taking courses and doing self-taught practices to learn coding with various languages. <br />
             I strongly believe that this new technological era will change the course of our lives, and I want to be part of this change.<br />
             <br />
-            <a href="CV.pdf" target="_blank" rel="noopener noreferrer" className={styles.downloadbutton}>Download Curriculum Vitae</a>
+              <div className={styles.buttonContainer}>
+                <a href="CV.pdf" target="_blank" rel="noopener noreferrer" className={styles.downloadbutton}>Curriculum Vitae</a>
+                <a href="Bachelor's Transcript.pdf" target="_blank" className={styles.downloadbutton} rel="noopener noreferrer">My Bachelor's academic transcript</a>
+                <a href="Master's Transcript.pdf" target="_blank" className={styles.downloadbutton} rel="noopener noreferrer">My Master's academic transcript</a>
+              </div>
           </p>
         </section>
 
@@ -309,7 +313,8 @@ export default function Home() {
           </div>
         </section>
 
-          
+        <hr class={styles.hrzigzag} />
+              
         <section id="certificates" className={`${styles.certificatesSection} ${visibleSections.certificates ? 'visible-section' : 'hidden-section'}`}>
           <h2>Certificates</h2>
           <div className={styles.certificatesContainer}>
@@ -330,7 +335,8 @@ export default function Home() {
           </div>
         </section>
 
-
+        <hr class={styles.hrzigzag} />
+              
         <section id="languagesandskills" className={`${styles.languagesandskillsSection} ${visibleSections.languagesAndSkills ? 'visible-section' : 'hidden-section'}`}>
           <h2>Languages and Skills</h2>
           <div className={styles.languagesandskillsContainer}>
@@ -342,7 +348,8 @@ export default function Home() {
           </div>
         </section>
       
-          
+        <hr class={styles.hrzigzag} />
+              
         <section id="contact" className={`${styles.contactSection} ${visibleSections.contact ? 'visible-section' : 'hidden-section'}`}>
           <h2>Contacts</h2>
           <p>
