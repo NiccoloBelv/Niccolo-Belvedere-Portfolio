@@ -45,6 +45,10 @@
     background-color: #f0f0f0
 }
 
+.projectTitle {
+    cursor: pointer; /* Opzionale: cambia il cursore a mano per indicare che è cliccabile */
+}
+
 .projectTitle:hover {
     text-decoration: underline;
     color: var(--secondary-color); /* Assicurati che questa variabile CSS sia definita */
