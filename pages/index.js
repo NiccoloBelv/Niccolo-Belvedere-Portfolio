@@ -92,7 +92,7 @@ export default function Home() {
                 Master's thesis (Work in Progress): How financials and macroeconomics factors affect the volatility of personnel in Big Tech companies <span class="download-icon">⬇️</span>
               </strong>
               {visibleDescriptions['project1'] && (
-                <p><...Work in progress<br /></p>
+                <p><Work in progress. Estimated end date: 06/2024<br /></p>
               )}
             </div>
           
