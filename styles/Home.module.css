@@ -123,6 +123,12 @@
     margin: 10px; /* Aggiunge margine intorno a ciascuna sezione */
 }
 
+.certificatesSection, .languagesandskillsSection {
+    flex: 1; /* Assegna lo stesso peso a entrambe le sezioni */
+    padding: 10px; /* Aggiunge un po' di spazio intorno alle sezioni */
+    box-sizing: border-box; /* Assicura che padding e border siano inclusi nella larghezza */
+}
+
 .contactSection {
     margin-bottom: 40px;
 }
@@ -175,6 +181,10 @@
     .profileImage {
         width: 120px;
         height: 120px;
+    }
+    
+    .twoColumnContainer {
+        flex-direction: column;
     }
 }
 
