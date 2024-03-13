@@ -39,7 +39,8 @@
 .navbar a:hover {
     text-decoration: underline;
     color: var(--secondary-color);
-
+}
+    
 /* Main Section Styles */
 .main {
     padding: 20px;
