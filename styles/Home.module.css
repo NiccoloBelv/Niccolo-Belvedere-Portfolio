@@ -40,7 +40,7 @@
 
 .navbar a:hover {
     text-decoration: underline;
-    color: var(--secondary-color);
+    color: #050400;
 }
     
 /* Main Section Styles */
