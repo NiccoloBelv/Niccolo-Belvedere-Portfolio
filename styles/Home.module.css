@@ -110,6 +110,17 @@
     margin-bottom: 40px;
 }
 
+.twoColumnLayout {
+    display: flex;           /* Attiva Flexbox */
+    justify-content: space-between; /* Distanzia le sezioni */
+    align-items: flex-start; /* Allinea le sezioni dall'alto */
+    flex-wrap: wrap;         /* Permette alle sezioni di passare alla riga successiva su schermi più piccoli */
+}
+
+.twoColumnLayout > section {
+    flex-basis: calc(50% - 20px); /* Imposta la larghezza di ogni sezione */
+    margin: 10px; /* Aggiunge margine intorno a ciascuna sezione */
+}
 
 .contactSection {
     margin-bottom: 40px;
