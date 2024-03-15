@@ -45,9 +45,11 @@ export default function Home() {
             height={180}
             className={styles.profileImage}
           />
+          <br />
           <h1>Hello, I am Niccolò Belvedere. Welcome to my personal portfolio.</h1>
         </div>
 
+            
         <a href="https://www.linkedin.com/in/niccolo-belvedere/" target="_blank" rel="noopener noreferrer">
             <img 
             src="linkedin.png" 
@@ -57,6 +59,7 @@ export default function Home() {
             />
         </a>
 
+        <br />      
         <nav className={styles.navbar}>
           <ul>
             <li><a href="#about"><strong>About Me</strong></a></li>
