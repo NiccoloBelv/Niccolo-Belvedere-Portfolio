@@ -40,8 +40,8 @@ export default function Home() {
           <h1>Hello, I am Niccolò Belvedere. Welcome to my personal portfolio.</h1>
         </div>
 
-        <a href="https://www.linkedin.com/in/niccolo-belvedere/" target="_blank" rel="noopener noreferrer" class={styles.linkedinicon}>
-            <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+        <a href="https://www.linkedin.com/in/niccolo-belvedere/" target="_blank" rel="noopener noreferrer" className={styles.linkedinicon}>
+            <i className="fa fa-linkedin-square" aria-hidden="true"></i>
         </a>
 
         <nav className={styles.navbar}>
