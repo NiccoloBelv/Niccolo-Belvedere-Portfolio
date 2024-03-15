@@ -4,6 +4,7 @@
     padding: 14px;
     text-align: center;
     margin: 0; /* Rimuove margini esterni */
+    position: relative; /* Questo permette di posizionare l'icona di LinkedIn in modo assoluto rispetto al suo genitore */
 }
 
 .profileContainer {
@@ -17,6 +18,13 @@
 .profileImage {
   border-radius: 50%; /* Opzionale: rende l'immagine rotonda */
   margin: 0 auto; /* Centra l'immagine orizzontalmente */
+}
+
+.linkedin-icon {
+    position: absolute;
+    top: 2px; /* o la distanza dall'alto che preferisci */
+    right: 2px; /* o la distanza dal lato destro che preferisci */
+    padding: 10px; /* per un po' di spazio intorno all'icona */
 }
 
 /* Navbar Styles */
@@ -111,7 +119,9 @@
 }
 
 .twoColumnLayout {
-    display: flex;           /* Attiva Flexbox */
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
     justify-content: space-between; /* Distanzia le sezioni */
     align-items: flex-start; /* Allinea le sezioni dall'alto */
     margin: 10px 0;
@@ -120,7 +130,7 @@
 
 .certificatesSection, .languagesandskillsSection {
     flex-basis: 48%; /* Imposta la larghezza iniziale di ogni sezione */
-    background-color: #b1cef0; /* O il colore di sfondo desiderato */
+    background-color: #c8def7; /* O il colore di sfondo desiderato */
     padding: 20px;
     box-shadow: 0 0 15 rgba(0,0,0,0.6); /* Aggiunge l'ombra */
     margin: 5px; /* Aggiunge spazio attorno alle sezioni */
@@ -171,7 +181,7 @@
 
 
 /* Responsive Design */
-@media (max-width: 768px) {
+@media (max-width: 800px) {
     .navbar ul {
         flex-direction: column;
         gap: 20px;
