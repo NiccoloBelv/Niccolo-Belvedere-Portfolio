@@ -22,8 +22,8 @@
 
 .linkedinicon {
     position: absolute;
-    width: 30px; /* Imposta la larghezza desiderata qui */
-    height: 30px; /* Imposta l'altezza desiderata qui (se vuoi forzare una dimensione specifica) */
+    width: 5px; /* Imposta la larghezza desiderata qui */
+    height: 5px; /* Imposta l'altezza desiderata qui (se vuoi forzare una dimensione specifica) */
     top: 2px; /* o la distanza dall'alto che preferisci */
     right: 2px; /* o la distanza dal lato destro che preferisci */
     padding: 10px; /* per un po' di spazio intorno all'icona */
@@ -139,14 +139,6 @@
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); /* aggiunge l'effetto rialzato con ombreggiatura */
     border-radius: 4px; /* bordi arrotondati se desiderato */
 }
-
-/* Assicurati che il contenuto non ecceda la larghezza del box */
-.box-content {
-  overflow: hidden; /* Nasconde il contenuto che sfora */
-  text-overflow: ellipsis; /* Aggiungi puntini di sospensione se il testo è troppo lungo */
-  white-space: nowrap; /* Impedisce la suddivisione del testo su più linee */
-}
-
 
 
 .contactSection {
