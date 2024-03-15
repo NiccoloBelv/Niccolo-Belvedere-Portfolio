@@ -44,7 +44,7 @@ export default function Home() {
             <img 
             src="linkedin.png" 
             alt="LinkedIn" 
-            width= "20"
+            width= "35"
             className={styles.linkedinicon}
             />
         </a>
