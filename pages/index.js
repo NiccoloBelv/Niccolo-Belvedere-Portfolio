@@ -366,7 +366,8 @@ export default function Home() {
             </section>
           </div>
         </div>
-        
+
+        <br />
               
         <section id="contact" className={`${styles.contactSection} ${visibleSections.contact ? 'visible-section' : 'hidden-section'}`}>
           <h2>Contacts</h2>
