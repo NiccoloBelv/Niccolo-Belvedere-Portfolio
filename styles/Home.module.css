@@ -134,7 +134,7 @@
     margin: 10px; /* Aggiunge un po' di margine tra i riquadri e il resto del contenuto */
     padding: 20px; /* Aggiunge un po' di spazio interno ai riquadri */
     background-color: #d0e1f5; /* o qualsiasi colore di sfondo desiderato */
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); /* aggiunge l'effetto rialzato con ombreggiatura */
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.6); /* aggiunge l'effetto rialzato con ombreggiatura */
     border-radius: 4px; /* bordi arrotondati se desiderato */
 }
 
