@@ -92,6 +92,7 @@ export default function Home() {
         </section>
 
         <hr class={styles.hrzigzag} />
+        <br />
             
         <section id="projects" className={`${styles.projectSection} ${visibleSections.projects ? 'visible-section' : 'hidden-section'}`}>
           <h2>Projects</h2>
