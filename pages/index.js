@@ -76,7 +76,7 @@ export default function Home() {
         <section id="about" className={styles.aboutSection}>
           <h2>About Me</h2>
           <p>
-            In 2019, after years living in my home country, Maratea, I moved to Milan to pursue my studies in Business Administration and Management at Bocconi University. 
+            <br />In 2019, after years living in my home country, Maratea, I moved to Milan to pursue my studies in Business Administration and Management at Bocconi University. 
             In the following years I took part in several projects, which can be consulted in the Projects area of this portfolio, 
             until I spent an exchange semester in Ottawa (Canada) during my third year of Bachelor, at the Telfer School of Management. 
             Subsequently, in 2022 I started my Master of Science in Management, which led me to an internship at Amazon Business from June 2023 to December 2023 in the area of Business Development and Account Management.<br /> 
