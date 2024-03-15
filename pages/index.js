@@ -28,6 +28,13 @@ export default function Home() {
   
   return (
     <div>
+      <Head>
+        <title>Niccolò Belvedere - Portfolio Personale</title>
+        <meta name="description" content="Welcome to my personal portfolio. Discover projects, achievements, and professional journey about me. Explore now to learn more about Niccolò's expertise and experiences." />
+        {/* Altri elementi che fanno parte del head, come i link per il CSS o il favicon */}
+      </Head>
+      
+      
       <header className={styles.header}>
         <div className={styles.profileContainer}>
           <Image
