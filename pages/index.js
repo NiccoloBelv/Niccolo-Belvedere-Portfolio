@@ -97,7 +97,7 @@ export default function Home() {
         <section id="projects" className={`${styles.projectSection} ${visibleSections.projects ? 'visible-section' : 'hidden-section'}`}>
           <h2>Projects</h2>
           <div className={styles.projectContainer}>
-            
+            <br />
             <div className={styles.projectItem}>
               <strong onClick={() => toggleDescriptionVisibility('project1')} className={styles.projectTitle}>
                 Master's thesis (Work in Progress): How financials and macroeconomics factors affect the volatility of personnel in Big Tech companies
