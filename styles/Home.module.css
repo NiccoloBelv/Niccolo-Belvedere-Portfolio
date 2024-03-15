@@ -22,8 +22,8 @@
 
 .linkedinicon {
     position: absolute;
-    top: 10px; /* Aggiusta questo valore fino a che l'icona non è allineata come desideri */
-    right: 6px; /* Aggiusta questo valore fino a che l'icona non è allineata come desideri */
+    top: 15px; /* Aggiusta questo valore fino a che l'icona non è allineata come desideri */
+    right: 15px; /* Aggiusta questo valore fino a che l'icona non è allineata come desideri */
 }
 
 /* Navbar Styles */
