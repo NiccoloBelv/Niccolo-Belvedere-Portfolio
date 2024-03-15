@@ -330,6 +330,7 @@ export default function Home() {
             <section id="certificates" className={`${styles.certificatesSection} ${visibleSections.certificates ? 'visible-section' : 'hidden-section'}`}>
             <h2>Certificates</h2>
               <p>
+                <br />
                 <strong><a href="BCG Introduction to Strategy Consulting Virtual Experience Program.pdf" target="_blank" download>Boston Consulting Group – Strategy Consulting Virtual Experience Program on Forage</a> <br />(February 2023)</strong><br />
                 <em>Conducted market research, brainstorming session and adopting solutions with creative methods. </em><br />
                 <br />
@@ -350,16 +351,17 @@ export default function Home() {
             <section id="languagesandskills" className={`${styles.languagesandskillsSection} ${visibleSections.languagesAndSkills ? 'visible-section' : 'hidden-section'}`}>
             <h2>Languages and Skills</h2>
               <p>
+                <br />
                 <strong>Languages</strong><br />
                 Italian (Native)<br />
                 English (Full proficient)<br />
                  French (B1 Business)<br />
                 <br />
                 <strong>IT Skills</strong><br />
-                Excellent knowledge of Windows and Microsoft office<br /> 
-                Working with Macro & VBA Code on Excel<br /> 
-                Excellent in Salesforce<br /> 
-                Intermediate coding skills on R, Natural Languange Processing, JavaScript and C#
+                Excellent knowledge of <em>Windows and Microsoft Office</em><br /> 
+                Working with <em>Macro & VBA Code on Excel</em><br /> 
+                Excellent in <em>Salesforce</em><br /> 
+                Intermediate coding skills on <em>R, Natural Languange Processing, JavaScript and C#</em>
               </p>
             </section>
           </div>
