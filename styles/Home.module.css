@@ -24,8 +24,6 @@
     position: absolute;
     top: 20px; /* Aggiusta questo valore fino a che l'icona non è allineata come desideri */
     right: 20px; /* Aggiusta questo valore fino a che l'icona non è allineata come desideri */
-    width: 10px; /* Aggiusta la larghezza come desideri */
-    height: auto; /* Mantiene il rapporto di aspetto dell'icona */
     padding: 5px; /* Aggiusta il padding se necessario */
     z-index: 10; /* Assicurati che l'icona non sia coperta da altri elementi */
 }
