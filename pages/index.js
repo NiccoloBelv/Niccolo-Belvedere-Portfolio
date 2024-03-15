@@ -41,7 +41,7 @@ export default function Home() {
         </div>
 
         <a href="https://www.linkedin.com/in/niccolo-belvedere/" target="_blank" rel="noopener noreferrer" className={styles.linkedinicon}>
-            <i className="fa fa-linkedin-square" aria-hidden="true"></i>
+            <img src="linkedin.png" alt="LinkedIn" />
         </a>
 
         <nav className={styles.navbar}>
