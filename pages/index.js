@@ -31,6 +31,7 @@ export default function Home() {
       <Head>
         <title>Niccolò Belvedere - Portfolio Personale</title>
         <meta name="description" content="Welcome to my personal portfolio. Discover projects, achievements, and professional journey about me. Explore now to learn more about Niccolò's expertise and experiences." />
+        <meta name="robots" content="index, follow" />
         {/* Altri elementi che fanno parte del head, come i link per il CSS o il favicon */}
       </Head>
       
