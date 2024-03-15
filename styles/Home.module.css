@@ -22,11 +22,12 @@
 
 .linkedinicon {
     position: absolute;
-    width: 5px; /* Imposta la larghezza desiderata qui */
-    height: 5px; /* Imposta l'altezza desiderata qui (se vuoi forzare una dimensione specifica) */
-    top: 2px; /* o la distanza dall'alto che preferisci */
-    right: 2px; /* o la distanza dal lato destro che preferisci */
-    padding: 10px; /* per un po' di spazio intorno all'icona */
+    top: 20px; /* Aggiusta questo valore fino a che l'icona non è allineata come desideri */
+    right: 20px; /* Aggiusta questo valore fino a che l'icona non è allineata come desideri */
+    width: 10px; /* Aggiusta la larghezza come desideri */
+    height: auto; /* Mantiene il rapporto di aspetto dell'icona */
+    padding: 5px; /* Aggiusta il padding se necessario */
+    z-index: 10; /* Assicurati che l'icona non sia coperta da altri elementi */
 }
 
 /* Navbar Styles */
