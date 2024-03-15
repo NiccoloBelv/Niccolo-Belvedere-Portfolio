@@ -312,47 +312,45 @@ export default function Home() {
         </section>
 
               
-        <div className="container">
-          <div className="box">
-            <div className="box-content">
-              <section id="certificates" className={`${styles.certificatesSection} ${visibleSections.certificates ? 'visible-section' : 'hidden-section'}`}>
-              <h2>Certificates</h2>
-                <p>
-                  <strong><a href="BCG Introduction to Strategy Consulting Virtual Experience Program.pdf" target="_blank" download>Boston Consulting Group – Strategy Consulting Virtual Experience Program on Forage</a> <br />(February 2023)</strong><br />
-                  <em>Conducted market research, brainstorming session and adopting solutions with creative methods. </em><br />
-                  <br />
-                  <strong><a href="Competitive Intelligence.pdf" target="_blank" download>Competitive Intelligence Certificate on Voice of the Business</a> <br />(April 2022)</strong><br />
-                  <em>Research Gathering Methods, CXM, building of KPIs, competitor analysis.</em><br />
-                  <br />
-                  <strong><a href="Certificate Bitcoin and Blockchain Fundamentals.pdf" target="_blank" download>Bitcoin and Blockchain Fundamentals</a> <br />(March 2021)</strong> <br />
-                  <br />
-                  <strong><a href="ECDL and ICDL.pdf" target="_blank" download>ECDL & ICDL Full Standard (Use of Excel, PowerPoint, Word and Data Privacy)</a> <br />(June 2020)</strong><br />
-                  <em>The certification consists of 7 topics that are divided into the following modules: Computer Essentials, Online Essentials, Word Processing, Spreadsheets, IT-Security & Cyber Security, Presentation, Online Collaboration.</em><br />
-                  <br />
-                  <strong><a href="Certificate Acrobat Professional.pdf" target="_blank" download>Document Management with Office and Acrobat Professional</a> <br />(December 2019)</strong><br />
-                </p>
-              </section>
-            </div>
+        <div className={styles.container}>
+          <div className={styles.box}>
+            <section id="certificates" className={`${styles.certificatesSection} ${visibleSections.certificates ? 'visible-section' : 'hidden-section'}`}>
+            <h2>Certificates</h2>
+              <p>
+                <strong><a href="BCG Introduction to Strategy Consulting Virtual Experience Program.pdf" target="_blank" download>Boston Consulting Group – Strategy Consulting Virtual Experience Program on Forage</a> <br />(February 2023)</strong><br />
+                <em>Conducted market research, brainstorming session and adopting solutions with creative methods. </em><br />
+                <br />
+                <strong><a href="Competitive Intelligence.pdf" target="_blank" download>Competitive Intelligence Certificate on Voice of the Business</a> <br />(April 2022)</strong><br />
+                <em>Research Gathering Methods, CXM, building of KPIs, competitor analysis.</em><br />
+                <br />
+                <strong><a href="Certificate Bitcoin and Blockchain Fundamentals.pdf" target="_blank" download>Bitcoin and Blockchain Fundamentals</a> <br />(March 2021)</strong> <br />
+                <br />
+                <strong><a href="ECDL and ICDL.pdf" target="_blank" download>ECDL & ICDL Full Standard (Use of Excel, PowerPoint, Word and Data Privacy)</a> <br />(June 2020)</strong><br />
+                <em>The certification consists of 7 topics that are divided into the following modules: Computer Essentials, Online Essentials, Word Processing, Spreadsheets, IT-Security & Cyber Security, Presentation, Online Collaboration.</em><br />
+                <br />
+                <strong><a href="Certificate Acrobat Professional.pdf" target="_blank" download>Document Management with Office and Acrobat Professional</a> <br />(December 2019)</strong><br />
+              </p>
+            </section>
           </div>
-          <div className="box">
-            <div className="box-content">    
-              <section id="languagesandskills" className={`${styles.languagesandskillsSection} ${visibleSections.languagesAndSkills ? 'visible-section' : 'hidden-section'}`}>
-              <h2>Languages and Skills</h2>
-                <p>
-                  <strong>Languages</strong><br />
-                  Italian (Native)<br />
-                  English (Full proficient)<br />
-                  French (B1 Business)<br />
-                  <br />
-                  <strong>IT Skills</strong><br />
-                  Excellent knowledge of Windows and Microsoft office<br /> 
-                  Working with Macro & VBA Code on Excel<br /> 
-                  Excellent in Salesforce<br /> 
-                  Intermediate coding skills on R, Natural Languange Processing, JavaScript and C#
-                </p>
-              </section>
-            </div>
+      
+          <div className={styles.box}>
+            <section id="languagesandskills" className={`${styles.languagesandskillsSection} ${visibleSections.languagesAndSkills ? 'visible-section' : 'hidden-section'}`}>
+            <h2>Languages and Skills</h2>
+              <p>
+                <strong>Languages</strong><br />
+                Italian (Native)<br />
+                English (Full proficient)<br />
+                 French (B1 Business)<br />
+                <br />
+                <strong>IT Skills</strong><br />
+                Excellent knowledge of Windows and Microsoft office<br /> 
+                Working with Macro & VBA Code on Excel<br /> 
+                Excellent in Salesforce<br /> 
+                Intermediate coding skills on R, Natural Languange Processing, JavaScript and C#
+              </p>
+            </section>
           </div>
+        </div>
         </div>
         
               
