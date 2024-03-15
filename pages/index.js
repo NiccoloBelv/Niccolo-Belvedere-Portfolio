@@ -40,8 +40,13 @@ export default function Home() {
           <h1>Hello, I am Niccolò Belvedere. Welcome to my personal portfolio.</h1>
         </div>
 
-        <a href="https://www.linkedin.com/in/niccolo-belvedere/" target="_blank" rel="noopener noreferrer" className={styles.linkedinicon}>
-            <img src="linkedin.png" alt="LinkedIn" />
+        <a href="https://www.linkedin.com/in/niccolo-belvedere/" target="_blank" rel="noopener noreferrer">
+            <img 
+            src="linkedin.png" 
+            alt="LinkedIn" 
+            width: "5"
+            className={styles.linkedinicon}
+            />
         </a>
 
         <nav className={styles.navbar}>
