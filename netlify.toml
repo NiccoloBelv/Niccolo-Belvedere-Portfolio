@@ -4,3 +4,8 @@
 
 [[plugins]]
   package = "netlify-plugin-cypress"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Robots-Tag = "all"
