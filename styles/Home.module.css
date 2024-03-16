@@ -114,7 +114,12 @@
     color: var(--secondary-color); /* Assicurati che questa variabile CSS sia definita */
 }
 
-.aboutSection, .projectSection, .certificatesSection, .languagesandskillsSection {
+.aboutSection, .projectSection, .languagesandskillsSection {
+    margin-bottom: 40px;
+    line-height: 1.5;
+}
+
+.certificatesSection {
     margin-bottom: 40px;
 }
 
