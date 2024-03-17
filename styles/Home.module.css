@@ -181,11 +181,6 @@
 }
 
 
-.download-icon {
-    padding-left: 5px; /* Spazio tra il testo e l'icona */
-}
-
-
 /* Responsive Design */
 @media (max-width: 768px) {
     .navbar ul {
