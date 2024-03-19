@@ -29,7 +29,6 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <meta charset="UTF-8">
         <title>Niccolò Belvedere - Portfolio Personale</title>
         <meta name="robots" content="index, follow" />
         <meta name="description" content="Welcome to my personal portfolio. Discover projects, achievements, and professional journey about me. Explore now to learn more about Niccolò's expertise and experiences." />
