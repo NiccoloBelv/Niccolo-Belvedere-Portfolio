@@ -38,9 +38,6 @@ export default function Home() {
         <meta property="og:image" content="https://www.niccolobelvedere.com/_next/image?url=Picture.png&w=256&q=75" />
         <meta property="og:url" content="https://www.niccolobelvedere.com" />
         <meta property="og:type" content="website" />
-
-        <meta name="google-site-verification" content="DCLpt7JILuzlAZ66BFIAZF3P2mqBwkl1jI0n1vJBMjM" />
-        {/* Altri elementi che fanno parte del head, come i link per il CSS o il favicon */}
       </Head>
       
       
