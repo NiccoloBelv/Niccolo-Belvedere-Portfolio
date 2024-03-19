@@ -31,11 +31,12 @@ export default function Home() {
       <Head>
         <title>Niccolò Belvedere - Portfolio Personale</title>
         <meta name="robots" content="index, follow" />
-        <meta name="description" content="Welcome to my personal portfolio. Discover projects, achievements, and professional journey about me. Explore now to learn more about Niccolò's expertise and experiences." />
+        <meta name="description" content="Welcome to my personal portfolio. Discover projects, achievements, and professional journey about me. Explore now to learn more about Niccolò Belvedere's expertise and experiences." />
         <meta property="og:title" content="Niccolò Belvedere - Portfolio Professionale" />
         <meta property="og:description" content="Insights on my academic and professional background." />
         <meta property="og:image" content="https://www.niccolobelvedere.com/_next/image?url=Picture.png&w=256&q=75" />
         <meta property="og:url" content="https://www.niccolobelvedere.com" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta property="og:type" content="website" />
       </Head>
       
