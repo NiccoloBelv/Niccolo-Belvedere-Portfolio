@@ -29,9 +29,16 @@ export default function Home() {
   return (
     <div>
       <Head>
+        <meta charset="UTF-8">
         <title>Niccolò Belvedere - Portfolio Personale</title>
-        <meta name="description" content="Welcome to my personal portfolio. Discover projects, achievements, and professional journey about me. Explore now to learn more about Niccolò's expertise and experiences." />
         <meta name="robots" content="index, follow" />
+        <meta name="description" content="Welcome to my personal portfolio. Discover projects, achievements, and professional journey about me. Explore now to learn more about Niccolò's expertise and experiences." />
+        <meta property="og:title" content="Niccolò Belvedere - Portfolio Professionale" />
+        <meta property="og:description" content="Insights on my academic and professional background." />
+        <meta property="og:image" content="https://www.niccolobelvedere.com/_next/image?url=Picture.png&w=256&q=75" />
+        <meta property="og:url" content="https://www.niccolobelvedere.com" />
+        <meta property="og:type" content="website" />
+
         <meta name="google-site-verification" content="DCLpt7JILuzlAZ66BFIAZF3P2mqBwkl1jI0n1vJBMjM" />
         {/* Altri elementi che fanno parte del head, come i link per il CSS o il favicon */}
       </Head>
