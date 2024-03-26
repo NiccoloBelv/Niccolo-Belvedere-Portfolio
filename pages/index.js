@@ -51,7 +51,7 @@ export default function Home() {
             className={styles.profileImage}
           />
           <br />
-          <h1>Hello, I am Niccolò Belvedere. Welcome to my personal portfolio.</h1>
+          <h1> className={styles.headerTitle}>Hello, I am Niccolò Belvedere. Welcome to my personal portfolio.</h1>
         </div>
 
             
