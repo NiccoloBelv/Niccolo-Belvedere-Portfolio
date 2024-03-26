@@ -1,7 +1,7 @@
 /* Header Styles */
 .header {
     background-color: #ccdef4;
-    padding: 14px;
+    padding: 0;
     text-align: center;
     margin: 0; /* Rimuove margini esterni */
     position: relative; /* Questo permette di posizionare l'icona di LinkedIn in modo assoluto rispetto al suo genitore */
