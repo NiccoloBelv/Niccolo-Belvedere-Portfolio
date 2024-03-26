@@ -96,6 +96,7 @@ export default function Home() {
               Afterwards, I am taking courses and doing self-taught practices to learn coding with various languages.
               I strongly believe that this new technological era will change the course of our lives, and I want to be part of this change.</p>
             </div>
+          <br />
           </div>
             <div className={styles.buttonContainer}>
               <a href="CV.pdf" target="_blank" rel="noopener noreferrer" className={styles.downloadbutton}>Curriculum Vitae</a>
