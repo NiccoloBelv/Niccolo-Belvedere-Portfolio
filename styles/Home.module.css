@@ -146,7 +146,7 @@
 }
 
 
-.aboutSection, .projectSection, .languagesandskillsSection {
+.aboutSection, .projectSection, .languagesandskillsSection, .imageGallerySection{
     margin-bottom: 40px;
     line-height: 1.5;
 }
@@ -212,17 +212,17 @@
     text-decoration: underline;
 }
 
-.gallerycontainer {
+.galleryContainer {
   width: 100%;
   overflow: hidden;
 }
 
-.imageslider {
+.imageSlider {
   display: flex;
   transition: transform 0.5s ease;
 }
 
-.imageslide {
+.imageSlide {
   min-width: 100%;
   display: flex;
   justify-content: center;
