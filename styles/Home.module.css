@@ -26,6 +26,10 @@
     right: 15px; /* Aggiusta questo valore fino a che l'icona non è allineata come desideri */
 }
 
+h1 {
+  color: white; /* Questo imposta il colore del testo a bianco */
+}
+
 /* Navbar Styles */
 .navbar ul {
     list-style-type: none;
@@ -55,6 +59,33 @@
     padding: 15px;
     background-color: #f0f0f0;
     overflow: hidden;
+}
+
+.aboutGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.aboutColumn {
+  padding: 20px;
+  background: #f9f9f9; /* Sostituisci con il colore desiderato */
+  border: 1px solid #eaeaea;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  font-family: 'Arial', sans-serif;
+}
+
+.aboutColumn p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #333;
+}
+
+.aboutColumn h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 15px;
 }
 
 .downloadbutton {
@@ -191,6 +222,10 @@
     .profileImage {
         width: 120px;
         height: 120px;
+    }
+    
+    .aboutGrid {
+        grid-template-columns: 1fr; /* Le colonne diventano una sopra l'altra su schermi più piccoli */
     }
     
     .twoColumnContainer {
