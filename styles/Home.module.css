@@ -26,7 +26,7 @@
     right: 15px; /* Aggiusta questo valore fino a che l'icona non è allineata come desideri */
 }
 
-h1 {
+.headerTitle {
   color: white; /* Questo imposta il colore del testo a bianco */
 }
 
