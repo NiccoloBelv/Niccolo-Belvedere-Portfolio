@@ -80,23 +80,28 @@ export default function Home() {
       <main className={styles.main}>
         <section id="about" className={styles.aboutSection}>
           <h2>About Me</h2>
-          <p>
-            <br />In 2019, after years living in my home country, Maratea, I moved to Milan to pursue my studies in Business Administration and Management at Bocconi University. 
-            In the following years I took part in several projects, which can be consulted in the Projects area of this portfolio, 
-            until I spent an exchange semester in Ottawa (Canada) during my third year of Bachelor, at the Telfer School of Management. 
-            Subsequently, in 2022 I started my Master of Science in Management, which led me to an internship at Amazon Business from June 2023 to December 2023 in the area of Business Development and Account Management.<br /> 
-            <br />
-            From early on I developed a passion for tech and innovation: during my third year of high school science (2017) I took part in a school work experience on how to develop a startup from 0, 
-            creating a prototype and a business model. In 2022, a colleague and I won a "Call4Ideas", drafting an idea about a platform to improve the supply chain of NGOs and presenting the project in front of a jury at the SDA School of Management. 
-            Afterwards, I am taking courses and doing self-taught practices to learn coding with various languages. <br />
-            I strongly believe that this new technological era will change the course of our lives, and I want to be part of this change.<br />
-            <br />
-              <div className={styles.buttonContainer}>
-                <a href="CV.pdf" target="_blank" rel="noopener noreferrer" className={styles.downloadbutton}>Curriculum Vitae</a>
-                <a href="Bachelor's Transcript.pdf" target="_blank" className={styles.downloadbutton} rel="noopener noreferrer">My Bachelor's academic transcript</a>
-                <a href="Master's Transcript.pdf" target="_blank" className={styles.downloadbutton} rel="noopener noreferrer">My Master's academic transcript</a>
+          <br />
+          <div className={styles.aboutGrid}>
+            <div className={styles.aboutColumn}>
+              {/* Contenuti della prima colonna */}
+              <p>In 2019, after years living in my home country, Maratea, I moved to Milan to pursue my studies in Business Administration and Management at Bocconi University. 
+              In the following years I took part in several projects, which can be consulted in the Projects area of this portfolio, 
+              until I spent an exchange semester in Ottawa (Canada) during my third year of Bachelor, at the Telfer School of Management. 
+              Subsequently, in 2022 I started my Master of Science in Management, which led me to an internship at Amazon Business from June 2023 to December 2023 in the area of Business Development and Account Management.</p>
+            </div>
+            <div className={styles.aboutColumn}>
+              {/* Contenuti della seconda colonna */}
+              <p>From early on I developed a passion for tech and innovation: during my third year of high school science (2017) I took part in a school work experience on how to develop a startup from 0, 
+              creating a prototype and a business model. In 2022, a colleague and I won a "Call4Ideas", drafting an idea about a platform to improve the supply chain of NGOs and presenting the project in front of a jury at the SDA School of Management. 
+              Afterwards, I am taking courses and doing self-taught practices to learn coding with various languages.
+              I strongly believe that this new technological era will change the course of our lives, and I want to be part of this change.</p>
+            </div>
+          </div>
+            <div className={styles.buttonContainer}>
+              <a href="CV.pdf" target="_blank" rel="noopener noreferrer" className={styles.downloadbutton}>Curriculum Vitae</a>
+              <a href="Bachelor's Transcript.pdf" target="_blank" className={styles.downloadbutton} rel="noopener noreferrer">My Bachelor's academic transcript</a>
+              <a href="Master's Transcript.pdf" target="_blank" className={styles.downloadbutton} rel="noopener noreferrer">My Master's academic transcript</a>
               </div>
-          </p>
         </section>
 
         <hr class={styles.hrzigzag} />
