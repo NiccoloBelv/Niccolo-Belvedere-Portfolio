@@ -42,6 +42,7 @@ export default function Home() {
       
       
       <header className={styles.header}>
+        <br />
         <div className={styles.profileContainer}>
           <Image
             src="Picture.png"
