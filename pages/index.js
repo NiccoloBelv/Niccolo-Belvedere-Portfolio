@@ -378,6 +378,7 @@ export default function Home() {
                 Excellent knowledge of <em>Windows and Microsoft Office</em><br /> 
                 Working with <em>Macro & VBA Code on Excel</em><br /> 
                 Excellent in <em>Salesforce</em><br /> 
+                <em>Website management and SEO skills</em><br /> 
                 Intermediate coding skills on <em>R, Natural Languange Processing, JavaScript and C#</em>
               </p>
             </section>
