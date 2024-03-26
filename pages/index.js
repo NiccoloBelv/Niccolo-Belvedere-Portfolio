@@ -72,6 +72,7 @@ export default function Home() {
             <li><a href="#projects"><strong>Projects</strong></a></li>
             <li><a href="#certificates"><strong>Certificates</strong></a></li>
             <li><a href="#languagesandskills"><strong>Languages and Skills</strong></a></li>
+            <li><a href="#trips"><strong>Trips Gallery</strong></a></li>
             <li><a href="#contact"><strong>Contacts</strong></a></li>
           </ul>
         </nav>
@@ -371,7 +372,7 @@ export default function Home() {
                 <strong>Languages</strong><br />
                 Italian (Native)<br />
                 English (Full proficient)<br />
-                 French (B1 Business)<br />
+                French (B1 Business)<br />
                 <br />
                 <strong>IT Skills</strong><br />
                 Excellent knowledge of <em>Windows and Microsoft Office</em><br /> 
@@ -385,6 +386,23 @@ export default function Home() {
 
         <br />
               
+        <section id="trips" className={styles.imageGallerySection}>
+          <h2>Trips Gallery</h2>
+            <div className={styles.galleryContainer}>
+              <div className={styles.imageSlider}>
+            {/* Ripeti questo div per ogni immagine che vuoi nella tua galleria */}
+                <div className={styles.imageSlide}>
+                  <img src="percorso-della-tua-immagine.jpg" alt="Immagine 1" />
+                </div>
+                {/* ... altre immagini */}
+              </div>
+              <span className={styles.arrow} onClick={handlePrevClick}>&#10094;</span>
+              <span className={styles.arrow} onClick={handleNextClick}>&#10095;</span>
+            </div>
+        </section> 
+
+        <br />
+      
         <section id="contact" className={`${styles.contactSection} ${visibleSections.contact ? 'visible-section' : 'hidden-section'}`}>
           <h2>Contacts</h2>
           <p>
