@@ -25,6 +25,13 @@ export default function Home() {
     }));
   };
   
+  const handlePrevClick = () => {
+    // Logica per scorrere verso sinistra
+  };
+
+  const handleNextClick = () => {
+    // Logica per scorrere verso destra
+  };
   
   return (
     <div>
