@@ -284,9 +284,9 @@ export default function Home() {
                 <a href="Pane Quotidiano Report.pdf" class={styles.projectButton} target="_blank" rel="noopener noreferrer">Download report</a>
                 <a href="PQ - Presentation.pdf" class={styles.projectButton} target="_blank" rel="noopener noreferrer">Download presentation</a><br />
                 <div className={styles.dropdown}>
-                  <img src="Picture PQ.jpg" alt="Picture" width="100" height="50">
+                  <img src="Picture PQ.jpg" alt="Picture" width="100" height="50" />
                   <div className={styles.dropdowncontent}>
-                  <img src="Picture PQ.jpg" alt="Picture" width="300" height="200">
+                    <img src="Picture PQ.jpg" alt="Picture" width="300" height="200" />
                   </div>
                 </div>
                 </p>
