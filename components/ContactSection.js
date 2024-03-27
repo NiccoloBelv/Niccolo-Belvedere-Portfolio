@@ -2,16 +2,16 @@ import React from 'react';
 import styles from '@styles/Home.module.css'; // Assicurati che il percorso sia corretto per il tuo CSS
 
 const ContactSection = () => {
-  // Gestore dell'invio del form che previene il comportamento di default del form
-  // Se stai usando Netlify per il form, questa funzione può non essere necessaria
+  // Since Netlify is handling the form submission, you may not need this handler.
+  // If you do have additional handling, you can keep this function.
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Gestire l'invio del modulo qui se necessario
+    // Additional handling here if necessary
   };
 
   return (
-    
-      <div className={styles.contactinfo}>
+      
+    <div className={styles.contactinfo}>
         <div className={styles.contactitem}>
           
           <p>niccolobelvedere01@gmail.com</p>
@@ -25,8 +25,17 @@ const ContactSection = () => {
           <p>(+39) 3347227607</p>
         </div>
       </div>
-      
-      <form name="contact" netlify onSubmit={handleSubmit} className={styles.contactform}>
+
+      {/* Hidden form for Netlify */}
+      <form name="contact" data-netlify="true" hidden>
+        <input type="text" name="name" />
+        <input type="email" name="email" />
+        <textarea name="message"></textarea>
+      </form>
+      {/* Visible form */}
+      <form name="contact" onSubmit={handleSubmit} className={styles.contactForm} data-netlify="true">
+        {/* Hidden input required for forms managed by JavaScript */}
+        <input type="hidden" name="form-name" value="contact" />
         <p>
           <label htmlFor="name">Name</label>
           <input type="text" name="name" id="name" required />
@@ -40,7 +49,7 @@ const ContactSection = () => {
           <textarea name="message" id="message" required></textarea>
         </p>
         <p>
-          <button type="submit">Send Message</button>
+          <button type="submit" className={styles.sendButton}>Send Message</button>
         </p>
       </form>
     </section>
