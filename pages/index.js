@@ -482,18 +482,18 @@ export default function Home() {
           </p>
           <div className={styles.contactBar}>
             <div className={styles.contactIcon}>
-              <img src="email.png" alt="Email" />
+              <img src="email.png" alt="Email" width= "40" />
               <p>niccolobelvedere01@gmail.com</p>
             </div>
             <div className={styles.contactIcon}>
-              <img src="position.png" alt="Address" />
+              <img src="position.png" alt="Address" width= "40" />
               <p>Milan, Italy</p>
             </div>
             <div className={styles.contactIcon}>
-              <img src="phone.png" alt="Phone" />
+              <img src="phone.png" alt="Phone" width= "40" />
               <p>(+39) 3347227607</p>
             </div>
-    </div>
+          </div>
 
         </section>
       </main>
