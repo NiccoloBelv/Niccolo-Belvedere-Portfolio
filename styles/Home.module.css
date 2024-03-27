@@ -225,10 +225,10 @@
 }
 
 .imageSlide {
-  flex: none; /* Prevent flexbox from stretching the items */
-  width: 300px; /* Adjust the width as necessary */
-  margin-right: 16px; /* Adjust the margin as necessary */
-  position: relative;
+  flex: 0 0 33.3333%; /* Ogni immagine prende un terzo dello spazio disponibile */
+  max-width: 33.3333%; /* Ogni immagine può crescere fino ad un massimo di un terzo del contenitore */
+  box-sizing: border-box; /* Include padding e border nell'ampiezza dell'elemento */
+  margin-right: -4px; /* Aggiusta per eventuali spazi causati dal box-sizing */
 }
 
 .imageSlide img {
