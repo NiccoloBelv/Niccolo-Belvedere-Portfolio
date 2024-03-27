@@ -26,15 +26,14 @@ const ContactSection = () => {
         </div>
       </div>
 
-      {/* Hidden form for Netlify */}
+     
       <form name="contact" data-netlify="true" hidden>
         <input type="text" name="name" />
         <input type="email" name="email" />
         <textarea name="message"></textarea>
       </form>
-      {/* Visible form */}
+      
       <form name="contact" onSubmit={handleSubmit} className={styles.contactForm} data-netlify="true">
-        {/* Hidden input required for forms managed by JavaScript */}
         <input type="hidden" name="form-name" value="contact" />
         <p>
           <label htmlFor="name">Name</label>
