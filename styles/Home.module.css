@@ -271,44 +271,59 @@
   right: 0;
 }
 
-.contactsection {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background: #f5f5f5;
+.contactSection {
+  background: #f5f5f5; /* Example background color */
   padding: 20px;
+  border-radius: 8px; /* Optional: for rounded corners */
 }
 
 .contactinfo {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
 }
 
 .contactitem {
   display: flex;
   align-items: center;
-  margin-bottom: 15px;
+  margin-right: 20px; /* Adjust spacing between contact items */
 }
 
 .contactitem p {
-  margin-left: 10px;
+  margin: 0; /* Remove default paragraph margin */
 }
 
 .contactform {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px; /* Adjust spacing between form fields */
 }
 
-.contactform input, .contact-form textarea {
-  margin-bottom: 15px;
+.contactform p {
+  margin: 0; /* Remove default paragraph margin */
+}
+
+.contactform label {
+  display: block;
+  margin-bottom: 5px; /* Adjust label spacing */
+}
+
+.contactform input,
+.contactform textarea {
+  width: 100%;
   padding: 10px;
+  margin-bottom: 10px; /* Adjust spacing between form fields */
+  border: 1px solid #ccc; /* Example border color */
+  border-radius: 4px; /* Optional: for rounded corners */
 }
 
 .contactform button {
-  background: #008080; /* Teal color */
+  padding: 10px 20px;
+  background-color: #008080; /* Example button color */
   color: white;
   border: none;
-  padding: 10px;
+  border-radius: 4px; /* Optional: for rounded corners */
   cursor: pointer;
 }
 
