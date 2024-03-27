@@ -441,21 +441,21 @@ export default function Home() {
                   </div>
                 </div>
                 <div className={styles.imageSlide}>
-                  <img src="Maratea.jpg" alt="Maratea, Italy" />
+                  <img src="maratea.jpg" alt="Maratea, Italy" />
                   <div className={styles.imageDescription}>
                     <h3>Maratea, Italy</h3>
                     <p>15th August 2023</p>
                   </div>
                 </div>
                 <div className={styles.imageSlide}>
-                  <img src="New York.jpg" alt="New York, US" />
+                  <img src="new york.jpg" alt="New York, US" />
                   <div className={styles.imageDescription}>
                     <h3>New York, US</h3>
                     <p>23th Febraury 2022</p>
                   </div>
                 </div>
                 <div className={styles.imageSlide}>
-                  <img src="Manhattan.jpg" alt="New York, US" />
+                  <img src="manhattan.jpg" alt="New York, US" />
                   <div className={styles.imageDescription}>
                     <h3>New York, US</h3>
                     <p>22th Febraury 2022</p>
