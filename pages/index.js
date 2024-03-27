@@ -5,7 +5,6 @@ import ContactSection from '@pages/ContactSection';
 import Image from 'next/image';
 import styles from '@styles/Home.module.css';
 import { useState } from 'react';
-import { FaEnvelope, FaPhone, FaMapMarkerAlt, FaPaperPlane } from 'react-icons/fa'; // Using react-icons for convenience for the Contact section
 import React, { useRef } from 'react';
 
 export default function Home() {
