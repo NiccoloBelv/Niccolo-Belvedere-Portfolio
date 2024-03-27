@@ -474,12 +474,7 @@ export default function Home() {
       
         <section id="contact" className={`${styles.contactSection} ${visibleSections.contact ? 'visible-section' : 'hidden-section'}`}>
           <h2>Contacts</h2>
-          <p>
-              My LinkedIn profile: <a href="https://www.linkedin.com/in/niccolo-belvedere/" target="_blank" rel="noopener noreferrer">Visit my LinkedIn</a><br />
-              Personal email: niccolobelvedere01@gmail.com<br />
-              Institutional email: niccolo.belvedere@studbocconi.it<br />
-              Mobile: (+39) 3347227607
-          </p>
+          <br />
           <div className={styles.contactBar}>
             <div className={styles.contactIcon}>
               <img src="email.png" alt="Email" width= "40" />
