@@ -401,45 +401,45 @@ export default function Home() {
             {/* Ripeti questo div per ogni immagine che vuoi nella tua galleria */}
               
                 <div className={styles.imageSlide}>
-                  <img src="percorso-della-tua-immagine.jpg" alt="Immagine 1" />
-                  <h3>Titolo Prima Immagine</h3>
-                  <p>Descrizione della prima immagine.</p>
+                  <img src="Kyoto.jpg" alt="Immagine 1" />
+                  <h3>Kyoto, Japan</h3>
+                  <p>14th February 2024</p>
                 </div>
                 {/* ... altre immagini */}
                 <div className={styles.imageSlide}>
-                  <img src="percorso-della-tua-immagine.jpg" alt="Immagine 1" />
-                  <h3>Titolo Prima Immagine</h3>
-                  <p>Descrizione della prima immagine.</p>
+                  <img src="Fuji2.jpg" alt="Immagine 2" />
+                  <h3>Mount Fuji, Japan</h3>
+                  <p>10th Febraury 2024</p>
                 </div>
                 <div className={styles.imageSlide}>
-                  <img src="percorso-della-tua-immagine.jpg" alt="Immagine 1" />
-                  <h3>Titolo Seconda Immagine</h3>
-                  <p>Descrizione della prima immagine.</p>
+                  <img src="Fuji.jpg" alt="Immagine 3" />
+                  <h3>Mount Fuji, Japan</h3>
+                  <p>10th Febraury 2024</p>
                 </div>
                 <div className={styles.imageSlide}>
-                  <img src="percorso-della-tua-immagine.jpg" alt="Immagine 1" />
-                  <h3>Titolo Terza Immagine</h3>
-                  <p>Descrizione della prima immagine.</p>
+                  <img src="Madrid.jpg" alt="Immagine 4" />
+                  <h3>Madrid, Spain</h3>
+                  <p>2nd Febraury 2024</p>
                 </div>
                 <div className={styles.imageSlide}>
-                  <img src="percorso-della-tua-immagine.jpg" alt="Immagine 1" />
-                  <h3>Titolo Quarta Immagine</h3>
-                  <p>Descrizione della prima immagine.</p>
+                  <img src="Maratea.jpg" alt="Immagine 5" />
+                  <h3>Maratea, Italy</h3>
+                  <p>15th August 2023</p>
                 </div>
                 <div className={styles.imageSlide}>
-                  <img src="percorso-della-tua-immagine.jpg" alt="Immagine 1" />
-                  <h3>Titolo Quinta Immagine</h3>
-                  <p>Descrizione della prima immagine.</p>
+                  <img src="New York.jpg" alt="Immagine 6" />
+                  <h3>New York, US</h3>
+                  <p>23th Febraury 2022</p>
                 </div>
                 <div className={styles.imageSlide}>
-                  <img src="percorso-della-tua-immagine.jpg" alt="Immagine 1" />
-                  <h3>Titolo Sesta Immagine</h3>
-                  <p>Descrizione della prima immagine.</p>
+                  <img src="Manhattan.jpg" alt="Immagine 7" />
+                  <h3>New York, US</h3>
+                  <p>22th Febraury 2022</p>
                 </div>
                 <div className={styles.imageSlide}>
-                  <img src="percorso-della-tua-immagine.jpg" alt="Immagine 1" />
-                  <h3>Titolo Settima Immagine</h3>
-                  <p>Descrizione della prima immagine.</p>
+                  <img src="Liberty Statue.jpg" alt="Immagine 8" />
+                  <h3>Liberty Statue, US</h3>
+                  <p>21th Febraury 2022</p>
                 </div>
                   
               </div>
