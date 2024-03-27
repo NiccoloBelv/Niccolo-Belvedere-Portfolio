@@ -33,7 +33,7 @@ const ContactSection = () => {
         </div>
       </div>
       
-      <form name="contact" netlify onSubmit={handleSubmit}>
+      <form name="contact" netlify onSubmit={handleSubmit} className={styles.contactform}>
         <p>
           <label htmlFor="name">Name</label>
           <input type="text" name="name" id="name" required />
