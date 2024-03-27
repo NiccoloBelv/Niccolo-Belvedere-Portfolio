@@ -480,6 +480,20 @@ export default function Home() {
               Institutional email: niccolo.belvedere@studbocconi.it<br />
               Mobile: (+39) 3347227607
           </p>
+          <div className={styles.contactSection}>
+            <div className={styles.contactItem}>
+              <img src="email.png" alt="Email" />
+              <p>niccolobelvedere01@gmail.com</p>
+            </div>
+            <div className={styles.contactItem}>
+              <img src="position.png" alt="Address" />
+              <p>Milan, Italy</p>
+            </div>
+            <div className={styles.contactItem}>
+              <img src="phone.png" alt="Phone" />
+              <p>(+39) 3347227607</p>
+            </div>
+    </div>
 
         </section>
       </main>
