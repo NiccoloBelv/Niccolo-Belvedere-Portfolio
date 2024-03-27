@@ -478,7 +478,7 @@ export default function Home() {
           <div className={styles.contactBar}>
             <div className={styles.contactIcon}>
               <img src="email.png" alt="Email" width= "40" />
-              <p>niccolobelvedere01@gmail.com</p>
+              <p>niccolobelvedere01@gmail.com<br />niccolo.belvedere@studbocconi.it</p>
             </div>
             <div className={styles.contactIcon}>
               <img src="position.png" alt="Address" width= "40" />
