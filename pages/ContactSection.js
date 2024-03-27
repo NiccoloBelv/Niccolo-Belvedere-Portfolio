@@ -1,5 +1,4 @@
 import React from 'react';
-import { FaEnvelope, FaPhone, FaMapMarkerAlt, FaPaperPlane } from 'react-icons/fa';
 import styles from '@styles/Home.module.css'; // Assicurati che il percorso sia corretto per il tuo CSS
 
 const ContactSection = () => {
@@ -21,26 +20,35 @@ const ContactSection = () => {
       </p>
       <div className={styles.contactinfo}>
         <div className={styles.contactitem}>
-          <FaEnvelope />
+          
           <p>niccolobelvedere01@gmail.com</p>
         </div>
         <div className={styles.contactitem}>
-          <FaMapMarkerAlt />
+          
           <p>Milan, Italy</p>
         </div>
         <div className={styles.contactitem}>
-          <FaPhone />
+          
           <p>(+39) 3347227607</p>
         </div>
       </div>
-      <form className={styles.contactForm} onSubmit={handleSubmit} netlify data-netlify="true">
-        <input type="text" name="name" placeholder="Name" required />
-        <input type="email" name="email" placeholder="Email" required />
-        <textarea name="message" placeholder="Message" required></textarea>
-        <button type="submit" className={styles.submitButton}>
-          <FaPaperPlane />
-          Send Message
-        </button>
+      
+      <form name="contact" netlify onSubmit={handleSubmit}>
+        <p>
+          <label htmlFor="name">Name</label>
+          <input type="text" name="name" id="name" required />
+        </p>
+        <p>
+          <label htmlFor="email">Email</label>
+          <input type="email" name="email" id="email" required />
+        </p>
+        <p>
+          <label htmlFor="message">Message</label>
+          <textarea name="message" id="message" required></textarea>
+        </p>
+        <p>
+          <button type="submit">Send Message</button>
+        </p>
       </form>
     </section>
   );
