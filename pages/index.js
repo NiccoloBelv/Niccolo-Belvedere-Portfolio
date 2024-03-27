@@ -28,19 +28,20 @@ export default function Home() {
 
   const sliderRef = useRef(null);
   
-  const handleNextClick = () => {
-    if (sliderRef.current) {
-      const scrollWidth = sliderRef.current.scrollWidth / totalImages; // Dove 'totalImages' è il numero totale delle tue immagini
-      sliderRef.current.scrollLeft += scrollWidth;
-    }
-  };
-
   const handlePrevClick = () => {
     if (sliderRef.current) {
-      const scrollWidth = sliderRef.current.scrollWidth / totalImages; // Dove 'totalImages' è il numero totale delle tue immagini
-      sliderRef.current.scrollLeft -= scrollWidth;
+      const width = sliderRef.current.clientWidth; // Larghezza del contenitore
+      sliderRef.current.scrollLeft -= width / 3; // Sposta a sinistra di un terzo della larghezza del contenitore
     }
-  };
+  }
+
+  const handleNextClick = () => {
+    if (sliderRef.current) {
+    const width = sliderRef.current.clientWidth; // Larghezza del contenitore
+    sliderRef.current.scrollLeft += width / 3; // Sposta a destra di un terzo della larghezza del contenitore
+    }
+  }
+
   
   return (
     <div>
