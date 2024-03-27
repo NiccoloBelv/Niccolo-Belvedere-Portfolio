@@ -28,19 +28,19 @@ export default function Home() {
 
   const sliderRef = useRef(null);
   
-  const handlePrevClick = () => {
-    // Sposta lo slider verso sinistra
-    if (sliderRef.current) {
-      sliderRef.current.scrollLeft -= sliderRef.current.offsetWidth;
-    }
-  }
-
   const handleNextClick = () => {
-    // Sposta lo slider verso destra
     if (sliderRef.current) {
-      sliderRef.current.scrollLeft += sliderRef.current.offsetWidth;
+      const scrollWidth = sliderRef.current.scrollWidth / totalImages; // Dove 'totalImages' è il numero totale delle tue immagini
+      sliderRef.current.scrollLeft += scrollWidth;
     }
-  }
+  };
+
+  const handlePrevClick = () => {
+    if (sliderRef.current) {
+      const scrollWidth = sliderRef.current.scrollWidth / totalImages; // Dove 'totalImages' è il numero totale delle tue immagini
+      sliderRef.current.scrollLeft -= scrollWidth;
+    }
+  };
   
   return (
     <div>
