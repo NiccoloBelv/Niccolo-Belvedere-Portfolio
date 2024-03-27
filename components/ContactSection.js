@@ -2,11 +2,6 @@ import React from 'react';
 import styles from '@styles/Home.module.css'; // Make sure the path is correct for your CSS
 
 const ContactSection = () => {
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    // Additional handling here if necessary
-  };
-
   return (
     <section className={styles.contactSection}>
       <div className={styles.contactInfo}>
@@ -16,7 +11,7 @@ const ContactSection = () => {
         <input type="email" name="email" />
         <textarea name="message"></textarea>
       </form>
-      <form name="contact" onSubmit={handleSubmit} className={styles.contactForm} data-netlify="true">
+      <form name="contact" className={styles.contactForm} data-netlify="true">
         <input type="hidden" name="form-name" value="contact" />
         <p>
           <label htmlFor="name">Name</label>
