@@ -11,29 +11,14 @@ const ContactSection = () => {
 
   return (
       
-    <div className={styles.contactinfo}>
-        <div className={styles.contactitem}>
-          
-          <p>niccolobelvedere01@gmail.com</p>
-        </div>
-        <div className={styles.contactitem}>
-          
-          <p>Milan, Italy</p>
-        </div>
-        <div className={styles.contactitem}>
-          
-          <p>(+39) 3347227607</p>
-        </div>
+    <div className={styles.contactInfo}>
       </div>
-
-     
       <form name="contact" data-netlify="true" hidden>
         <input type="text" name="name" />
         <input type="email" name="email" />
         <textarea name="message"></textarea>
       </form>
-      
-      <form name="contact" onSubmit={handleSubmit} className={styles.contactForm} data-netlify="true">
+      <form name="contact" onSubmit={handleSubmit} className={styles.contactForm} data-netlify="true">        
         <input type="hidden" name="form-name" value="contact" />
         <p>
           <label htmlFor="name">Name</label>
