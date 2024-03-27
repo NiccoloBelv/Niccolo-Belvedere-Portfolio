@@ -318,14 +318,30 @@
   border-radius: 4px; /* Optional: for rounded corners */
 }
 
-.contactform button {
-  padding: 10px 20px;
-  background-color: #008080; /* Example button color */
+.sendButton {
+  background-color: #007bff; /* Bootstrap primary blue, change as needed */
   color: white;
+  font-size: 1rem;
+  padding: 10px 20px;
   border: none;
-  border-radius: 4px; /* Optional: for rounded corners */
+  border-radius: 5px;
   cursor: pointer;
+  transition: background-color 0.3s ease;
 }
+
+.sendButton:hover {
+  background-color: #0056b3; /* Darker blue on hover, change as needed */
+}
+
+.sendButton:active {
+  background-color: #004085; /* Even darker blue when active, change as needed */
+}
+
+.sendButton:focus {
+  outline: none; /* Removes the default focus outline */
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25); /* Bootstrap's focus shadow style */
+}
+
 
 
 /* Responsive Design */
