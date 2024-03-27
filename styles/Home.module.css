@@ -213,19 +213,25 @@
 }
 
 .galleryContainer {
-  width: 100%;
-  overflow: hidden;
-}
-
-.imageSlider {
   display: flex;
-  transition: transform 0.5s ease;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  scroll-behavior: smooth;
 }
 
 .imageSlide {
-  min-width: 100%;
+  flex: 0 0 auto; /* Ogni slide non si riduce e non si espande ma mantiene la sua larghezza */
+  width: 33.333%; /* Assumi di mostrare 3 slide alla volta, regola in base alle tue esigenze */
   display: flex;
-  justify-content: center;
+  flex-direction: column; /* Organizza immagine e testo in colonna */
+  align-items: center; /* Centra gli elementi orizzontalmente */
+  position: relative; /* Permette il posizionamento assoluto delle frecce e del testo */
+}
+
+.imageSlide img {
+  width: 100%;
+  display: block; /* Elimina spazi extra sotto l'immagine */
 }
 
 .arrow {
