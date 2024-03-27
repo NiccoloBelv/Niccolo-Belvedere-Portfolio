@@ -286,6 +286,10 @@
     .aboutGrid {
         grid-template-columns: 1fr; /* Le colonne diventano una sopra l'altra su schermi più piccoli */
     }
+
+    .container {
+        grid-template-columns: 1fr; /* Le colonne diventano una sopra l'altra su schermi più piccoli */
+    }
     
     .twoColumnContainer {
         grid-template-columns: 1fr;
