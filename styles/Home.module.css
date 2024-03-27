@@ -232,8 +232,10 @@
 }
 
 .imageSlide img {
-  width: 100%;
-  display: block; /* Elimina spazi extra sotto l'immagine */
+  max-height: 200px; /* Imposta un'altezza massima */
+  width: 100%; /* Fa sì che l'immagine si estenda per tutta la larghezza del contenitore */
+  object-fit: cover; /* Mantiene le proporzioni tagliando parti extra dell'immagine */
+  display: block;
 }
 
 .imageDescription {
