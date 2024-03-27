@@ -1,24 +1,22 @@
 import React from 'react';
-import styles from '@styles/Home.module.css'; // Assicurati che il percorso sia corretto per il tuo CSS
+import styles from '@styles/Home.module.css'; // Make sure the path is correct for your CSS
 
 const ContactSection = () => {
-  // Since Netlify is handling the form submission, you may not need this handler.
-  // If you do have additional handling, you can keep this function.
   const handleSubmit = (e) => {
     e.preventDefault();
     // Additional handling here if necessary
   };
 
   return (
-      
-    <div className={styles.contactInfo}>
+    <section className={styles.contactSection}>
+      <div className={styles.contactInfo}>
       </div>
       <form name="contact" data-netlify="true" hidden>
         <input type="text" name="name" />
         <input type="email" name="email" />
         <textarea name="message"></textarea>
       </form>
-      <form name="contact" onSubmit={handleSubmit} className={styles.contactForm} data-netlify="true">        
+      <form name="contact" onSubmit={handleSubmit} className={styles.contactForm} data-netlify="true">
         <input type="hidden" name="form-name" value="contact" />
         <p>
           <label htmlFor="name">Name</label>
