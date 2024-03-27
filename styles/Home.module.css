@@ -238,7 +238,7 @@
 }
 
 .imageSlide img {
-  max-height: 200px; /* O un'altezza che si adatta bene al tuo layout */
+  max-height: 250px; /* O un'altezza che si adatta bene al tuo layout */
   max-width: 100%; /* Assicurati che l'immagine non superi la larghezza del contenitore */
   object-fit: contain; /* Mantiene le proporzioni senza tagliare l'immagine */
   display: block; /* Elimina spazi extra sotto l'immagine */
@@ -246,12 +246,10 @@
 }
 
 .imageDescription {
-  position: absolute;
-  bottom: 0;
   background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
   color: white;
-  width: 100%;
-  padding: 10px; /* Adjust the padding as necessary */
+  font-size: 0.8rem; /* riduce la dimensione del testo */
+  padding: 8px; /* riduce lo spazio intorno al testo */
 }
 
 .arrow {
