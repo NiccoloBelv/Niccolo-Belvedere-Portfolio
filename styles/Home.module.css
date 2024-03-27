@@ -271,7 +271,7 @@
   right: 0;
 }
 
-.contact-section {
+.contactsection {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -279,32 +279,32 @@
   padding: 20px;
 }
 
-.contact-info {
+.contactinfo {
   display: flex;
   flex-direction: column;
 }
 
-.contact-item {
+.contactitem {
   display: flex;
   align-items: center;
   margin-bottom: 15px;
 }
 
-.contact-item p {
+.contactitem p {
   margin-left: 10px;
 }
 
-.contact-form {
+.contactform {
   display: flex;
   flex-direction: column;
 }
 
-.contact-form input, .contact-form textarea {
+.contactform input, .contact-form textarea {
   margin-bottom: 15px;
   padding: 10px;
 }
 
-.contact-form button {
+.contactform button {
   background: #008080; /* Teal color */
   color: white;
   border: none;
