@@ -1,18 +1,14 @@
 import React from 'react';
-import styles from '@styles/Home.module.css'; // Make sure the path is correct for your CSS
+import styles from '@styles/Home.module.css';
 
 const ContactSection = () => {
   return (
     <section className={styles.contactSection}>
-      <div className={styles.contactInfo}>
-      </div>
-      <form name="contact" data-netlify="true" hidden>
-        <input type="text" name="name" />
-        <input type="email" name="email" />
-        <textarea name="message"></textarea>
-      </form>
-      <form name="contact" className={styles.contactForm} data-netlify="true">
+      <form name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field" className={styles.contactForm}>
+        
         <input type="hidden" name="form-name" value="contact" />
+
+        
         <p>
           <label htmlFor="name">Name</label>
           <input type="text" name="name" id="name" required />
