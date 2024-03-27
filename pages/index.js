@@ -399,10 +399,49 @@ export default function Home() {
             <div className={styles.galleryContainer}>
               <div className={styles.imageSlider}>
             {/* Ripeti questo div per ogni immagine che vuoi nella tua galleria */}
+              
                 <div className={styles.imageSlide}>
                   <img src="percorso-della-tua-immagine.jpg" alt="Immagine 1" />
+                  <h3>Titolo Prima Immagine</h3>
+                  <p>Descrizione della prima immagine.</p>
                 </div>
                 {/* ... altre immagini */}
+                <div className={styles.imageSlide}>
+                  <img src="percorso-della-tua-immagine.jpg" alt="Immagine 1" />
+                  <h3>Titolo Prima Immagine</h3>
+                  <p>Descrizione della prima immagine.</p>
+                </div>
+                <div className={styles.imageSlide}>
+                  <img src="percorso-della-tua-immagine.jpg" alt="Immagine 1" />
+                  <h3>Titolo Seconda Immagine</h3>
+                  <p>Descrizione della prima immagine.</p>
+                </div>
+                <div className={styles.imageSlide}>
+                  <img src="percorso-della-tua-immagine.jpg" alt="Immagine 1" />
+                  <h3>Titolo Terza Immagine</h3>
+                  <p>Descrizione della prima immagine.</p>
+                </div>
+                <div className={styles.imageSlide}>
+                  <img src="percorso-della-tua-immagine.jpg" alt="Immagine 1" />
+                  <h3>Titolo Quarta Immagine</h3>
+                  <p>Descrizione della prima immagine.</p>
+                </div>
+                <div className={styles.imageSlide}>
+                  <img src="percorso-della-tua-immagine.jpg" alt="Immagine 1" />
+                  <h3>Titolo Quinta Immagine</h3>
+                  <p>Descrizione della prima immagine.</p>
+                </div>
+                <div className={styles.imageSlide}>
+                  <img src="percorso-della-tua-immagine.jpg" alt="Immagine 1" />
+                  <h3>Titolo Sesta Immagine</h3>
+                  <p>Descrizione della prima immagine.</p>
+                </div>
+                <div className={styles.imageSlide}>
+                  <img src="percorso-della-tua-immagine.jpg" alt="Immagine 1" />
+                  <h3>Titolo Settima Immagine</h3>
+                  <p>Descrizione della prima immagine.</p>
+                </div>
+                  
               </div>
               <span className={styles.arrow} onClick={handlePrevClick}>&#10094;</span>
               <span className={styles.arrow} onClick={handleNextClick}>&#10095;</span>
