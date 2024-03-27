@@ -43,7 +43,6 @@ export default function Home() {
     }
   }
 
-  const ContactSection = () => {
   
   return (
     <div>
