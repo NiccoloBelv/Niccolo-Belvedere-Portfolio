@@ -10,14 +10,7 @@ const ContactSection = () => {
   };
 
   return (
-    <section id="contact" className={`${styles.contactSection}`}>
-      <h2>Contacts</h2>
-      <p>
-        My LinkedIn profile: <a href="https://www.linkedin.com/in/niccolo-belvedere/" target="_blank" rel="noopener noreferrer">Visit my LinkedIn</a><br />
-        Personal email: niccolobelvedere01@gmail.com<br />
-        Institutional email: niccolo.belvedere@studbocconi.it<br />
-        Mobile: (+39) 3347227607
-      </p>
+    
       <div className={styles.contactinfo}>
         <div className={styles.contactitem}>
           
