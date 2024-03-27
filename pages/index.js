@@ -458,13 +458,6 @@ export default function Home() {
                     <p>22th Febraury 2022</p>
                   </div>
                 </div>
-                <div className={styles.imageSlide}>
-                  <img src="Liberty Statue.jpg" alt="Liberty Statue, US" />
-                  <div className={styles.imageDescription}>
-                    <h3>Liberty Statue, US</h3>
-                    <p>21th Febraury 2022</p>
-                  </div>
-                </div>
                   
               </div>
               <span className={`${styles.arrow} ${styles.leftArrow}`} onClick={handlePrevClick}>&#10094;</span>
