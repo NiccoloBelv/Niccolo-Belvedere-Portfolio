@@ -480,7 +480,6 @@ export default function Home() {
               Institutional email: niccolo.belvedere@studbocconi.it<br />
               Mobile: (+39) 3347227607
           </p>
-         <ContactSection /> 
 
         </section>
       </main>
