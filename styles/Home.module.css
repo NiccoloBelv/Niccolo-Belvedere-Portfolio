@@ -271,6 +271,25 @@
   right: 0;
 }
 
+.contactBar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #f5f5f5; /* Your desired background color */
+  padding: 20px;
+}
+
+.contactIcon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.contactIcon p {
+  margin-top: 10px; /* Adjust spacing as needed */
+}
+
 .contactSection {
   background: #f5f5f5; /* Example background color */
   padding: 20px;
