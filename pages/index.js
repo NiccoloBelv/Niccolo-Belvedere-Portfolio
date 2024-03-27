@@ -4,6 +4,7 @@ import Footer from '@components/Footer';
 import Image from 'next/image';
 import styles from '@styles/Home.module.css';
 import { useState } from 'react';
+import { FaEnvelope, FaPhone, FaMapMarkerAlt, FaPaperPlane } from 'react-icons/fa'; // Using react-icons for convenience for the Contact section
 import React, { useRef } from 'react';
 
 export default function Home() {
@@ -42,6 +43,7 @@ export default function Home() {
     }
   }
 
+  const ContactSection = () => {
   
   return (
     <div>
@@ -479,6 +481,32 @@ export default function Home() {
               Institutional email: niccolo.belvedere@studbocconi.it<br />
               Mobile: (+39) 3347227607
           </p>
+          <div className={styles.contactinfo}>
+            <div className={styles.contactitem}>
+              <FaEnvelope />
+              <p>niccolobelvedere01@gmail.com</p>
+            </div>
+            <div className={styles.contactitem}>
+              <FaMapMarkerAlt />
+              <p>Milan, Italy</p>
+            </div>
+            <div className={styles.contactitem}>
+              <FaPhone />
+              <p>(+39) 3347227607</p>
+            </div>
+          </div>
+          <form className="contact-form">
+            <input type="text" name="name" placeholder="Name" />
+            <input type="email" name="email" placeholder="Email" />
+            <textarea name="message" placeholder="Message" />
+            <button type="submit">
+              <FaPaperPlane />
+              Send Message
+            </button>
+          </form>
+  );
+}
+
         </section>
       </main>
 
@@ -488,3 +516,5 @@ export default function Home() {
     </div>
   );
 }
+
+export default ContactSection;
