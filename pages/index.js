@@ -504,8 +504,6 @@ export default function Home() {
               Send Message
             </button>
           </form>
-  );
-}
 
         </section>
       </main>
