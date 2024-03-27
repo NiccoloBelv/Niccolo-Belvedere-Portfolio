@@ -65,8 +65,8 @@ export default function Home() {
           <Image
             src="Picture.png"
             alt="Niccolò Belvedere"
-            width={180}
-            height={180}
+            width={210}
+            height={210}
             className={styles.profileImage}
           />
           <br />
