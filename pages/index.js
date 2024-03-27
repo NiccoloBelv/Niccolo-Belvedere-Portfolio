@@ -403,9 +403,11 @@ export default function Home() {
         </div>
 
         <br />
+        <br />
               
         <section id="trips" className={styles.imageGallerySection}>
           <h2>Trips Gallery</h2>
+          <br />
             <div className={styles.galleryContainer}>
               <div className={styles.imageSlider} ref={sliderRef}>
               
