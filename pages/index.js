@@ -4,6 +4,7 @@ import Footer from '@components/Footer';
 import Image from 'next/image';
 import styles from '@styles/Home.module.css';
 import { useState } from 'react';
+import React, { useRef } from 'react';
 
 export default function Home() {
   
@@ -24,14 +25,22 @@ export default function Home() {
         [projectId]: !prevState[projectId]
     }));
   };
+
+  const sliderRef = useRef(null);
   
   const handlePrevClick = () => {
-    // Logica per scorrere verso sinistra
-  };
+    // Sposta lo slider verso sinistra
+    if (sliderRef.current) {
+      sliderRef.current.scrollLeft -= sliderRef.current.offsetWidth;
+    }
+  }
 
   const handleNextClick = () => {
-    // Logica per scorrere verso destra
-  };
+    // Sposta lo slider verso destra
+    if (sliderRef.current) {
+      sliderRef.current.scrollLeft += sliderRef.current.offsetWidth;
+    }
+  }
   
   return (
     <div>
@@ -397,54 +406,55 @@ export default function Home() {
         <section id="trips" className={styles.imageGallerySection}>
           <h2>Trips Gallery</h2>
             <div className={styles.galleryContainer}>
-              <div className={styles.imageSlider}>
+              <div className={styles.imageSlider} ref={sliderRef}>
             {/* Ripeti questo div per ogni immagine che vuoi nella tua galleria */}
               
                 <div className={styles.imageSlide}>
-                  <img src="Kyoto.jpg" alt="Immagine 1" />
+                  <img src="Kyoto.jpg" alt="Kyoto, Japan" />
                   <h3>Kyoto, Japan</h3>
                   <p>14th February 2024</p>
                 </div>
                 {/* ... altre immagini */}
                 <div className={styles.imageSlide}>
-                  <img src="Fuji2.jpg" alt="Immagine 2" />
+                  <img src="Fuji2.jpg" alt="Mount Fuji, Japan" />
                   <h3>Mount Fuji, Japan</h3>
                   <p>10th Febraury 2024</p>
                 </div>
                 <div className={styles.imageSlide}>
-                  <img src="Fuji.jpg" alt="Immagine 3" />
+                  <img src="Fuji.jpg" alt="Mount Fuji, Japan" />
                   <h3>Mount Fuji, Japan</h3>
                   <p>10th Febraury 2024</p>
                 </div>
                 <div className={styles.imageSlide}>
-                  <img src="Madrid.jpg" alt="Immagine 4" />
+                  <img src="Madrid.jpg" alt="Madrid, Spain" />
                   <h3>Madrid, Spain</h3>
                   <p>2nd Febraury 2024</p>
                 </div>
                 <div className={styles.imageSlide}>
-                  <img src="Maratea.jpg" alt="Immagine 5" />
+                  <img src="Maratea.jpg" alt="Maratea, Italy" />
                   <h3>Maratea, Italy</h3>
                   <p>15th August 2023</p>
                 </div>
                 <div className={styles.imageSlide}>
-                  <img src="New York.jpg" alt="Immagine 6" />
+                  <img src="New York.jpg" alt="New York, US" />
                   <h3>New York, US</h3>
                   <p>23th Febraury 2022</p>
                 </div>
                 <div className={styles.imageSlide}>
-                  <img src="Manhattan.jpg" alt="Immagine 7" />
+                  <img src="Manhattan.jpg" alt="New York, US" />
                   <h3>New York, US</h3>
                   <p>22th Febraury 2022</p>
                 </div>
                 <div className={styles.imageSlide}>
-                  <img src="Liberty Statue.jpg" alt="Immagine 8" />
+                  <img src="Liberty Statue.jpg" alt="Liberty Statue, US" />
                   <h3>Liberty Statue, US</h3>
                   <p>21th Febraury 2022</p>
                 </div>
                   
               </div>
-              <span className={styles.arrow} onClick={handlePrevClick}>&#10094;</span>
-              <span className={styles.arrow} onClick={handleNextClick}>&#10095;</span>
+              <span className={`${styles.arrow} ${styles.leftArrow}`} onClick={handlePrevClick}>&#10094;</span>
+              <span className={`${styles.arrow} ${styles.rightArrow}`} onClick={handleNextClick}>&#10095;</span>
+
             </div>
         </section> 
 
