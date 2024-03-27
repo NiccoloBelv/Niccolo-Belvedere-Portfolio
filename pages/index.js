@@ -1,7 +1,7 @@
 import Head from 'next/head';
 import Header from '@components/Header';
 import Footer from '@components/Footer';
-import ContactSection from '@pages/ContactSection';
+import ContactSection from 'ContactSection';
 import Image from 'next/image';
 import styles from '@styles/Home.module.css';
 import { useState } from 'react';
