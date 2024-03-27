@@ -232,10 +232,11 @@
 }
 
 .imageSlide img {
-  max-height: 200px; /* Imposta un'altezza massima */
-  width: 100%; /* Fa sì che l'immagine si estenda per tutta la larghezza del contenitore */
-  object-fit: cover; /* Mantiene le proporzioni tagliando parti extra dell'immagine */
-  display: block;
+  max-height: 200px; /* O un'altezza che si adatta bene al tuo layout */
+  max-width: 100%; /* Assicurati che l'immagine non superi la larghezza del contenitore */
+  object-fit: contain; /* Mantiene le proporzioni senza tagliare l'immagine */
+  display: block; /* Elimina spazi extra sotto l'immagine */
+  margin: auto; /* Centra l'immagine se non riempie completamente il contenitore */
 }
 
 .imageDescription {
