@@ -220,15 +220,21 @@
 
 .imageSlider {
   display: flex;
+  flex-wrap: nowrap;
   overflow-x: auto;
-  scroll-behavior: smooth;
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
 }
 
 .imageSlide {
-  flex: 0 0 33.3333%; /* Ogni immagine prende un terzo dello spazio disponibile */
-  max-width: 33.3333%; /* Ogni immagine può crescere fino ad un massimo di un terzo del contenitore */
-  box-sizing: border-box; /* Include padding e border nell'ampiezza dell'elemento */
-  margin-right: -4px; /* Aggiusta per eventuali spazi causati dal box-sizing */
+  flex: 0 0 33.3333%; /* Ogni slide sarà un terzo della larghezza del contenitore */
+  max-width: 33.3333%;
+  scroll-snap-align: start;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  padding: 0 10px; /* Aggiungi padding se necessario per spaziatura */
 }
 
 .imageSlide img {
