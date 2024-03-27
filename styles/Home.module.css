@@ -213,20 +213,22 @@
 }
 
 .galleryContainer {
+  position: relative;
+  margin: 0 auto;
+  overflow: hidden; /* Hide the overflow */
+}
+
+.imageSlider {
   display: flex;
-  flex-wrap: nowrap;
   overflow-x: auto;
-  -webkit-overflow-scrolling: touch;
   scroll-behavior: smooth;
 }
 
 .imageSlide {
-  flex: 0 0 auto; /* Ogni slide non si riduce e non si espande ma mantiene la sua larghezza */
-  width: 33.333%; /* Assumi di mostrare 3 slide alla volta, regola in base alle tue esigenze */
-  display: flex;
-  flex-direction: column; /* Organizza immagine e testo in colonna */
-  align-items: center; /* Centra gli elementi orizzontalmente */
-  position: relative; /* Permette il posizionamento assoluto delle frecce e del testo */
+  flex: none; /* Prevent flexbox from stretching the items */
+  width: 300px; /* Adjust the width as necessary */
+  margin-right: 16px; /* Adjust the margin as necessary */
+  position: relative;
 }
 
 .imageSlide img {
@@ -234,22 +236,33 @@
   display: block; /* Elimina spazi extra sotto l'immagine */
 }
 
+.imageDescription {
+  position: absolute;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  color: white;
+  width: 100%;
+  padding: 10px; /* Adjust the padding as necessary */
+}
+
 .arrow {
-  cursor: pointer;
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  z-index: 100; /* Assicurati che le frecce siano sopra le immagini */
+  font-size: 24px;
+  cursor: pointer;
+  z-index: 1000;
+  background-color: rgba(255, 255, 255, 0.7); /* Semi-transparent background */
+  padding: 10px;
 }
 
-.prev {
-  left: 10px;
+.leftArrow {
+  left: 0;
 }
 
-.next {
-  right: 10px;
+.rightArrow {
+  right: 0;
 }
-
 
 /* Responsive Design */
 @media (max-width: 768px) {
