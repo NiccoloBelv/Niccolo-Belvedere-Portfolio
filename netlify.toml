@@ -1,25 +1,20 @@
 [build]
   command = "npm run build"
   publish = ".next"
-  functions = "netlify/functions" # where Netlify Functions live
 
-[[plugins]]
-  package = "netlify-plugin-cypress"
-  [plugins.inputs]
-    enable = false
-  [plugins.inputs.postBuild]
-    enable = true
+[plugins]
+  package = "@netlify/plugin-nextjs"
 
 [[headers]]
   for = "/*"
   [headers.values]
     X-Robots-Tag = "all"
 
-    [[redirects]]
-  from = "/api/*" # simplify all calls to serverless functions
-  to = "/.netlify/functions/:splat" # all function calls will go to this path
-  status = 200 # ok code
-  force = true # ensure to always redirect
+[[redirects]]
+  from = "/api/*"
+  to = "/.netlify/functions/:splat"
+  status = 200
+  force = true
 
-  [functions]
+[functions]
   node_bundler = "esbuild"
