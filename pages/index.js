@@ -9,12 +9,6 @@ import styles from '@styles/Home.module.css';
 
 export default function Home() {
   
-  const [visibleSections, setVisibleSections] = useState({
-    projects: false,
-    certificates: false,
-    languagesAndSkills: false,
-    contact: false,
-  });
   
   const [visibleDescriptions, setVisibleDescriptions] = useState({});
   
