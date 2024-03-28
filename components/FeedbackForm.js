@@ -1,4 +1,4 @@
-import styles from '@styles/FeedbackForm.module.css'
+import styles from './FeedbackForm.module.css'
 
 export default function FeedbackForm() {
   return (
