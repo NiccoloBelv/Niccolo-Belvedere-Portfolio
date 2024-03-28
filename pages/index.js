@@ -1,7 +1,6 @@
 import Head from 'next/head';
 import Header from '@components/Header';
 import Footer from '@components/Footer';
-import ContactSection from '@components/ContactSection';
 import FeedbackForm from '@components/FeedbackForm';
 import JokeBlock from '@components/JokeBlock';
 import Image from 'next/image';
