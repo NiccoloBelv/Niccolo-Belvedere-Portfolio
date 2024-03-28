@@ -1,12 +1,12 @@
+import React, { useState, useRef } from 'react';
 import Head from 'next/head';
+import Image from 'next/image';
+import Link from 'next/link';
 import Header from '@components/Header';
 import Footer from '@components/Footer';
 import FeedbackForm from '@components/FeedbackForm';
 import JokeBlock from '@components/JokeBlock';
-import Image from 'next/image';
 import styles from '@styles/Home.module.css';
-import { useState } from 'react';
-import React, { useRef } from 'react';
 
 export default function Home() {
   
@@ -43,7 +43,6 @@ export default function Home() {
     sliderRef.current.scrollLeft += width / 3; // Sposta a destra di un terzo della larghezza del contenitore
     }
   }
-
   
   return (
     <div>
@@ -59,7 +58,13 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta property="og:type" content="website" />
       </Head>
-      
+
+      <form name="feedback" method="POST" data-netlify="true" style={{ display: 'none' }}>
+        <input type="hidden" name="form-name" value="feedback" />
+        <input type="text" name="name" />
+        <input type="email" name="email" />
+        <textarea name="feedback"></textarea>
+      </form>
       
       <header className={styles.header}>
         <br />
@@ -127,7 +132,7 @@ export default function Home() {
               </div>
         </section>
 
-        <hr class={styles.hrzigzag} />
+        <hr className={styles.hrzigzag} />
         <br />
             
         <section id="projects" className={`${styles.projectSection} ${visibleSections.projects ? 'visible-section' : 'hidden-section'}`}>
