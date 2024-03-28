@@ -27,7 +27,7 @@ const FeedbackForm = () => {
         <input className={styles.input} id="name" type="text" name="name" />
         <label htmlFor="email">Email</label>
         <input className={styles.input} id="email" type="email" name="email" required />
-        <label htmlFor="feedback">What is your feedback?</label>
+        <label htmlFor="feedback">Leave a message</label>
         <textarea className={styles.textarea} id="feedback" wrap="soft" name="feedback" required></textarea>
         <button className={styles.button} type="submit">Submit</button>
       </form>
