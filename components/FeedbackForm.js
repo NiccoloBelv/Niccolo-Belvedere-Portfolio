@@ -12,7 +12,7 @@ const FeedbackForm = () => {
       <form
         name="feedback"
         method="POST"
-        action="/Success"
+        action="/success"
         data-netlify="true"
         data-netlify-honeypot="bot-field"
         onSubmit={handleSubmit}
