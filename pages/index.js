@@ -482,10 +482,11 @@ export default function Home() {
               <p>(+39) 3347227607</p>
             </div>
           </div>
-
-        </section>
+                  
         <FeedbackForm />
         <JokeBlock />
+        </section>
+        
                   
       </main>
 
