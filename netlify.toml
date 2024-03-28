@@ -1,10 +1,10 @@
 [build]
   command = "npm run build"
   publish = ".next"
+  functions = "netlify/functions" # where Netlify Functions live
 
 [[plugins]]
 package = "@netlify/plugin-nextjs"
-
 
 [[headers]]
   for = "/*"
