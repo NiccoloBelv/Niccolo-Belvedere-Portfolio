@@ -1,10 +1,10 @@
-.feedback-form {
-  margin: 40px;
-  min-width: 250px;
+.form {
+  margin: 40px 40px;
+  min-width: 300px;
   width: 45%;
 }
 
-.input, .textarea, .button {
+.form-field {
   font-size: inherit;
   margin: 15px 0;
   padding: 12px 20px;
@@ -13,13 +13,20 @@
 
 .button {
   background-color: teal;
-  border: none;
+  border: 1px solid black;
   color: white;
   width: 50%;
-  cursor: pointer;
+  font-size: inherit;
+  margin: 15px 0;
+  padding: 12px 20px;
+  width: 100%;
 }
-
 .hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
   position: absolute;
-  left: -9999px;
+  white-space: nowrap;
+  width: 1px;
 }
