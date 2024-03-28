@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import styles from '@styles/JokeBlock.module.css'; // Ensure the path is correct based on your project structure
+import styles from '@styles/JokeBlock.module.css'; // Update this path if necessary
 
 const JokeBlock = () => {
   const [joke, setJoke] = useState('');
@@ -12,7 +12,7 @@ const JokeBlock = () => {
     };
 
     fetchJoke();
-  }, []); // Empty dependency array ensures this effect runs only on mount
+  }, []);
 
   return (
     <article className={styles.jokeBlock}>
