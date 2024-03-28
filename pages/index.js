@@ -494,6 +494,9 @@ export default function Home() {
           </div>
 
         </section>
+        <FeedbackForm />
+        <JokeBlock />
+                  
       </main>
 
       <footer className={styles.footer}>
