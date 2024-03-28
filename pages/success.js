@@ -1,15 +1,22 @@
-import React from 'react';
-import Link from 'next/link';
+import Head from 'next/head'
+import Link from 'next/link'
 
-const Success = () => {
+import Footer from '@components/Footer'
+
+export default function Success() {
   return (
-    <div>
-      <h1>Thanks for your message!</h1>
-      <Link href="/">
-        <a>Home</a>
-      </Link>
-    </div>
-  );
-};
+    <div className="container">
+      <Head>
+        <title>Next.js Toolbox Template!</title>
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
 
-export default Success;
+      <main>
+        <h1>Message Received!</h1>
+        <p>Thank you for your message! Head back to the <Link href="/"><a>home page</a></Link>.</p>
+      </main>
+
+      <Footer />
+    </div>
+  )
+}
