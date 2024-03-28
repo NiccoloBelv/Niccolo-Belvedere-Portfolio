@@ -58,13 +58,6 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta property="og:type" content="website" />
       </Head>
-
-      <form name="feedback" method="POST" data-netlify="true" style={{ display: 'none' }}>
-        <input type="hidden" name="form-name" value="feedback" />
-        <input type="text" name="name" />
-        <input type="email" name="email" />
-        <textarea name="feedback"></textarea>
-      </form>
       
       <header className={styles.header}>
         <br />
