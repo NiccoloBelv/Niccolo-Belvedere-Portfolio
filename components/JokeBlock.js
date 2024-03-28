@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import styles from './JokeBlock.module.css';
+import styles from '@styles/JokeBlock.module.css';
 
 export default function JokeBlock() {
     const [joke, setJoke] = useState("")
