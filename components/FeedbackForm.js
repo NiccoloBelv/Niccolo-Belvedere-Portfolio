@@ -1,12 +1,10 @@
 import React from 'react';
-import '@styles/FeedbackForm.module.css'; // Assicurati che il file CSS sia presente e correttamente importato
+import styles from '@styles/FeedbackForm.module.css'; // Update this path if necessary
 
 const FeedbackForm = () => {
-  // Metodo per gestire il submit del form
   const handleSubmit = (event) => {
     event.preventDefault();
-    // Qui potresti integrare la logica per inviare il form, 
-    // ad esempio usando `fetch` o una libreria come axios.
+    // Add form submission logic here
   };
 
   return (
@@ -19,7 +17,7 @@ const FeedbackForm = () => {
         data-netlify-honeypot="bot-field"
         onSubmit={handleSubmit}
       >
-       <p className={styles.hidden}>
+        <p className={styles.hidden}>
           <label>
             Don’t fill this out if you’re human: <input name="bot-field" />
           </label>
