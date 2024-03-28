@@ -2,7 +2,7 @@ import Head from 'next/head';
 import Header from '@components/Header';
 import Footer from '@components/Footer';
 import ContactSection from '@components/ContactSection';
-import ContactForm from '@components/ContactForm';
+import FeedbackForm from '@components/FeedbackForm';
 import JokeBlock from '@components/JokeBlock';
 import Image from 'next/image';
 import styles from '@styles/Home.module.css';
