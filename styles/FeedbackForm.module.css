@@ -3,16 +3,15 @@
   min-width: 250px;
   width: 45%;
 }
-input,
-textarea,
-button {
+
+.input, .textarea, .button {
   font-size: inherit;
   margin: 15px 0;
   padding: 12px 20px;
   width: 100%;
 }
 
-button {
+.button {
   background-color: teal;
   border: none;
   color: white;
