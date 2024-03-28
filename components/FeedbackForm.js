@@ -1,5 +1,5 @@
 import React from 'react';
-import '@styles/FeedbackForm.css'; // Assicurati che il file CSS sia presente e correttamente importato
+import '@styles/FeedbackForm.module.css'; // Assicurati che il file CSS sia presente e correttamente importato
 
 const FeedbackForm = () => {
   // Metodo per gestire il submit del form
