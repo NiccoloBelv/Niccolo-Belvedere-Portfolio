@@ -48,7 +48,7 @@ export default function Home() {
     <div>
       <Head>
         <title>Niccolò Belvedere - Portfolio Personale</title>
-        <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+        <link rel="icon" href="/favicon.ico" />
         <meta name="robots" content="index, follow" />
         <meta name="description" content="Welcome to my personal portfolio. Explore now to learn more about Niccolò Belvedere's expertise and experiences. Discover projects, achievements, and professional journey about me." />
         <meta property="og:title" content="Niccolò Belvedere - Portfolio Professionale" />
