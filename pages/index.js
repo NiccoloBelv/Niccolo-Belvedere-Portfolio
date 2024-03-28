@@ -121,7 +121,7 @@ export default function Home() {
         <hr className={styles.hrzigzag} />
         <br />
             
-        <section id="projects" className={`${styles.projectSection} ${visibleSections.projects ? 'visible-section' : 'hidden-section'}`}>
+        <section id="projects" className={styles.projectSection}>
           <h2>Projects</h2>
           <div className={styles.projectContainer}>
             <br />
@@ -355,7 +355,7 @@ export default function Home() {
               
         <div className={styles.container}>
           <div className={styles.box}>
-            <section id="certificates" className={`${styles.certificatesSection} ${visibleSections.certificates ? 'visible-section' : 'hidden-section'}`}>
+            <section id="certificates" className={styles.certificatesSection}>
             <h2>Certificates</h2>
               <p>
                 <br />
@@ -376,7 +376,7 @@ export default function Home() {
           </div>
       
           <div className={styles.box}>
-            <section id="languagesandskills" className={`${styles.languagesandskillsSection} ${visibleSections.languagesAndSkills ? 'visible-section' : 'hidden-section'}`}>
+            <section id="languagesandskills" className={styles.languagesandskillsSection}>
             <h2>Languages and Skills</h2>
               <p>
                 <br />
@@ -465,7 +465,7 @@ export default function Home() {
 
         <br />
       
-        <section id="contact" className={`${styles.contactSection} ${visibleSections.contact ? 'visible-section' : 'hidden-section'}`}>
+        <section id="contact" className={styles.contactSection}>
           <h2>Contacts</h2>
           <br />
           <div className={styles.contactBar}>
