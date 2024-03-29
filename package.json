@@ -15,8 +15,8 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "export": "next export"
-    "test": "cypress run" // Add a script for running Cypress tests
+    "export": "next export",
+    "test": "cypress run"
   },
   "dependencies": {
     "cypress": "^13.4.0",
