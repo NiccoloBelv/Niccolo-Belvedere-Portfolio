@@ -5,7 +5,6 @@ export default function FeedbackForm() {
       <form
         className={styles.form}
         data-netlify="true"
-        data-netlify-honeypot="bot-field"
         name="feedback"
         method="POST"
         action="/success"
@@ -23,7 +22,7 @@ export default function FeedbackForm() {
         <label htmlFor="email">Email</label>
         <input id="email" className={styles['form-field']} type="email" name="email" required />
 
-        <label htmlFor="feedback">What is your feedback?</label>
+        <label htmlFor="feedback">Leave a message</label>
         <textarea id="feedback" className={styles['form-field']} wrap="soft" name="feedback" required></textarea>
         <button className={styles.button} type="submit">Submit</button>
       </form>
