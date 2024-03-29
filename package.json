@@ -16,6 +16,7 @@
     "dev": "next dev",
     "build": "next build",
     "export": "next export"
+    "test": "cypress run" // Add a script for running Cypress tests
   },
   "dependencies": {
     "cypress": "^13.4.0",
@@ -24,6 +25,7 @@
     "react-dom": "^18.2.0"
   },
   "devDependencies": {
-    "netlify-plugin-cypress": "2.2.1"
+    "cypress": "^13.4.0",
+    "netlify-plugin-cypress": "^2.2.1"
   }
 }
